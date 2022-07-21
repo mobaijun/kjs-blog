@@ -1,0 +1,44 @@
+<%- partial('_partial/bg-cover') %>
+<main class="content">
+    <div id="content" class="container contact-container">
+        <div class="card">
+            <!-- 去掉图标显示并调整留言块大小 -->
+            <div class="card-content">
+                <!-- 添加每日一言 -->
+                <div class="poem-wrap">
+                    <div class="poem-border poem-left">
+                    </div>
+                    <div class="poem-border poem-right">
+                    </div>
+                    <h1>一·言</h1>
+                    <p id="poem">loading...</p>
+                    <p id="info">loading...</p>
+                </div>
+                <script>
+                    $.get("https://v1.hitokoto.cn?c=d&c=h&c=j", function (data, status) {
+                        if (status === 'success') {
+                            $('#poem').html(data.hitokoto);
+                            if (data.from_who != null) {
+                                $('#info').html(data.from_who + " · " + "《 " + data.from + " 》");
+                            } else {
+                                $('#info').html(" “ " + data.from + " ” ");
+                            }
+                        } else {
+                            $('#poem').html("获取出错啦");
+                        }
+                    });
+                </script>
+                <!--end-->
+                <%- page.content %>
+            </div>
+        </div>
+        <!--注释掉就不再一个框里面了 <div class="card">-->
+        <% if (theme.valine && theme.valine.enable) { %>
+            <%- partial('_partial/valine') %>
+        <% } %>
+
+        <% if (theme.twikoo && theme.twikoo.enable) { %>
+            <%- partial('_partial/twikoo') %>
+        <% } %>
+    </div>
+</main>
