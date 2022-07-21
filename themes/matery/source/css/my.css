@@ -40,8 +40,8 @@ a:hover {
 
 /* 滚动条 */
 ::-webkit-scrollbar-thumb {
-    background-color: #118d91;
-    background-image: -webkit-linear-gradient(45deg, rgba(105, 80, 18, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(136, 210, 227, 0.4) 75%, transparent 75%, transparent);
+    background-color: #395ed5;
+    background-image: -webkit-linear-gradient(45deg, rgba(145, 15, 210, 0.4) 25%, transparent 25%, transparent 50%, rgb(57, 197, 10) 50%, rgba(83, 72, 150, 0.4) 75%, transparent 75%, transparent);
     border-radius: 2em;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 
 ::-webkit-scrollbar {
     width: 8px;
-    height: 15px;
+    height: 8px;
 }
 
 
@@ -327,10 +327,10 @@ hr:hover::before {
 }
 
 /*end*/
-/* 水平分割线和卡片星星图片背景 */
+/* 水平分割线和卡片图片背景 */
 .card {
     /* 原值：border-radius: 10px;*/
-    /*background: url(https://w.wallhaven.cc/full/g7/wallhaven-g7r8q3.jpg) top;*/
+    /*background: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg) top;*/
     border-radius: 25px;
     box-shadow: 0 15px 35px rgba(42, 89, 165, .1), 0 5px 15px rgba(71, 159, 188, .07) !important;
 }
@@ -476,4 +476,5 @@ body.dark #searchModal {
     /* bg color = bg color under block */
     background: white;
 }
+
 /*end*/
