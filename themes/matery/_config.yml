@@ -37,18 +37,18 @@ time:
 
 # 首页封面轮播图的相关配置.
 cover:
-  showPrevNext: true # 是否显示左右切换按钮.
-  showIndicators: true # 是否显示指示器.
-  autoLoop: false # 是否自动轮播.
-  duration: 120 # 切换延迟时间
-  intervalTime: 5000 # 自动切换下一张的间隔时间.
-  useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
+  showPrevNext: true    # 是否显示左右切换按钮.
+  showIndicators: false # 是否显示指示器.
+  autoLoop: false       # 是否自动轮播.
+  duration: 120         # 切换延迟时间
+  intervalTime: 5000    # 自动切换下一张的间隔时间.
+  useConfig: false      # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
 
 # 配置首页显示"梦想"的语句.
 dream:
   enable: true
   showTitle: false
-  title: 格言
+  title: 信条
   text: 君子之行，静以修身，俭以养德，非澹泊无以明志，非宁静无以致远。 汉末|蜀国|诸葛亮
 
 # 是否显示推荐文章的标题
