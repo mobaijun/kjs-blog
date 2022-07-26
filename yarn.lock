@@ -761,6 +761,13 @@
   "resolved" "https://registry.npmmirror.com/hexo-external-link/-/hexo-external-link-1.0.9.tgz"
   "version" "1.0.9"
 
+"hexo-filter-auto-spacing@^0.2.1":
+  "integrity" "sha512-CVD0zDTy7ubd5NRtl7zewvM9/qT3gFlbIkp2Y3D4rf39KpO0fsUg/mWOMuh5NzwjYP4fQIleuLKeZmWpYdNdSg=="
+  "resolved" "https://registry.npmmirror.com/hexo-filter-auto-spacing/-/hexo-filter-auto-spacing-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "pangunode" "^0.1.0"
+
 "hexo-filter-github-emojis@^3.0.5":
   "integrity" "sha512-0Sy5I/9UK8IpwB4EGRKdg+G17qc6YA9R+Rjgme9Qm6kFnbKlFiximzWNmRkZUYEAlY0qm4HJh/t5s5AtXEDciA=="
   "resolved" "https://registry.npmmirror.com/hexo-filter-github-emojis/-/hexo-filter-github-emojis-3.0.5.tgz"
@@ -1566,6 +1573,11 @@
   "integrity" "sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ=="
   "resolved" "https://registry.npmmirror.com/p-try/-/p-try-2.2.0.tgz"
   "version" "2.2.0"
+
+"pangunode@^0.1.0":
+  "integrity" "sha512-Vs4udXXLjaZnBeFGuLIrauj78Y7Kh9Bif9pDk+Wf/9jCjbnC7HHY4qXOcL2GI9vTDAX0uJ6Y5Wzf3Cj58avapA=="
+  "resolved" "https://registry.npmmirror.com/pangunode/-/pangunode-0.1.0.tgz"
+  "version" "0.1.0"
 
 "param-case@^2.1.1":
   "integrity" "sha512-eQE845L6ot89sk2N8liD8HAuH4ca6Vvr7VWAWwt7+kvvG5aBcPmmphQ68JsEG2qa9n1TykS2DLeMt363AAH8/w=="
