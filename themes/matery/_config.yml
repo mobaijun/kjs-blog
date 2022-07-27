@@ -352,6 +352,7 @@ libs:
     codeshrink: https://cdn.mobaijun.com/libs/codeBlock/codeShrink.js
     cdn: https://cdn.mobaijun.com/qiniu_cdn/js/cdn.js
     canva_moving_effect: https://cdn.mobaijun.com/qiniu_cdn/js/canva_moving_effect.js
+    browser: https://cdn.jsdelivr.net/gh/mobaijun/blog_css_js/js/browser.min.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
