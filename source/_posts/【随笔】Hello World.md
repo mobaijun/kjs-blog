@@ -23,6 +23,10 @@ Hello World！ 新的故事从这里开始！
 
 希望这里有满满的回忆，少年！
 
+---
+
+![](https://cdn.mobaijun.com/qiniu_cdn/img/banner/1.jpg)
+
 明月何皎皎，照我罗床帏。
 
 忧愁不能寐，揽衣起徘徊。
@@ -36,4 +40,6 @@ Hello World！ 新的故事从这里开始！
 
 continue
 
-![美好](https://www.mobaijun.com/medias/banner/2.jpg)
+
+
+![](https://dl4.weshineapp.com/gif/20210201/b22a54f172ca25508ad84b92b2f24572.gif?f=micro_)
