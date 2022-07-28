@@ -46,7 +46,7 @@ Scoop 最适合安装那种干净、小巧、开源的软件。并且，Scoop �
 
 然后右键开始菜单按钮，在右键菜单中打开 PowerShell：
 
-![](https://s2.loli.net/2022/03/03/JgmpzdVnvYbOqxC.png)
+![](https://cdn.mobaijun.com//2022/img_1.png)
 
 在 PowerShell 中输入下面内容，保证允许本地脚本的执行：
 

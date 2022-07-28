@@ -123,7 +123,7 @@ $ firewall-cmd --list-ports
 
 > 就可以看到欢迎页了
 
-![](https://s2.loli.net/2022/05/18/DO3Wx9TYvayEJnc.png)
+![](https://cdn.mobaijun.com//2022/DO3Wx9TYvayEJnc.png)
 
 > 停止后使用后台启动启动 nexus
 
@@ -165,11 +165,11 @@ $ cat /usr/local/sonatype-work/nexus3/admin.password
 >
 > 点击设置，仓库配置，新建仓库
 
-![](https://s2.loli.net/2022/05/18/h3qF9rCSP2K5yne.png)
+![](https://cdn.mobaijun.com//2022/h3qF9rCSP2K5yne.png)
 
 * 找到 maven 2 proxy（配置阿里云镜像）
 
-![](https://s2.loli.net/2022/05/18/EoXmJAKji5b1zpO.png)
+![](https://cdn.mobaijun.com//2022/EoXmJAKji5b1zpO.png)
 
 > 确认后点击 🆗 ，拉到最下方，新建仓库即可，查看列表
 
@@ -177,7 +177,7 @@ $ cat /usr/local/sonatype-work/nexus3/admin.password
 
 * 配置 maven 2 仓库 (上传 jar 包的仓库)
 
-![](https://s2.loli.net/2022/05/18/YsUjDu5Eh3BWwfO.png)
+![](https://cdn.mobaijun.com//2022/YsUjDu5Eh3BWwfO.png)
 
 > 说明：
 >
@@ -185,7 +185,7 @@ $ cat /usr/local/sonatype-work/nexus3/admin.password
 > - 这里选择 Version policy 为：Release。正式发布版本。正式发布版本都上传到这里来。
 > - Deployment policy: 选择为 Allow Redeploy，可重复发布。代表同一个版本号的jar可以多次发布。这样就不必要设置快照仓库了，项目小改动也作为正式版本发布上去，不必要修改版本号。
 
-![](https://s2.loli.net/2022/05/18/AiYvMR4uTpPBbcD.png)
+![](https://cdn.mobaijun.com//2022/AiYvMR4uTpPBbcD.png)
 
 ## 配置项目上传 jar 到私服
 
@@ -279,6 +279,6 @@ $ mvnd celan deploy
 
 查看 nexus 是否上传成功
 
-![](https://s2.loli.net/2022/05/18/7FrIsRZnxVvlqg9.png)
+![](https://cdn.mobaijun.com//2022/7FrIsRZnxVvlqg9.png)
 
 > 完结撒花🌹🌹🌹🌹🌹🌹🌹🌹🌹

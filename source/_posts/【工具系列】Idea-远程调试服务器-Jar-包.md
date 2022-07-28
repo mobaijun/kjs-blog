@@ -25,13 +25,13 @@ summary:
 
 > 找到 Edit Configurations，新增一个 Remote JVM Debug 模块
 
-![](https://s2.loli.net/2022/04/13/1ZHiE78yLBdVIgD.png)
+![](https://cdn.mobaijun.com//2022/1ZHiE78yLBdVIgD.png)
 
 * 添加配置信息
 
 > 填写远程 IP 和端口，我这里是 jar 包部署在服务器，所以写服务器 IP 和程序端口
 
-![](https://s2.loli.net/2022/04/13/nLoZi7GaMjceFPt.png)
+![](https://cdn.mobaijun.com//2022/nLoZi7GaMjceFPt.png)
 
 ## 第二部、远程服务器启动 jar 包
 

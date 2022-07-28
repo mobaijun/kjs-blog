@@ -21,7 +21,7 @@ summary:
 
 早上打包项目的时候发现打包速度很慢，耗时颇久，就在一个群里求助，如何使`maven`打包效率加快，一个群友发来一个链接，如图。
 
-![image-20211229104002570](https://s2.loli.net/2021/12/29/FjEwX1DrePtkCIA.png)
+![](https://cdn.mobaijun.com//2022/FjEwX1DrePtkCIA.png)
 
 `Google`后发现这个工具居然是`apache maven`团队出品，并且是`maven`的一个子项目，所以使用`maven`可以无缝切换到`mvnd`。
 
@@ -51,22 +51,24 @@ summary:
 
 最新版本是`0.7.1`;
 
-![image-20211229104534694](https://s2.loli.net/2021/12/29/ZsMN9n7abkyr1j8.png)
+![](https://cdn.mobaijun.com//2022/ZsMN9n7abkyr1j8.png)
 
 - 下载完成后解压即安装
 - 修改配置文件
 
-![image-20211229104809162](https://s2.loli.net/2021/12/29/oa8SGcTkCN7Fgeb.png)
+![](https://cdn.mobaijun.com//2022/oa8SGcTkCN7Fgeb.png)
 
 > 在解压后根目录的`conf`文件夹下找到`mvnd.properties`配置文件，配置`maven.settings`属性值为`maven`配置文件`settings.xml`的文件路径。注意：此`settings.xml`文件存放位置不受限制。
 
-![image-20211229110738282](https://s2.loli.net/2021/12/29/wLmq1kS49ZGYJAN.png)
+![](https://cdn.mobaijun.com//2022/wLmq1kS49ZGYJAN.png)
 
 * 配置环境变量
 
-![image-20211229105042738](https://s2.loli.net/2021/12/29/oUdl7SrPD1CbA6p.png)
+![](https://cdn.mobaijun.com//2022/oUdl7SrPD1CbA6p.png)
 
-复制`bin`目录路径，打开系统设置，最新版本win10 在`系统/关于/高级系统设置/环境变量（N）...`下配置系统环境变量![image-20211229105513882](https://s2.loli.net/2021/12/29/EVia2guJ7QOvb14.png)
+复制`bin`目录路径，打开系统设置，最新版本win10 在`系统/关于/高级系统设置/环境变量（N）...`下配置系统环境变量
+
+![](https://cdn.mobaijun.com//2022/EVia2guJ7QOvb14.png)
 
 确认返回即可。
 
