@@ -143,7 +143,7 @@ feed:
 lazyload:
   enable: true # 是否开启图片懒加载
   onlypost: true # 是否只对文章的图片做懒加载
-  loadingImg: https://cdn.mobaijun.com/qiniu_cdn/img/gif/loading.gif
+  loadingImg: https://tencent.cos.mobaijun.com/img/gif/Stopwatch.gif
 
 # 百度站长
 baidu_url_submit:

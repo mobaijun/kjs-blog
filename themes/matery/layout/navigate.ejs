@@ -537,10 +537,11 @@
 <% if (theme.banner.enable) { %>
     <script>
         // 每天切换 banner 图.  Switch banner image every day.
-        $('.bg-cover').css('background-image', 'url(https://cdn.mobaijun.com/qiniu_cdn/img/banner/' + new Date().getDay() + '.jpg)');
+        var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for(theme.banner.url) %>" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
     </script>
 <% } else { %>
     <script>
-        $('.bg-cover').css('background-image', 'url(https://cdn.mobaijun.com/qiniu_cdn/img/banner/0.jpg)');
+        $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('https://tencent.cos.mobaijun.com/img/banner/0.jpg') %>)');
     </script>
 <% } %>

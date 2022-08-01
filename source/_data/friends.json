@@ -1,13 +1,13 @@
 [
   {
-    "avatar": "https://cdn.mobaijun.com/qiniu_cdn/img/icon/avatar.jpg",
+    "avatar": "https://tencent.cos.mobaijun.com/img/icon/avatar.jpg",
     "name": "GitHub",
     "introduction": "我的 GitHub 主页！",
     "url": "https://github.com/mobaijun",
     "title": "访问主页"
   },
   {
-    "avatar": "https://cdn.mobaijun.com/qiniu_cdn/img/icon/avatar.jpg",
+    "avatar": "https://tencent.cos.mobaijun.com/img/icon/avatar.jpg",
     "name": "Gitee",
     "introduction": "我的 Gitee 主页！",
     "url": "https://gitee.com/mobaijun",

@@ -60,7 +60,7 @@ recommend:
 
 # 配置网站favicon和网站LOGO
 favicon: /favicon.png
-logo: https://cdn.mobaijun.com/qiniu_cdn/img/icon/logo.png
+logo: https://tencent.cos.mobaijun.com/img/icon/logo.png
 
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
@@ -74,7 +74,7 @@ socialLink:
   github: https://github.com/mobaijun
   gitee: https://gitee.com/mobaijun
   java: https://mobaijun.gitee.io/mobai_images.gitee.io/ziliaoxiazai.html
-  wechat: https://cdn.mobaijun.com/qiniu_cdn/img/icon/about.png
+  wechat: https://tencent.cos.mobaijun.com/img/icon/about.png
   email: mobaijun8@163.com
   rss: true # true、false
 
@@ -97,8 +97,8 @@ code:
 reward:
   enable: true
   title: 请我喝罐冰阔乐!
-  wechat: https://cdn.mobaijun.com/qiniu_cdn/img/icon/wechat.png
-  alipay: https://cdn.mobaijun.com/qiniu_cdn/img/icon/alipay.png
+  wechat: https://tencent.cos.mobaijun.com/img/icon/wechat.png
+  alipay: https://tencent.cos.mobaijun.com/img/icon/alipay.png
 
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
@@ -145,7 +145,7 @@ snowdown:
 
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: https://cdn.mobaijun.com/qiniu_cdn/img/icon/avatar.jpg
+  avatar: https://tencent.cos.mobaijun.com/img/icon/avatar.jpg
   career: Java工程师 | 墨白
   introduction: 有道无术，术尚可求，有术无道，止于术！
 
@@ -221,12 +221,12 @@ mySummary:
 myGallery:
   enable: false
   data:
-    - https://cdn.mobaijun.com/qiniu_cdn/img/banner/0.jpg
-    - https://cdn.mobaijun.com/qiniu_cdn/img/banner/1.jpg
-    - https://cdn.mobaijun.com/qiniu_cdn/img/banner/2.jpg
-    - https://cdn.mobaijun.com/qiniu_cdn/img/banner/3.jpg
-    - https://cdn.mobaijun.com/qiniu_cdn/img/banner/4.jpg
-    - https://cdn.mobaijun.com/qiniu_cdn/img/banner/5.jpg
+    - https://tencent.cos.mobaijun.com/img/banner/0.jpg
+    - https://tencent.cos.mobaijun.com/img/banner/1.jpg
+    - https://tencent.cos.mobaijun.com/img/banner/2.jpg
+    - https://tencent.cos.mobaijun.com/img/banner/3.jpg
+    - https://tencent.cos.mobaijun.com/img/banner/4.jpg
+    - https://tencent.cos.mobaijun.com/img/banner/5.jpg
 
 # 设置在归档页面中是否显示'文章日历'控件
 postCalendar: true
@@ -251,7 +251,7 @@ valine:
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
   placeholder: 'just go go' # Comment Box placeholder
-  background: https://cdn.mobaijun.com/qiniu_cdn/img/gif/Sitich30.gif
+  background: https://tencent.cos.mobaijun.com/img/gif/Sitich30.gif
   coolpushkey:
 
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
@@ -301,162 +301,162 @@ libs:
     mycss: /css/my.css
     gallery: /css/gallery.css
     fontAwesome: /libs/awesome/css/all.min.css
-    materialize: https://cdn.mobaijun.com/libs/materialize/materialize.min.css
-    aos: https://cdn.mobaijun.com/libs/aos/aos.css
-    animate: https://cdn.mobaijun.com/libs/animate/animate.min.css
+    materialize: https://tencent.cos.mobaijun.com/libs/materialize/materialize.min.css
+    aos: https://tencent.cos.mobaijun.com/libs/aos/aos.css
+    animate: https://tencent.cos.mobaijun.com/libs/animate/animate.min.css
     lightgallery: /libs/lightGallery/css/lightgallery.min.css
-    aplayer: https://cdn.mobaijun.com/libs/aplayer/APlayer.min.css
-    dplayer: https://cdn.mobaijun.com/libs/dplayer/DPlayer.min.css
-    jqcloud: https://cdn.mobaijun.com/libs/jqcloud/jqcloud.css
-    tocbot: https://cdn.mobaijun.com/libs/tocbot/tocbot.css
-    prism: https://cdn.mobaijun.com/libs/prism/prism.min.css
-    mermaid: https://cdn.mobaijun.com/libs/mermaid/mermaid.min.css
-    fancybox: https://cdn.mobaijun.com/libs/fancybox/jquery.fancybox.css
-    justifiedGallery: https://cdn.mobaijun.com/libs/justifiedGallery/justifiedGallery.min.css
+    aplayer: https://tencent.cos.mobaijun.com/libs/aplayer/APlayer.min.css
+    dplayer: https://tencent.cos.mobaijun.com/libs/dplayer/DPlayer.min.css
+    jqcloud: https://tencent.cos.mobaijun.com/libs/jqcloud/jqcloud.css
+    tocbot: https://tencent.cos.mobaijun.com/libs/tocbot/tocbot.css
+    prism: https://tencent.cos.mobaijun.com/libs/prism/prism.min.css
+    mermaid: https://tencent.cos.mobaijun.com/libs/mermaid/mermaid.min.css
+    fancybox: https://tencent.cos.mobaijun.com/libs/fancybox/jquery.fancybox.css
+    justifiedGallery: https://tencent.cos.mobaijun.com/libs/justifiedGallery/justifiedGallery.min.css
   js:
     matery: /js/matery.js
-    jquery: https://cdn.mobaijun.com/libs/jquery/jquery-3.6.0.min.js  #3.6.0 20211109
-    materialize: https://cdn.mobaijun.com/libs/materialize/materialize.min.js # 1.0.0
-    masonry: https://cdn.mobaijun.com/libs/masonry/masonry.pkgd.min.js # v4.0.0
-    aos: https://cdn.mobaijun.com/libs/aos/aos.js
-    scrollProgress: https://cdn.mobaijun.com/libs/scrollprogress/scrollProgress.min.js
+    jquery: https://tencent.cos.mobaijun.com/libs/jquery/jquery-3.6.0.min.js  #3.6.0 20211109
+    materialize: https://tencent.cos.mobaijun.com/libs/materialize/materialize.min.js # 1.0.0
+    masonry: https://tencent.cos.mobaijun.com/libs/masonry/masonry.pkgd.min.js # v4.0.0
+    aos: https://tencent.cos.mobaijun.com/libs/aos/aos.js
+    scrollProgress: https://tencent.cos.mobaijun.com/libs/scrollprogress/scrollProgress.min.js
     lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.10.0
-    typed: https://cdn.mobaijun.com/libs/typed/typed.js
-    clicklove: https://cdn.mobaijun.com/libs/others/clicklove.js
-    sakura: https://cdn.mobaijun.com/libs/others/sakura.js
-    star: https://cdn.mobaijun.com/libs/others/star.js
-    snow: https://cdn.mobaijun.com/libs/others/snow.js
-    tcaptcha: https://cdn.mobaijun.com/libs/others/TencentCaptcha.js
-    busuanzi: https://cdn.mobaijun.com/libs/others/busuanzi.pure.mini.js
-    aplayer: https://cdn.mobaijun.com/libs/aplayer/APlayer.min.js
-    meting: https://cdn.mobaijun.com/libs/aplayer/Meting.min.js
-    dplayer: https://cdn.mobaijun.com/libs/dplayer/DPlayer.min.js
-    crypto: https://cdn.mobaijun.com/libs/cryptojs/crypto-js.min.js
-    echarts: https://cdn.mobaijun.com/libs/echarts/echarts.min.js
-    valine: https://cdn.mobaijun.com/libs/valine/Valine.min.js
-    twikoo: https://cdn.mobaijun.com/libs/twikoo/twikoo.all.min.js
-    jqcloud: https://cdn.mobaijun.com/libs/jqcloud/jqcloud-1.0.4.min.js
-    tocbot: https://cdn.mobaijun.com/libs/tocbot/tocbot.min.js
-    canvas_nest: https://cdn.mobaijun.com/libs/background/canvas-nest.js
-    ribbon: https://cdn.mobaijun.com/libs/background/ribbon.min.js
-    ribbonRefresh: https://cdn.mobaijun.com/libs/background/ribbon-refresh.min.js
-    ribbon_dynamic: https://cdn.mobaijun.com/libs/background/ribbon-dynamic.js
-    instantpage: https://cdn.mobaijun.com/libs/instantpage/instantpage.js
-    mermaid: https://cdn.mobaijun.com/libs/mermaid/mermaid.min.js
-    fancybox: https://cdn.mobaijun.com/libs/fancybox/fancybox.js
-    justifiedGallery: https://cdn.mobaijun.com/libs/justifiedGallery/justifiedGallery.min.js
-    prism: https://cdn.mobaijun.com/libs/prism/prism.min.js
-    codeblock: https://cdn.mobaijun.com/libs/codeBlock/codeBlockFuction.js
-    codelang: https://cdn.mobaijun.com/libs/codeBlock/codeLang.js
-    codecopy: https://cdn.mobaijun.com/libs/codeBlock/codeCopy.js
-    codeshrink: https://cdn.mobaijun.com/libs/codeBlock/codeShrink.js
-    cdn: https://cdn.mobaijun.com/qiniu_cdn/js/cdn.js
-    canva_moving_effect: https://cdn.mobaijun.com/qiniu_cdn/js/canva_moving_effect.js
-    browser: https://cdn.jsdelivr.net/gh/mobaijun/blog_css_js/js/browser.min.js
+    typed: https://tencent.cos.mobaijun.com/libs/typed/typed.js
+    clicklove: https://tencent.cos.mobaijun.com/libs/others/clicklove.js
+    sakura: https://tencent.cos.mobaijun.com/libs/others/sakura.js
+    star: https://tencent.cos.mobaijun.com/libs/others/star.js
+    snow: https://tencent.cos.mobaijun.com/libs/others/snow.js
+    tcaptcha: https://tencent.cos.mobaijun.com/libs/others/TencentCaptcha.js
+    busuanzi: https://tencent.cos.mobaijun.com/libs/others/busuanzi.pure.mini.js
+    aplayer: https://tencent.cos.mobaijun.com/libs/aplayer/APlayer.min.js
+    meting: https://tencent.cos.mobaijun.com/libs/aplayer/Meting.min.js
+    dplayer: https://tencent.cos.mobaijun.com/libs/dplayer/DPlayer.min.js
+    crypto: https://tencent.cos.mobaijun.com/libs/cryptojs/crypto-js.min.js
+    echarts: https://tencent.cos.mobaijun.com/libs/echarts/echarts.min.js
+    valine: https://tencent.cos.mobaijun.com/libs/valine/Valine.min.js
+    twikoo: https://tencent.cos.mobaijun.com/libs/twikoo/twikoo.all.min.js
+    jqcloud: https://tencent.cos.mobaijun.com/libs/jqcloud/jqcloud-1.0.4.min.js
+    tocbot: https://tencent.cos.mobaijun.com/libs/tocbot/tocbot.min.js
+    canvas_nest: https://tencent.cos.mobaijun.com/libs/background/canvas-nest.js
+    ribbon: https://tencent.cos.mobaijun.com/libs/background/ribbon.min.js
+    ribbonRefresh: https://tencent.cos.mobaijun.com/libs/background/ribbon-refresh.min.js
+    ribbon_dynamic: https://tencent.cos.mobaijun.com/libs/background/ribbon-dynamic.js
+    instantpage: https://tencent.cos.mobaijun.com/libs/instantpage/instantpage.js
+    mermaid: https://tencent.cos.mobaijun.com/libs/mermaid/mermaid.min.js
+    fancybox: https://tencent.cos.mobaijun.com/libs/fancybox/fancybox.js
+    justifiedGallery: https://tencent.cos.mobaijun.com/libs/justifiedGallery/justifiedGallery.min.js
+    prism: https://tencent.cos.mobaijun.com/libs/prism/prism.min.js
+    codeblock: https://tencent.cos.mobaijun.com/libs/codeBlock/codeBlockFuction.js
+    codelang: https://tencent.cos.mobaijun.com/libs/codeBlock/codeLang.js
+    codecopy: https://tencent.cos.mobaijun.com/libs/codeBlock/codeCopy.js
+    codeshrink: https://tencent.cos.mobaijun.com/libs/codeBlock/codeShrink.js
+    cdn: https://tencent.cos.mobaijun.com/libs/others/cdn.js
+    canva_moving_effect: https://tencent.cos.mobaijun.com/libs/others/canva_moving_effect.js
+    browser: https://tencent.cos.mobaijun.com/libs/others/browser.min.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/1.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/2.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/2.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/4.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/5.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/6.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/7.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/8.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/9.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/10.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/11.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/12.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/13.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/14.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/15.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/16.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/17.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/18.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/19.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/20.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/21.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/22.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/23.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/24.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/25.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/26.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/27.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/28.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/29.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/30.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/31.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/32.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/33.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/34.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/35.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/36.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/37.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/38.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/39.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/40.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/41.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/42.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/43.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/44.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/45.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/46.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/47.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/48.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/49.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/50.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/51.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/52.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/53.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/54.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/55.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/56.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/57.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/58.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/59.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/60.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/61.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/62.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/63.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/64.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/65.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/66.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/67.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/68.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/69.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/70.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/71.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/72.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/73.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/74.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/75.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/76.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/77.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/78.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/79.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/80.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/81.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/82.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/83.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/84.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/85.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/86.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/87.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/88.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/89.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/90.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/91.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/92.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/93.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/94.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/95.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/96.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/97.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/98.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/99.jpg
-  - https://cdn.mobaijun.com/qiniu_cdn/img/featureimages/100.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/1.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/2.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/2.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/4.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/5.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/6.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/7.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/8.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/9.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/10.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/11.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/12.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/13.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/14.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/15.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/16.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/17.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/18.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/19.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/20.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/21.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/22.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/23.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/24.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/25.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/26.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/27.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/28.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/29.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/30.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/31.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/32.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/33.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/34.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/35.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/36.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/37.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/38.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/39.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/40.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/41.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/42.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/43.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/44.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/45.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/46.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/47.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/48.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/49.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/50.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/51.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/52.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/53.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/54.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/55.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/56.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/57.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/58.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/59.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/60.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/61.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/62.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/63.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/64.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/65.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/66.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/67.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/68.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/69.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/70.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/71.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/72.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/73.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/74.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/75.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/76.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/77.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/78.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/79.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/80.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/81.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/82.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/83.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/84.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/85.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/86.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/87.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/88.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/89.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/90.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/91.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/92.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/93.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/94.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/95.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/96.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/97.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/98.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/99.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/100.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -541,7 +541,7 @@ instantpage:
 banner:
   enable: true
   # 图片目录超链接
-  url: https://cdn.mobaijun.com/qiniu_cdn/img/banner/
+  url: https://tencent.cos.mobaijun.com/img/banner/
 
 #ICP备案信息尾部显示
 # ICP备案信息尾部显示
