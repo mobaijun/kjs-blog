@@ -1,0 +1,94 @@
+---
+title: 【随笔】一些可用的 Google 搜索镜像站
+author: 墨白
+top: false
+cover: false
+toc: true
+mathjax: false
+date: 2022-08-08 09:16:44
+img:
+coverImg:
+abbrlink:
+password:
+summary:
+tags:
+- 代理
+categories:
+- 随笔
+---
+
+我在日常工作或生活中，几乎时时刻刻都用到 Google 搜索引擎， 但因为“众所周知的原因”在国内无法直接访问。幸好，网上有热心人士搭建了 Google 镜像站，现分享给大家！
+
+* 温馨提醒：
+
+1. 如果出现访问缓慢或无法打开等情况，请换个网址尝试；
+
+2. 请勿在镜像站上登录 Google 账号或者搜索个人隐私，否则可能会被泄露给第三方；
+
+3. 请勿搜索含有政治、色情、敏感、暴力血腥、恐怖、其他国家法律法规禁止的词汇，以及浏览违法内容。
+
+![](https://cdn.mobaijun.com//2022/image-20220808091830661.png)
+
+### 香港区域：
+
+https://g.xzx725.top/
+
+http://d.6wl.cc/
+
+https://g.qwq.fan/
+
+[https://shitu.paodekuaiweixinqun.com/webhp/](https://shitu.paodekuaiweixinqun.com/webhp)
+
+https://gogogle.cf/
+
+https://s.isway.cn/
+
+https://go.lizmt.cn/
+
+[https://google.justscience.cn/](https://google.justscience.cn/)
+
+------
+
+### 日本区域：
+
+[https://www.谷歌.cf/](https://www.xn--flw351e.cf/)
+
+https://www.googlejxz.ml/
+
+https://so.ylyn.cc/
+
+------
+
+### 韩国区域：
+
+https://ge1.azurewebsites.net/
+
+------
+
+### 备用区域：
+
+https://nl.libre.men/
+
+https://www.qinai.ml/
+
+https://search.aust.cf/
+
+https://search.ecnu.cf/
+
+https://search.ahnu.cf/
+
+https://search.njau.cf/
+
+https://goo.xbzxs.org/
+
+https://s.iit.xyz/
+
+[https://谷歌.ml/](https://xn--flw351e.ml/)
+
+https://google.icloudnative.io/ （基于Google的Startpage）
+
+https://google.pem.app/
+
+https://g48.i-research.edu.eu.org/
+
+https://g20.i-research.edu.eu.org/
