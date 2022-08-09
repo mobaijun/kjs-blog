@@ -3,21 +3,24 @@ menu:
   Index:
     url: /
     icon: fas fa-home
+  Tags:
+    url: /tags
+    icon: fas fa-tags
   Categories:
     url: /categories
     icon: fas fa-bookmark
   Archives:
     url: /archives
     icon: fas fa-archive
+  Book:
+    url: /book
+    icon: fas fa-book
   About:
     url: /about
     icon: fas fa-user-circle
   Contact:
     url: /contact
     icon: fas fa-comments
-  Book:
-    url: /book
-    icon: fas fa-book
   Friends:
     url: /friends
     icon: fas fa-address-book
