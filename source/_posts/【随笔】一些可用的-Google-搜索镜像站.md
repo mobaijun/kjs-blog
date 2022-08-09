@@ -5,16 +5,16 @@ top: false
 cover: false
 toc: true
 mathjax: false
+abbrlink: 3724043932
+tags:
+  - 代理
+categories:
+  - 随笔
 date: 2022-08-08 09:16:44
 img:
 coverImg:
-abbrlink:
 password:
 summary:
-tags:
-- 代理
-categories:
-- 随笔
 ---
 
 我在日常工作或生活中，几乎时时刻刻都用到 Google 搜索引擎， 但因为“众所周知的原因”在国内无法直接访问。幸好，网上有热心人士搭建了 Google 镜像站，现分享给大家！
