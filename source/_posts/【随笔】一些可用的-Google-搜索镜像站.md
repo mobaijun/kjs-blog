@@ -31,7 +31,7 @@ summary:
 
 ### 香港区域：
 
-https://g.xzx725.top/
+~~https://g.xzx725.top/~~
 
 http://d.6wl.cc/
 
@@ -41,11 +41,11 @@ https://g.qwq.fan/
 
 https://gogogle.cf/
 
-https://s.isway.cn/
+~~https://s.isway.cn/~~
 
-https://go.lizmt.cn/
+~~https://go.lizmt.cn/~~
 
-[https://google.justscience.cn/](https://google.justscience.cn/)
+~~[https://google.justscience.cn/](https://google.justscience.cn/)~~
 
 ------
 
@@ -53,33 +53,33 @@ https://go.lizmt.cn/
 
 [https://www.谷歌.cf/](https://www.xn--flw351e.cf/)
 
-https://www.googlejxz.ml/
+~~https://www.googlejxz.ml/~~
 
-https://so.ylyn.cc/
+~~https://so.ylyn.cc/~~
 
 ------
 
 ### 韩国区域：
 
-https://ge1.azurewebsites.net/
+~~https://ge1.azurewebsites.net/~~
 
 ------
 
 ### 备用区域：
 
-https://nl.libre.men/
+~~https://nl.libre.men/~~
 
-https://www.qinai.ml/
+~~https://www.qinai.ml/~~
 
-https://search.aust.cf/
+~~https://search.aust.cf/~~
 
-https://search.ecnu.cf/
+~~https://search.ecnu.cf/~~
 
 https://search.ahnu.cf/
 
 https://search.njau.cf/
 
-https://goo.xbzxs.org/
+~~https://goo.xbzxs.org/~~
 
 https://s.iit.xyz/
 
@@ -87,8 +87,8 @@ https://s.iit.xyz/
 
 https://google.icloudnative.io/ （基于Google的Startpage）
 
-https://google.pem.app/
+~~https://google.pem.app/~~
 
 https://g48.i-research.edu.eu.org/
 
-https://g20.i-research.edu.eu.org/
+~~https://g20.i-research.edu.eu.org/~~

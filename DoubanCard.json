@@ -29,6 +29,66 @@
       "rate": "9.6",
       "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.jpg",
       "url": "https://movie.douban.com/subject/1292063"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "闪光少女(2017)",
+      "director": "王冉",
+      "actors": "徐璐/彭昱畅",
+      "publishDate": "2017-07-20(中国大陆)",
+      "rate": "7.2",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2494275431.jpg",
+      "url": "https://movie.douban.com/subject/26790961"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "活着(1994)",
+      "director": "张艺谋",
+      "actors": "葛优/巩俐",
+      "publishDate": "1994-06-30(中国香港)",
+      "rate": "9.3",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2597919477.jpg",
+      "url": "https://movie.douban.com/subject/1292365"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "星际穿越Interstellar(2014)",
+      "director": "克里斯托弗·诺兰",
+      "actors": "马修·麦康纳/安妮·海瑟薇",
+      "publishDate": "2014-11-12(中国大陆)",
+      "rate": "9.4",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.jpg",
+      "url": "https://movie.douban.com/subject/1889243"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "当幸福来敲门ThePursuitofHappyness(2006)",
+      "director": "加布里埃莱·穆奇诺",
+      "actors": "威尔·史密斯/贾登·史密斯",
+      "publishDate": "2008-01-17(中国大陆)",
+      "rate": "9.2",
+      "img": "https://images.weserv.nl/?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2614359276.jpg",
+      "url": "https://movie.douban.com/subject/1849031"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "触不可及Intouchables(2011)",
+      "director": "奥利维埃·纳卡什/埃里克·托莱达诺",
+      "actors": "弗朗索瓦·克鲁塞/奥玛·希",
+      "publishDate": "2011-11-02(法国)",
+      "rate": "9.3",
+      "img": "https://images.weserv.nl/?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.jpg",
+      "url": "https://movie.douban.com/subject/6786002"
+    },
+    {
+      "status": "灯影绰约",
+      "title": "怦然心动Flipped(2010)",
+      "director": "罗伯·莱纳",
+      "actors": "玛德琳·卡罗尔/卡兰·麦克奥利菲",
+      "publishDate": "2010-07-26(好莱坞首映)",
+      "rate": "9.1",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.jpg",
+      "url": "https://movie.douban.com/subject/3319755"
     }
   ],
   "book": [
@@ -67,6 +127,42 @@
       "rate": "7.4",
       "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/s/public/s33649348.jpg",
       "url": "https://book.douban.com/subject/35075135"
+    },
+    {
+      "status": "见字如晤",
+      "title": "活着",
+      "author": "余华",
+      "publishDate": "2012-8-1",
+      "rate": "9.4",
+      "img": "https://images.weserv.nl/?url=https://img9.doubanio.com/view/subject/s/public/s27279654.jpg",
+      "url": "https://book.douban.com/subject/4913064"
+    },
+    {
+      "status": "见字如晤",
+      "title": "杀死一只知更鸟",
+      "author": "[美国]哈珀·李",
+      "publishDate": "2012-9",
+      "rate": "9.2",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/s/public/s23128183.jpg",
+      "url": "https://book.douban.com/subject/6781808"
+    },
+    {
+      "status": "见字如晤",
+      "title": "陆犯焉识",
+      "author": "严歌苓",
+      "publishDate": "2011-10",
+      "rate": "8.9",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/s/public/s6987353.jpg",
+      "url": "https://book.douban.com/subject/6880158"
+    },
+    {
+      "status": "见字如晤",
+      "title": "亮剑",
+      "author": "都梁",
+      "publishDate": "2005-3",
+      "rate": "9.0",
+      "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/s/public/s9950828.jpg",
+      "url": "https://book.douban.com/subject/1088022"
     }
   ],
   "music": [
@@ -109,6 +205,36 @@
       "rate": "9.2",
       "img": "https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/m/public/s3815469.jpg",
       "url": "https://music.douban.com/subject/1455203"
+    },
+    {
+      "status": "余音绕梁",
+      "title": "Lemon",
+      "actors": "米津玄師",
+      "genre": "流行",
+      "publishDate": "2018-03-14",
+      "rate": "9.2",
+      "img": "https://images.weserv.nl/?url=https://img9.doubanio.com/view/subject/m/public/s29867205.jpg",
+      "url": "https://music.douban.com/subject/30127783"
+    },
+    {
+      "status": "余音绕梁",
+      "title": "LOSER/ナンバーナイン[通常盤]",
+      "actors": "米津玄師",
+      "genre": "流行",
+      "publishDate": "2016-09-28",
+      "rate": "8.9",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/m/public/s28986863.jpg",
+      "url": "https://music.douban.com/subject/26847906"
+    },
+    {
+      "status": "余音绕梁",
+      "title": "起风了",
+      "actors": "买辣椒也用券",
+      "genre": "流行",
+      "publishDate": "2018-12-03",
+      "rate": "8.2",
+      "img": "https://images.weserv.nl/?url=https://img2.doubanio.com/view/subject/m/public/s29942581.jpg",
+      "url": "https://music.douban.com/subject/30202610"
     }
   ]
 }
