@@ -86,8 +86,12 @@
         <% } %>
 
         <div class="card-content article-card-content">
+            <!-- 文字内容详情 -->
+            <div id="articleContent">
+                <%- page.content %>
+            </div>
+            <hr/>
             <%- partial('_partial/reprint-statement') %>
-
             <div class="tag_share" style="display: block;">
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     <% if (page.tags && page.tags.length) { %>
