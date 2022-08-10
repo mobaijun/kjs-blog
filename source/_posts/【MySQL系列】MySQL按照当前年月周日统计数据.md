@@ -33,6 +33,12 @@ SELECT * FROM 表名 WHERE TO_DAYS(表中时间字段) = TO_DAYS(NOW());
 SELECT * FROM 表名 WHERE TO_DAYS(NOW()) - TO_DAYS(FROM_UNIXTIME(表中时间字段)) = 1;
 ~~~
 
+* 方式2
+
+~~~sql
+SELECT * FROM 表名 WHERE TO_DAYS(NOW()) - TO_DAYS(表中日期字段) = 1;
+~~~
+
 ## 查询本周数据
 
 ~~~sql
@@ -54,7 +60,7 @@ SELECT * FROM 表名 where DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= FROM_UNIXTIME
 ## 查询当月数据
 
 ~~~sql
-SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段，'%Y-%m')) = DATE_FORMAT(CURDATE(),'%Y-%m');
+SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段,'%Y-%m')) = DATE_FORMAT(CURDATE(),'%Y-%m');
 ~~~
 
 * 方式2
