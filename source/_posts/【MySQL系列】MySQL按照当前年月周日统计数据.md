@@ -27,10 +27,28 @@ categories:
 SELECT * FROM 表名 WHERE TO_DAYS(表中时间字段) = TO_DAYS(NOW());
 ~~~
 
+### 查询昨天数据
+
+~~~sql
+SELECT * FROM 表名 WHERE TO_DAYS(NOW()) - TO_DAYS(FROM_UNIXTIME(表中时间字段)) = 1;
+~~~
+
 ## 查询本周数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段,'%Y-%m-%d')) = YEARWEEK(NOW());
+~~~
+
+### 查询上周数据
+
+~~~sql
+SELECT * FROM 表名 WHERE YEARWEEK(FROM_UNIXTIME(表中时间字段,'%Y-%m-%d')) = YEARWEEK(NOW())-1;
+~~~
+
+### 查询近30天数据（包含当天）
+
+~~~sql
+SELECT * FROM 表名 where DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= FROM_UNIXTIME(表中时间字段)
 ~~~
 
 ## 查询当月数据
@@ -45,11 +63,23 @@ SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段，'%Y-%m')) =
 SELECT
 	* 
 FROM
-	table_name 
+	表名 
 WHERE
-	date_format( create_time, '%Y -%m' )= date_format(NOW(), '%Y -%m' ) 
+	date_format( 表中时间字段, '%Y -%m' )= date_format(NOW(), '%Y -%m' ) 
 GROUP BY
-	create_time DESC
+	create_time DESC;
+~~~
+
+* 方式3
+
+~~~sql
+SELECT * FROM 表名 WHERE FROM_UNIXTIME(表中时间字段, '%Y%m') = DATE_FORMAT(CURDATE(), '%Y%m');
+~~~
+
+### 查询上月数据
+
+~~~sql
+SELECT * FROM 表名 WHERE PERIOD_DIFF(DATE_FORMAT(NOW(),'%Y%m'), FROM_UNIXTIME(表中时间字段,'%Y%m')) = 1;
 ~~~
 
 ## 查询最近一周数据
@@ -76,10 +106,34 @@ SELECT MONTH('表中日期字段'), COUNT(*) FROM '表名' WHERE YEAR(CURDATE())
 >
 > 不然会报：org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成（具体可以看下这篇文章：[传送门](https://blog.csdn.net/Hello_World_QWP/article/details/86513179)）
 
+### 查询本季度的数据
+
+~~~sql
+SELECT * FROM 表名 WHERE QUARTER(FROM_UNIXTIME(表中时间字段))=QUARTER(NOW()) AND YEAR(FROM_UNIXTIME(表中时间字段))=YEAR(NOW());
+~~~
+
+### 查询上季度的数据
+
+~~~sql
+SELECT * FROM 表名 WHERE QUARTER(FROM_UNIXTIME(表中时间字段)) = QUARTER(DATE_SUB(NOW(),INTERVAL 1 QUARTER)) AND YEAR(FROM_UNIXTIME(表中时间字段))=YEAR(NOW());
+~~~
+
+### 查询今年的数据
+
+~~~sql
+SELECT * FROM 表名 WHERE YEAR(FROM_UNIXTIME(表中时间字段))=YEAR(NOW());
+~~~
+
+### 查询去年的数据
+
+~~~sql
+SELECT * FROM 表名 WHERE YEAR(FROM_UNIXTIME(表中时间字段)) = YEAR(DATE_SUB(NOW(),INTERVAL 1 YEAR));
+~~~
+
 ## 统计某年每个月的数据量
 
 ~~~sql
-SELECT MONTH( 日期字段 ),COUNT( 1 ) FROM 表名 WHERE YEAR ( 日期字段 ) = 查询年份  GROUP BY MONTH ( 日期字段 );
+SELECT MONTH( 日期字段 ),COUNT( 1 ) FROM 表名 WHERE YEAR ( 表中时间字段 ) = 查询年份  GROUP BY MONTH ( 表中时间字段 );
 ~~~
 
 ## 其他统计 SQL
