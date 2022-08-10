@@ -21,25 +21,38 @@ categories:
 
 > 接了一个小需求，获取用电统计的数据，要求获取最近月，周，天统计数据，MySQL 本来就包含处理这种需求的函数，这里记录下。
 
-* 查询当天数据
+## 查询当天数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE TO_DAYS(表中时间字段) = TO_DAYS(NOW());
 ~~~
 
-* 查询本周数据
+## 查询本周数据
 
 ~~~sql
-SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段，'%Y-%m-%d')) = YEARWEEK(NOW());
+SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段,'%Y-%m-%d')) = YEARWEEK(NOW());
 ~~~
 
-* 查询当月数据
+## 查询当月数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE YEARWEEK(DATE_FORMAT(表中时间字段，'%Y-%m')) = DATE_FORMAT(CURDATE(),'%Y-%m');
 ~~~
 
-* 查询最近一周数据
+* 方式2
+
+~~~sql
+SELECT
+	* 
+FROM
+	table_name 
+WHERE
+	date_format( create_time, '%Y -%m' )= date_format(NOW(), '%Y -%m' ) 
+GROUP BY
+	create_time DESC
+~~~
+
+## 查询最近一周数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE DATE_SUB(CURDATE(),INTERVAL 1 WEEK) <= DATE(表中时间字段);
@@ -47,13 +60,13 @@ SELECT * FROM 表名 WHERE DATE_SUB(CURDATE(),INTERVAL 1 WEEK) <= DATE(表中时
 
 > 中间的 1 是一周的意思，2 周就填写 2
 
-* 查询最近一月内数据
+## 查询最近一月内数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE DATE_SUB(CURDATE(),INTERVAL 1 MONTH) <= DATE(表中时间字段);
 ~~~
 
-* 查询当年每月的统计数据
+## 查询当年每月的统计数据
 
 ~~~sql
 SELECT MONTH('表中日期字段'), COUNT(*) FROM '表名' WHERE YEAR(CURDATE()) GROUP BY MONTH('表中日期字段');
@@ -63,7 +76,7 @@ SELECT MONTH('表中日期字段'), COUNT(*) FROM '表名' WHERE YEAR(CURDATE())
 >
 > 不然会报：org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成（具体可以看下这篇文章：[传送门](https://blog.csdn.net/Hello_World_QWP/article/details/86513179)）
 
-* 统计某年每个月的数据量
+## 统计某年每个月的数据量
 
 ~~~sql
 SELECT MONTH( 日期字段 ),COUNT( 1 ) FROM 表名 WHERE YEAR ( 日期字段 ) = 查询年份  GROUP BY MONTH ( 日期字段 );
@@ -71,37 +84,37 @@ SELECT MONTH( 日期字段 ),COUNT( 1 ) FROM 表名 WHERE YEAR ( 日期字段 ) 
 
 ## 其他统计 SQL
 
-* 查询本年度数据
+### 查询本年度数据
 
 ~~~sql
 SELECT *  FROM 表名  WHERE YEAR ( FROM_UNIXTIME( 日期字段 ) ) = YEAR (curdate( ));
 ~~~
 
-* 查询数据附带季度数
+### 查询数据附带季度数
 
 ~~~sql
 SELECT *, QUARTER ( FROM_UNIXTIME( `日期字段` ) )  FROM 表名;
 ~~~
 
-* 查询本季度的数据
+### 查询本季度的数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE quarter( FROM_UNIXTIME( 日期字段 ) ) = quarter(curdate( ));
 ~~~
 
-* 查询7天的数据
+### 查询7天的数据
 
 ~~~sql
 SELECT * FROM 表名 WHERE DATE_SUB( CURDATE(), INTERVAL 7 DAY ) <= date( 日期字段 );
 ~~~
 
-* 查询本周统计
+### 查询本周统计
 
 ~~~sql
 SELECT *  FROM 表名  WHERE MONTH ( 日期字段 ) = MONTH (curdate()) AND WEEK ( 日期字段 ) = WEEK (curdate());
 ~~~
 
-* 统计每天数据总量
+### 统计每天数据总量
 
 ~~~sql
 SELECT count(*) FROM 表名  GROUP BY date(日期字段);
@@ -111,9 +124,142 @@ SELECT count(*) FROM 表名  GROUP BY date(日期字段);
 
 ![](https://dl4.weshineapp.com/gif/20211223/5cb2f1736615a4ea835513b5192b5c33.gif?f=micro_)
 
+### MySQL获取全部每天最后一条记录
+
+* #### 如果时间列（create_time）是 [datetime](https://so.csdn.net/so/search?q=datetime&spm=1001.2101.3001.7020) 格式（2020-08-24 15:57:57）
+
+~~~sql
+SELECT
+	a.id,
+	a.data,
+	a.create_time,
+	b.date 
+FROM
+	test_table a
+	JOIN ( SELECT DATE_FORMAT( create_time, '%Y-%m-%d' ) date, 
+          MAX( create_time ) max_time FROM test_table GROUP BY date ) b ON b.max_time = a.create_time 
+ORDER BY
+	b.date DESC
+~~~
+
+* 查询结果
+
+~~~bash
++------+----------------------+---------------------+------------+
+| id   | data                 | create_time         | date       |
++------+----------------------+---------------------+------------+
+| 1184 |   0.3599999999999852 | 2022-07-18 23:59:00 | 2022-07-18 |
+| 1160 |   0.3599999999999852 | 2022-07-17 23:59:00 | 2022-07-17 |
+| 1136 |   0.3499999999999943 | 2022-07-16 23:59:00 | 2022-07-16 |
+| 1112 |  0.35999999999999943 | 2022-07-15 23:59:00 | 2022-07-15 |
+| 1098 |                    0 | 2022-07-14 13:59:00 | 2022-07-14 |
+| 1085 |                    0 | 2022-07-13 23:59:00 | 2022-07-13 |
+| 1062 |  0.35999999999999943 | 2022-07-12 23:59:00 | 2022-07-12 |
+| 1038 |  0.35999999999999943 | 2022-07-11 23:59:00 | 2022-07-11 |
+| 1014 |  0.35999999999999943 | 2022-07-10 23:59:00 | 2022-07-10 |
++------+----------------------+---------------------+------------+
+~~~
+
+* #### 如果时间列（create_time）是时间戳格式（1598255877）
+
+~~~sql
+SELECT
+	a.id,
+	a.create_time,
+	a.test_value,
+	a.create_date,
+	b.date 
+FROM
+	test_table a
+	JOIN ( SELECT FROM_UNIXTIME( create_time, '%Y-%m-%d' ) date, MAX( create_time ) max_time FROM test_table GROUP BY date ) b ON b.max_time = a.create_time 
+ORDER BY
+	b.date DESC
+~~~
+
+### MySQL获取本月每天最后一条记录
+
+~~~sql
+SELECT
+	a.id,
+	a.data,
+	a.create_time,
+	b.date 
+FROM
+	table_name a
+	JOIN ( SELECT DATE_FORMAT( create_time, '%Y-%m-%d' ) date, MAX( create_time ) max_time FROM table_name GROUP BY date ) b ON b.max_time = a.create_time 
+WHERE
+	DATE_FORMAT( create_time, '%Y -%m' )= DATE_FORMAT( NOW(), '%Y -%m' ) 
+ORDER BY
+	b.date DESC
+~~~
+
+* 结果
+
+~~~bash
++---------------------+---------------------+---------------------+------------+
+|      id          |       data          |      create_time    | date       |
++---------------------+---------------------+---------------------+------------+
+|                1 |                   0 | 2022-07-22 10:59:00 | 2022-07-22 |
+|                2 |                   0 | 2022-07-21 23:59:00 | 2022-07-21 |
+|                3 |                   0 | 2022-07-20 23:59:00 | 2022-07-20 |
+|                4 |                   0 | 2022-07-19 13:59:01 | 2022-07-19 |
+|                5 |  0.3599999999999852 | 2022-07-18 23:59:00 | 2022-07-18 |
+|                6 |  0.3599999999999852 | 2022-07-17 23:59:00 | 2022-07-17 |
+|                7 |  0.3499999999999943 | 2022-07-16 23:59:00 | 2022-07-16 |
+|                8 | 0.35999999999999943 | 2022-07-15 23:59:00 | 2022-07-15 |
+|                9 |                   0 | 2022-07-14 13:59:00 | 2022-07-14 |
+|               10 |                   0 | 2022-07-13 23:59:00 | 2022-07-13 |
+|               11 | 0.35999999999999943 | 2022-07-12 23:59:00 | 2022-07-12 |
+|               12 | 0.35999999999999943 | 2022-07-11 23:59:00 | 2022-07-11 |
+|               13 | 0.35999999999999943 | 2022-07-10 23:59:00 | 2022-07-10 |
+|               14 | 0.35999999999999943 | 2022-07-09 23:59:00 | 2022-07-09 |
+|               15 |  0.3499999999999943 | 2022-07-08 23:59:00 | 2022-07-08 |
+|               16 |  0.3499999999999943 | 2022-07-07 23:59:00 | 2022-07-07 |
+|               17 | 0.35999999999999943 | 2022-07-06 23:59:00 | 2022-07-06 |
+|               18 |  0.3500000000000014 | 2022-07-05 23:59:00 | 2022-07-05 |
+|               19 | 0.35999999999999943 | 2022-07-04 23:59:00 | 2022-07-04 |
+|               20 |  0.3500000000000014 | 2022-07-03 23:59:00 | 2022-07-03 |
+|               21 | 0.35999999999999943 | 2022-07-02 23:59:00 | 2022-07-02 |
+|               22 | 0.35999999999999943 | 2022-07-01 23:59:00 | 2022-07-01 |
++---------------------+---------------------+---------------------+------------+
+~~~
+
+## 获取本周每天最后一条数据
+
+~~~sql
+SELECT
+	a.id,
+	a.data,
+	a.create_time,
+	b.date 
+FROM
+	table_name a
+	JOIN ( SELECT DATE_FORMAT( create_time, '%Y-%m-%d' ) date, MAX( create_time ) max_time FROM table_name GROUP BY date ) b ON b.max_time = a.create_time 
+WHERE
+	YEARWEEK(DATE_FORMAT(create_time,'%Y-%m-%d')) = YEARWEEK(NOW());
+ORDER BY
+	b.date DESC
+~~~
+
+* 结果
+
+~~~bash
++---------------------+---------------------+---------------------+------------+
+|      id          |       data          |      create_time    | date       |
++---------------------+---------------------+---------------------+------------+
+|               13 | 0.35999999999999943 | 2022-07-10 23:59:00 | 2022-07-10 |
+|               14 | 0.35999999999999943 | 2022-07-09 23:59:00 | 2022-07-09 |
+|               15 |  0.3499999999999943 | 2022-07-08 23:59:00 | 2022-07-08 |
+|               16 |  0.3499999999999943 | 2022-07-07 23:59:00 | 2022-07-07 |
+|               17 | 0.35999999999999943 | 2022-07-06 23:59:00 | 2022-07-06 |
+|               18 |  0.3500000000000014 | 2022-07-05 23:59:00 | 2022-07-05 |
+|               19 | 0.35999999999999943 | 2022-07-04 23:59:00 | 2022-07-04 |
++---------------------+---------------------+---------------------+------------+
+~~~
+
 ## 非日期统计查询
 
-* 查询表的数据量大小
+### 查询表的数据量大小
 
 ~~~sql
 SELECT TABLE_NAME,( data_length + index_length )/ 1024 / 1024 AS TABLE_MB,
@@ -124,7 +270,20 @@ WHERE
 	TABLE_SCHEMA = 'database_name';
 ~~~
 
-* 查询阻塞语句
+* 结果
+
+~~~bash
++--------------------------------------------+--------------+------------+
+| TABLE_NAME                                 | TABLE_MB     | TABLE_ROWS |
++--------------------------------------------+--------------+------------+
+| sys_role_menu                              | 0.04687500   |        465 |
+| sys_user                                   | 0.01562500   |          4 |
+| sys_user_post                              | 0.01562500   |         13 |
+| sys_user_role                              | 0.01562500   |         26 |
++--------------------------------------------+--------------+------------+
+~~~
+
+### 查询阻塞语句
 
 ~~~sql
 SELECT
@@ -140,7 +299,7 @@ FROM
 	INNER JOIN information_schema.innodb_trx r ON r.trx_id = w.requesting_trx_id;
 ~~~
 
-* 统计数据库访问量前 10 的 IP 地址
+### 统计数据库访问量前 10 的 IP 地址
 
 ~~~sql
 SELECT
@@ -154,5 +313,19 @@ ORDER BY
 	COUNT(*) DESC 
 	LIMIT 10;
 ~~~
+
+* 结果
+
+~~~bash
++---------------+----------+
+| ip            | COUNT(*) |
++---------------+----------+
+| 1.74.3.122    |       33 |
+| 113.51.32.63  |        9 |
+| 8.132.10.2    |        2 |
++---------------+----------+
+~~~
+
+
 
 ![](https://dl4.weshineapp.com/gif/20210926/f802b54fcddc8ab2b46013f58d3b83f8.gif?f=micro_)
