@@ -57,8 +57,8 @@ mapstruct 是专门用来处理上面常见实体类与属性类的属性映射�
  	<version>${mapstruct.version}</version>
 </dependency>
 
-<!- 最新版本 1.4.2 -->
-<mapstruct.version>1.4.2.Final</mapstruct.version>
+<!- 最新版本 1.5.2 -->
+<mapstruct.version>1.5.2.Final</mapstruct.version>
 ~~~
 
 ## 示例程序
@@ -148,7 +148,7 @@ RuleVo ruleVo = RuleMapper.INSTANCE.toVo(rule);
 
 多参数转换，如果遇到多参数转换，在实际业务场景中，我们会经常遇到json转换的字符串存入某个属性中，或者好几个类的组合成一个新的类返回。
 
-需要了解@mapping注解
+需要了解 @mapping 注解
 
 里面有两个常用参数
 
@@ -219,3 +219,4 @@ public class BaseDataConverterMapperImpl implements BaseDataConverterMapper {
 }
 ~~~
 
+> 使用 mapstruct 可以大大提高效率，优化冗余代码，快快用起来吧！

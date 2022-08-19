@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-# 百度SEO
+## 百度SEO
 
 #### 域名更换
 

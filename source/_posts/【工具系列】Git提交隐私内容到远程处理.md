@@ -55,15 +55,15 @@ flush privileges;
 
 * 点击 idea git log ，选择提交记录
 
-![image-20220613133721038](../april-norm/img/image-20220613133721038.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819162645348.png)
 
 * 点击 idea git \ Reset HEAD...
 
-![image-20220613133411882](../april-norm/img/image-20220613133411882.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819162709329.png)
 
 * 需要几次回滚就写入几个 ^ 号
 
-![image-20220613133524100](../april-norm/img/image-20220613133524100.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819162732937.png)
 
 * 重新提交内容，强制推送
 
