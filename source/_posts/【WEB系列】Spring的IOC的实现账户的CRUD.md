@@ -19,10 +19,6 @@ summary:
 
 ## Spring的IOC的实现账户的CRUD
 
-> 完整目录结构
->
-> ![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/14.42/2.jpg)
-
 * 打开你的图形化界面工具(`sqlyog,navicat...`),创建数据库`spring-test`,导入以下SQL
 
 ~~~sql
@@ -54,10 +50,6 @@ CREATE TABLE account (
 
 INSERT  INTO account(accountId,UID,MONEY) VALUES (1,46,1000),(2,45,1000),(3,46,2000);
 ~~~
-
-* 建表后效果如图
-
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/14.42/3.jpg )
 
 * 打开你的IDEA,创建maven项目,导入相关坐标
 
@@ -474,7 +466,3 @@ public class AccountServiceTest {
 
 }
 ~~~
-
-* 结果
-
-![]( https://mobaijun.gitee.io/mobai_images.gitee.io/img/14.42/4.jpg )

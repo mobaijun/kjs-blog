@@ -610,7 +610,7 @@ public class SystemMysqlBackupsController {
 
 最终效果：
 
-![备份效果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211012161827028.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211012161827028.png)
 
 > 以上就是这篇文章分享的内容，如果你有更好的意见，或代码优化相关，请在下方留言区留言，欢迎一起探讨学习。
 

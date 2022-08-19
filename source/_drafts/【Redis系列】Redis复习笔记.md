@@ -57,8 +57,6 @@ NOSql，全称 not only sql ，不仅仅是sql，泛指非关系型数据库。
 
 2个都用
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-8/2.jpg)
-
 ##### 小结
 
 * 非关系数据库的性能为什么高于关系型数据库？
@@ -67,9 +65,9 @@ NOSql，全称 not only sql ，不仅仅是sql，泛指非关系型数据库。
 
 ### 03.NOSql数据库产品-Redis与Redis安装
 
-##### 非关系型数据库的产品
+##### 非关系型数据库的产品】
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-8/3.jpg)&nbsp;
+
 
 java领域主要使用**redis**,web阶段使用redis.
 
@@ -89,19 +87,18 @@ java领域主要使用**redis**,web阶段使用redis.
 
 3. 介绍redis的目录结构
 
-   ![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-8/4.jpg)&nbsp;
 
 ##### 使用redis存储数据体验步骤
 
 1. 双击运行redis服务器端redis-server.exe
 
-   ![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-8/5.jpg)
+   
 
 2. 双击运行redis客户端redis-cli.exe
 
 3. 在客户端上进行存取数据
 
-   ![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-8/6.jpg)
+   
 
 ##### 小结
 

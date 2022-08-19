@@ -21,7 +21,7 @@ summary:
 
 **效果图如下**:[传送门](https://www.mobaijun.com/navigate/)
 
-![效果图](https://mobaijun.gitee.io/mobai_images.gitee.io/img/zatu/2.jpg)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819143228931.png)
 
 如果你需要新建一个页面,前提是你需要有一个博客,我用的是matery主题,参考了[洪卫的博客搭建教程](https://sunhwee.com/navi),和[闪烁之狐]([https://blinkfox.github.io](https://blinkfox.github.io/))的搭建教程,如果没有博客也可以参考我写的[教程搭建一个自己的博客](https://www.mobaijun.com/posts/3211381432.html),话不多说,下面开始操作
 

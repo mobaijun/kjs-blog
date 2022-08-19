@@ -35,7 +35,7 @@ InfluxDB是一个用于存储和分析时间序列数据的开源数据库。因
 
 > 这里使用的是SpringBoot 2.3.5.RELEASE，本地需要安装influxdb-1.8.3-1，接下来看看如何实现的。
 
-![项目结构](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20210120142445.png)
+![项目结构](https://tencent.cos.mobaijun.com/article_with_pictures/20210120142445.png)
 
 * pom依赖
 

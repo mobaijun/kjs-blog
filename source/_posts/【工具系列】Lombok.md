@@ -62,7 +62,7 @@ Never write another getter or equals method again, with one annotation your clas
 
 定位到`file/setings/plugins/markeptlace`搜索`Lombok`
 
-![](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200606105546.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200606105546.png)
 
 ### 常用注解
 
@@ -71,7 +71,7 @@ Never write another getter or equals method again, with one annotation your clas
 
 * @Getter/@Setter
 
-![](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200606110301.gif)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200606110301.gif)
 
 * 使用Lombok方式：
 

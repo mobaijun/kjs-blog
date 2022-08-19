@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-![](https://s2.loli.net/2022/01/05/GiuNOta831VpqFD.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/GiuNOta831VpqFD.png)
 
 ## 简介
 
@@ -29,7 +29,7 @@ summary:
 
 ## 下载
 
-![](https://s2.loli.net/2022/01/05/1v5QJX8BRsFO9qt.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/1v5QJX8BRsFO9qt.png)
 
 根据自己操作系统选择合适的版本进行下载，我这里是 `Windows`，就点击下载 `Windows` 版本。
 
@@ -90,11 +90,11 @@ $ multipass launch -n test01 -c 2 -m 4G -d 10G
 
 然后双击 `multipass`,鼠标右键点击任务栏 `open shell`
 
-![](https://s2.loli.net/2022/01/05/vE9SIRGbKAoN2Lj.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/vE9SIRGbKAoN2Lj.png)
 
 会打开创建的虚拟机，
 
-![](https://s2.loli.net/2022/01/05/gK1GCiLXP5IlHeB.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/gK1GCiLXP5IlHeB.png)
 
 ## 其他操作
 

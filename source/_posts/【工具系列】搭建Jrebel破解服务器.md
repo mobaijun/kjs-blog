@@ -150,4 +150,4 @@ $ http://127.0.0.1:8888/1782cd13-a1d1-4a14-9a91-085bb84eafd9
 $ https://www.guidgen.com/
 ~~~
 
-![](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211020171939111.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211020171939111.png)

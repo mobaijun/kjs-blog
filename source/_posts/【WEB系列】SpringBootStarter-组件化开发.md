@@ -37,7 +37,7 @@ summary:
 
 ### 总目录结构
 
-![](https://s2.loli.net/2022/04/28/gyRdisQhTSbacZz.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/gyRdisQhTSbacZz.png)
 
 总架构
 
@@ -146,11 +146,11 @@ summary:
 
 * 依赖关系图
 
-![](https://s2.loli.net/2022/04/28/cUYqxW3BNvpHOAa.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/cUYqxW3BNvpHOAa.png)
 
 * 核心开发包
 
-![](https://s2.loli.net/2022/04/28/bpsVPfdIRnwUkui.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/bpsVPfdIRnwUkui.png)
 
 > 核心的 `autoconfiguration`
 
@@ -464,7 +464,7 @@ swagger:
 
 > 具体可参考项目源码 `Readme.md` 文档说明
 
-![](https://s2.loli.net/2022/04/26/DvmJSiKlaV5bHW8.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/DvmJSiKlaV5bHW8.png)
 
 ## 总结
 

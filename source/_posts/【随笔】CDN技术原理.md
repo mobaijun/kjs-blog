@@ -21,7 +21,7 @@ summary:
 
 > CDN的全称是Content Delivery Network,即内容分发网络。使用户可就近取得所需内容，解决Internet网络拥挤的状况，提高用户访问网站的响应速度。
 
-![image-20200612153544714](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612153546.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200612153546.png)
 
 - N0.1 最小规模阶段：1台服务器，面向所有用户
 - N0.2 规模扩大阶段：2台服务器，面向不同地区的用户
@@ -29,7 +29,7 @@ summary:
 
 ### 用户能够就近访问服务器
 
-![image-20200612153627840](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612153629.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200612153629.png)
 
 - 提高用户的访问速度
 - 减轻服务器的压力
@@ -39,23 +39,23 @@ summary:
 
 ### 网页加速
 
-![image-20200612153817729](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612153819.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200612153819.png)
 
 ### 流媒体加速
 
-![流媒体加速](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612153846.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200612153846.png)
 
 ### 大文件加速
 
-![大文件加速](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612153915.png)
+![大文件加速](https://tencent.cos.mobaijun.com/article_with_pictures/20200612153915.png)
 
 ### 应用协议加速
 
-![应用协议加速](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612153958.png)
+![应用协议加速](https://tencent.cos.mobaijun.com/article_with_pictures/20200612153958.png)
 
 ##  路由转发技术
 
-![路由转发技术](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612140508.png)
+![路由转发技术](https://tencent.cos.mobaijun.com/article_with_pictures/20200612140508.png)
 
 > * 当用户访问`http://www.test.com/1.html`这个域名时
 > * 会首先发送请求到本地DNS服务器,对`http://www.test.com/1.html`这个域名进行解析
@@ -65,7 +65,7 @@ summary:
 
 ### 负载均衡
 
-![负载均衡](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612141123.png)
+![负载均衡](https://tencent.cos.mobaijun.com/article_with_pictures/20200612141123.png)
 
 > * 路由转发的技术也是在负载均衡的基础上发展来的,也可以解释为路由转发是负载均衡的其中一种
 
@@ -79,7 +79,7 @@ summary:
 
 #### 本地负载均衡
 
-![本地负载均衡](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612142022.png)
+![本地负载均衡](https://tencent.cos.mobaijun.com/article_with_pictures/20200612142022.png)
 
 > * 本地负载均衡是指对本地的服务器进行负载均衡
 > * 这些服务器通常都在一个机房内,没有地理位置的差异
@@ -88,14 +88,14 @@ summary:
 
 ###### 主动探测
 
-![主动探测](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612142713.png)
+![主动探测](https://tencent.cos.mobaijun.com/article_with_pictures/20200612142713.png)
 
 > * 智能交换设备通过`ping www.mobaijun.com`方法进行探测
 > * 判断目标服务器是否健康
 
 ###### 协议交互
 
-![协议交互](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612142710.png)
+![协议交互](https://tencent.cos.mobaijun.com/article_with_pictures/20200612142710.png)
 
 > * 这个协议目前是没有固定的标准和格式,一般都是由各大厂商自行规定
 >
@@ -116,17 +116,17 @@ summary:
 
 #### 全局负载均衡
 
-![全局负载均衡](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612143241.png)
+![全局负载均衡](https://tencent.cos.mobaijun.com/article_with_pictures/20200612143241.png)
 
 > * 全局负载均衡和本地负载均衡结构基本一样,但是由于其地理位置差异巨大,有时几十公里,有时几百公里,因此在实现的技术方面也有很大差异,并且也有自己不同的优缺点
 > * **全局负载均衡实现方式**
 >   * 方式一:根据IP地址库投票匹配
 >
-> ![IP地址库投票匹配](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612143750.png)
+> ![IP地址库投票匹配](https://tencent.cos.mobaijun.com/article_with_pictures/20200612143750.png)
 >
 > * * 方式二:CDN主动探测目标最近距离
 >
-> ![CDN主动探测目标最近距离](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612144011.png)
+> ![CDN主动探测目标最近距离](https://tencent.cos.mobaijun.com/article_with_pictures/20200612144011.png)
 >
 > > 用户发送一个请求,智能DNS会向所有的节点发送一个探测指令,节点收到探测指令以后会主动判断自己和目标之间的距离,然后将探测的结果反馈给智能DNS,由智能DNS进行判断,最后返回综合评分最高的节点地址
 
@@ -150,7 +150,7 @@ summary:
 
 ## 内容分发技术
 
-![内容分发技术](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612140459.png)
+![内容分发技术](https://tencent.cos.mobaijun.com/article_with_pictures/20200612140459.png)
 
 > * 当源站需要分发内容的时候,可以将分发内容分发到CDN中间源
 > * 再由CDN中间源转发内容到各个CDN节点
@@ -159,56 +159,56 @@ summary:
 
 #### 主动推送(push)
 
-![主动推送](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612144939.png)
+![主动推送](https://tencent.cos.mobaijun.com/article_with_pictures/20200612144939.png)
 
 > * 主动推送就是服务器源站将内容分发到内容节点
 > * 用户访问时就可以直接访问到节点上的副本
 
 #### 被动推送()
 
-![被动推送](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145052.png)
+![被动推送](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145052.png)
 
 > 被动访问就是在用户访问时,向镜像服务器发送请求,如果镜像服务器上有内容,就直接返回给用户,如果没有,就到服务器源站获取后在返回给用户
 
 #### CDN边缘节点上的内容是实时更新的嘛?
 
-![CDN边缘节点上的内容是实时更新的嘛](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145312.png)
+![CDN边缘节点上的内容是实时更新的嘛](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145312.png)
 
 #### 一个源站给那么多节点推送数据压力会不会很大?
 
-![推送数据鸭梨大](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145453.png)
+![推送数据鸭梨大](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145453.png)
 
-![内容下发](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145511.png)
+![内容下发](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145511.png)
 
-![主动请求](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145528.png)
+![主动请求](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145528.png)
 
 #### 应该怎么做才能最大程度的加速网站内容?
 
-![加速网站](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145634.png)
+![加速网站](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145634.png)
 
 #### CDN怎么处理文件的Cache-Control设置?
 
-![文件缓存](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145802.png)
+![文件缓存](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145802.png)
 
 #### CDN对跨域的处理?
 
 ##### 什么是跨域?
 
-![跨域](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612145933.png)
+![跨域](https://tencent.cos.mobaijun.com/article_with_pictures/20200612145933.png)
 
 ##### 解决方案
 
-![解决方案](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612150101.png)
+![解决方案](https://tencent.cos.mobaijun.com/article_with_pictures/20200612150101.png)
 
 ## 内容存储技术
 
-![内容存储技术](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612140949.png)
+![内容存储技术](https://tencent.cos.mobaijun.com/article_with_pictures/20200612140949.png)
 
 ### 内容存储介质
 
 > 目前市面上主流有两种
 
-![内容存储介质](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612150239.png)
+![内容存储介质](https://tencent.cos.mobaijun.com/article_with_pictures/20200612150239.png)
 
 ### 存储结构
 
@@ -220,15 +220,15 @@ summary:
 
 ### NAS(Network Attached Storage)(网络附属存储)
 
-![网络附属存储](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612151005.png)
+![网络附属存储](https://tencent.cos.mobaijun.com/article_with_pictures/20200612151005.png)
 
 ### NAS内部实现架构
 
-![内部实现架构](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612151034.png)
+![内部实现架构](https://tencent.cos.mobaijun.com/article_with_pictures/20200612151034.png)
 
 ### NAS外部实现架构
 
-![外部实现架构](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612151137.png)
+![外部实现架构](https://tencent.cos.mobaijun.com/article_with_pictures/20200612151137.png)
 
 ### NAS的优点
 
@@ -247,15 +247,15 @@ summary:
 
 ### 拓扑结构相似
 
-![拓扑结构](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612151748.png)
+![拓扑结构](https://tencent.cos.mobaijun.com/article_with_pictures/20200612151748.png)
 
 ### 管理成本低
 
-![管理成本低](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612151859.png)
+![管理成本低](https://tencent.cos.mobaijun.com/article_with_pictures/20200612151859.png)
 
 ### 弹性化结构
 
-![弹性化结构](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612151952.png)
+![弹性化结构](https://tencent.cos.mobaijun.com/article_with_pictures/20200612151952.png)
 
 ### 性能更加好
 
@@ -273,11 +273,11 @@ summary:
 
 ## 内容管理技术
 
-![内容管理技术](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612141040.png)
+![内容管理技术](https://tencent.cos.mobaijun.com/article_with_pictures/20200612141040.png)
 
 > 内容管理技术主要是软件层的应用
 
-![管理系统](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200612152817.png)
+![管理系统](https://tencent.cos.mobaijun.com/article_with_pictures/20200612152817.png)
 
 ### 资源管理系统
 

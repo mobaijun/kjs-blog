@@ -257,20 +257,5 @@ Lambda的语法非常简洁，完全没有面向对象复杂的束缚。但是�
 
 > 备注：有且仅有一个抽象方法的接口，称为“函数式接口”。
 
-**持续更新中...，如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】，当然，欢迎点击文章最后的打赏按键，请墨白喝一杯冰阔乐，笑～**
-
-<escspe>
-
-<table>
-    <tr>
-        <td><img width="150px" height="150px"
-                 src="https://cdn.jsdelivr.net/gh/mobaijun/blog_css_js/image/alipay.png"></td>
-        <td><img width="150px" height="150px"
-                 src="https://cdn.jsdelivr.net/gh/mobaijun/blog_css_js/image/wechat.png"></td>
-        <td><img width="150px" height="150px"
-                 src="https://mobaijun.gitee.io/mobai_images.gitee.io/img/zf/zan.jpg"></td>
-    </tr>
-</table>
-
-<escape>
+持续更新中...，如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】
 

@@ -21,7 +21,7 @@ categories:
 
 一般来说，日常使用只要记住下图6个命令，就可以了。但是熟练使用，恐怕要记住60～100个命令。
 
-![](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210923103329510.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210923103329510.png)
 
 下面是我整理的常用 Git 命令清单。几个专用名词的译名如下。
 

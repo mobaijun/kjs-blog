@@ -19,7 +19,7 @@ summary:
 
 
 
-![nginx](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613100417.png)
+![nginx](https://tencent.cos.mobaijun.com/article_with_pictures/20200613100417.png)
 
 ## Nginx基本概念
 
@@ -49,7 +49,7 @@ summary:
 
 > Nginx 不仅可以做反向代理，实现负载均衡。还能用作正向代理来进行上网等功能。 正向代理：如果把局域网外的 Internet 想象成一个巨大的资源库，则局域网中的客户端要访 问 Internet，则需要通过代理服务器来访问，这种代理服务就称为正向代理。
 
-![正向代理](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613101630.png)
+![正向代理](https://tencent.cos.mobaijun.com/article_with_pictures/20200613101630.png)
 
 > 在客户端浏览器中配置代理服务器指定网站访问
 
@@ -57,7 +57,7 @@ summary:
 
 > 反向代理，其实客户端对代理是无感知的，因为客户端不需要任何配置就可以访问，我们只需要将请求发送到反向代理服务器，由反向代理服务器去选择目标服务器获取数据后，在返 回给客户端，此时反向代理服务器和目标服务器对外就是一个服务器，暴露的是代理服务器地址，隐藏了真实服务器IP地址。
 
-![反向代理](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613102113.png)
+![反向代理](https://tencent.cos.mobaijun.com/article_with_pictures/20200613102113.png)
 
 ### 负载均衡
 
@@ -65,13 +65,13 @@ summary:
 
 > 客户端发送多个请求到服务器，服务器处理请求，有一些可能要与数据库进行交互，服务器处理完毕后，再将结果返回给客户端。
 
-![单一架构](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613102613.png)
+![单一架构](https://tencent.cos.mobaijun.com/article_with_pictures/20200613102613.png)
 
 * 负载均衡解决方案
 
 > 单个服务器解决不了，我们增加服务器的数量，然后将请求分发到各个服务器上，将原先请求集中到单个服务器上的情况改为将请求分发到多个服务器上，将负载分发到不同的服务器，也就是我们所说的`负载均衡`
 
-![负载均衡](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613103130.png)
+![负载均衡](https://tencent.cos.mobaijun.com/article_with_pictures/20200613103130.png)
 
 > 概述:将大量请求通过反向代理服务器进行均衡分发到各个源服务器,从而实现三高(高性能、高并发、高可用);
 
@@ -79,11 +79,11 @@ summary:
 
 > 为了加快网站的解析速度，可以把动态页面和静态页面由不同的服务器来解析，加快解析速度。降低原来单个服务器的压力。
 
-![动静分离](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613103642.png)
+![动静分离](https://tencent.cos.mobaijun.com/article_with_pictures/20200613103642.png)
 
 ### 动静分离实现
 
-![动静分离](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613103900.png)
+![动静分离](https://tencent.cos.mobaijun.com/article_with_pictures/20200613103900.png)
 
 ## 安装Nginx
 
@@ -91,7 +91,7 @@ summary:
 
 官网地址:[传送门](http://nginx.org/)
 
-![版本选择](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613104425.png)
+![版本选择](https://tencent.cos.mobaijun.com/article_with_pictures/20200613104425.png)
 
 * 查看nginx全部版本
 
@@ -171,7 +171,7 @@ $ firewall-cmd --list-all
 
 **效果:**
 
-![最终效果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613130016.png)
+![最终效果](https://tencent.cos.mobaijun.com/article_with_pictures/20200613130016.png)
 
 ## Nginx常用操作命令
 
@@ -253,7 +253,7 @@ $ cd conf/
 $ ll
 ~~~
 
-![nginx配置文件目录](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613132410.png)
+![nginx配置文件目录](https://tencent.cos.mobaijun.com/article_with_pictures/20200613132410.png)
 
 ### Nginx配置文件组成
 
@@ -435,25 +435,25 @@ http {
 
 * 阿里云服务器默认未开启除(22/3389/1)以外其他端口,添加了服务需要去控制台安全组手动添加服务端口
 
-![安全组规则配置](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613150150.png)
+![安全组规则配置](https://tencent.cos.mobaijun.com/article_with_pictures/20200613150150.png)
 
 * 浏览器输入`公网IP`,访问`tomcat`
 
-![image-20200613150330344](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613150331.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200613150331.png)
 
 ### 访问过程分析
 
-![访问过程分析](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613150733.png)
+![访问过程分析](https://tencent.cos.mobaijun.com/article_with_pictures/20200613150733.png)
 
 ### 具体实现
 
 > 在Windows系统路径`C:\Windows\System32\drivers\etc\hosts`打开hosts文件,进行域名和IP对应关系的配置,如下图
 
-![hosts文件映射](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613151348.png)
+![hosts文件映射](https://tencent.cos.mobaijun.com/article_with_pictures/20200613151348.png)
 
 * 设置Windows的hosts文件域名映射以后的效果
 
-![www.mobai.com:8080](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613151828.png)
+![www.mobai.com:8080](https://tencent.cos.mobaijun.com/article_with_pictures/20200613151828.png)
 
 ### 在Nginx进行请求转发设置(反向代理)
 
@@ -477,7 +477,7 @@ location / {
 }
 ~~~
 
-![请求转发](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613152757.png)
+![请求转发](https://tencent.cos.mobaijun.com/article_with_pictures/20200613152757.png)
 
 * 测试
 
@@ -490,7 +490,7 @@ $ ./nginx
 
 * 效果
 
-![反向代理效果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613153253.png)
+![反向代理效果](https://tencent.cos.mobaijun.com/article_with_pictures/20200613153253.png)
 
 ## Nginx配置实例-反向代理(2)
 
@@ -572,11 +572,11 @@ $ ./nginx -s stop
 $ ./nginx
 ~~~
 
-![修改的文件](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200615091455.png)
+![修改的文件](https://tencent.cos.mobaijun.com/article_with_pictures/20200615091455.png)
 
 ### 测试
 
-![完整效果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613163541.png)
+![完整效果](https://tencent.cos.mobaijun.com/article_with_pictures/20200613163541.png)
 
 ### location的匹配符
 
@@ -624,7 +624,7 @@ $ vim nginx.conf
         }
 ~~~
 
-![设置图](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613203544.png)
+![设置图](https://tencent.cos.mobaijun.com/article_with_pictures/20200613203544.png)
 
 ### 效果
 
@@ -637,7 +637,7 @@ $ ./nginx -s stop
 $ ./nginx
 ~~~
 
-![效果图](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613204318.png)
+![效果图](https://tencent.cos.mobaijun.com/article_with_pictures/20200613204318.png)
 
 > nginx会将请求分发到不同的服务器中，来达到服务器的压力均衡
 
@@ -699,7 +699,7 @@ $ ./nginx
 > > *  第一种：是纯粹把静态文件独立成单独的域名，放在独立的服务器上，也是目前主流推崇的方案； 
 > > *  第二种：方法就是动态跟静态文件混合在一起发布，通过nginx来分开。
 
-![动静分离](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613213818.png)
+![动静分离](https://tencent.cos.mobaijun.com/article_with_pictures/20200613213818.png)
 
 > 通过 `location `指定不同的后缀名实现不同的请求转发。通过 `expires `参数设置，可以使浏 览器缓存过期时间，减少与服务器之前的请求和流量。具体 `Expires `定义：是给一个资源 设定一个过期时间，也就是说无需去服务端验证，直接通过浏览器自身确认是否过期即可， 所以不会产生额外的流量。此种方法非常适合不经常变动的资源。（如果经常更新的文件， 不建议使用 Expires 来缓存），我这里设置`3d`，表示在这 3 天之内访问这个`URL`，发送一 个请求，比对服务器该文件最后更新时间没有变化，则不会从服务器抓取，返回状态码`304`， 如果有修改，则直接从服务器重新下载，返回状态码 `200`。
 
@@ -759,7 +759,7 @@ $ ./nginx -s stop
 $ ./nginx
 ~~~
 
-![image-20200613220126822](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613220128.png)
+![image-20200613220126822](https://tencent.cos.mobaijun.com/article_with_pictures/20200613220128.png)
 
 > 动静分离:
 >
@@ -773,7 +773,7 @@ http://39.108.96.122/image/logo.png # 访问image文件
 http://39.108.96.122/www/a.html # 访问html文件
 ~~~
 
-![测试效果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613221304.png)
+![测试效果](https://tencent.cos.mobaijun.com/article_with_pictures/20200613221304.png)
 
 > `autoindex on;`可以列出文件目录
 
@@ -783,13 +783,13 @@ http://39.108.96.122/www/a.html # 访问html文件
 
 > Nginx可能会宕机导致无法用户无法访问到服务器资源
 
-![问题](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613221957.png)
+![问题](https://tencent.cos.mobaijun.com/article_with_pictures/20200613221957.png)
 
 
 
 ### 解决方案(高可用主从配置)
 
-![主从配置](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613222646.png)
+![主从配置](https://tencent.cos.mobaijun.com/article_with_pictures/20200613222646.png)
 
 > 如果主服务器`nginx`挂掉了,那么需要保证系统依然可以正常运行,这就是高可用,需要配置`keepalived`在`主从服务器中进行判断nginx的状态,如果正常运行就不切换`nginx`服务器,如果宕机,就切换`备份`nginx`服务器,并且对外提供一个不存在的`虚拟IP`
 
@@ -1113,11 +1113,11 @@ fi
 
 ### Master工作方式
 
-![master工作方式](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613232358.png)
+![master工作方式](https://tencent.cos.mobaijun.com/article_with_pictures/20200613232358.png)
 
 ### Worker工作方式
 
-![worker工作方式](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200613232832.png)
+![worker工作方式](https://tencent.cos.mobaijun.com/article_with_pictures/20200613232832.png)
 
 > 一个` master` 和多个`woker `有那些好处
 >
@@ -1196,11 +1196,11 @@ $ yum remove nginx
 
 * 解压缩以后配置环境变量
 
-![系统变量](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20201203164552.png)
+![系统变量](https://tencent.cos.mobaijun.com/article_with_pictures/20201203164552.png)
 
 * `PATH` 引入 `NGINX_HOME`
 
-![path](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20201203164648.png)
+![path](https://tencent.cos.mobaijun.com/article_with_pictures/20201203164648.png)
 
 * 启动Nginx
 
@@ -1216,11 +1216,11 @@ start nginx
 
 * 任务管理器查看是否有 `nginx` 进程
 
-![image-20201203165952134](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20201203165952.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20201203165952.png)
 
 * 打开浏览器，输入`localhost:80`
 
-![image-20201203170047120](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20201203170047.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20201203170047.png)
 
 > 安装成功
 
@@ -1264,7 +1264,7 @@ start nginx
 
 * 当前目录下已管理员身份运行命令行，添加到服务中，并启动服务
 
-![服务](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20201208093858.png)
+![服务](https://tencent.cos.mobaijun.com/article_with_pictures/20201208093858.png)
 
 * 常用指令
 

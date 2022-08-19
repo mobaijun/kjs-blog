@@ -30,11 +30,9 @@ password:
 
 * 打开File===>Settings
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/images/image-1.png)
-
 * 点开Editor=>Code Style=>Java=>Code Generation ==勾选下面截图的位置==
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/images/image-2.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819154224251.png)
 
 返回IDEA重新输入:
 

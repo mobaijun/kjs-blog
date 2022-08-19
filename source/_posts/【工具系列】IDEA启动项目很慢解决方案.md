@@ -29,9 +29,9 @@ summary:
 
   为了设置JVM参数，我们先找到IDEA的安装目录。
 
-  对IDEA的快捷方式点右键，打开所在文件夹。
+* 打开idea，点击help
 
-![image](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2019-12-19/1.jpg)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819154338007.png)
 
  2个最重要的必须改Xmx与Xms ,修改你的IDEA内存参数:**idea64.exe.vmoptions**,把它们改的大一点，并且一样大。
 

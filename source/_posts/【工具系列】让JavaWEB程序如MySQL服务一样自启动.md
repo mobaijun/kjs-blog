@@ -31,7 +31,7 @@ summary:
 
 [官网地址:](https://github.com/winsw/winsw/releases/tag/v3.0.0-alpha.3)
 
-![image-20200818151724948](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200818151725.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200818151725.png)
 
 > <font color="red">需要注意的是</font>,上面的下载包圈错了,应该是下载第一个,然后下载xml文件
 >
@@ -41,13 +41,13 @@ summary:
 
 [传送地址](https://github.com/winsw/winsw/releases)
 
-![image-20200819111522762](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200819111522.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200819111522.png)
 
 ### 使用
 
 > 将打包的SpringBoot项目和下载的XML文件/server.exe文件存放在一个目录下
 
-![image-20200819111825573](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200819111825.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200819111825.png)
 
 * 修改配置文件`ZJDYService.xml`
 

@@ -23,8 +23,6 @@ summary:
 
 将你本地的密钥上传到复制添加到GitHub即可
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-9/5.jpg)
-
 有些朋友可能是第一次在电脑上配置Git,那么是没有SSH密钥的,需要生成一个,如果是`第一次配置`,需要进行以下步骤
 
 * 配置git用户名和邮箱

@@ -186,8 +186,6 @@ public class StringBuilderDemo1 {
 
 > StringBuilder类的作用是一个可变的字符串,拼接效率高
 
-![StringBuilder](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/6.jpg)
-
 ### 构造方法
 
 根据`StringBuilder`的API文档，常用构造方法有2个：

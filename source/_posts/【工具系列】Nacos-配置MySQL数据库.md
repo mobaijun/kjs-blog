@@ -43,11 +43,11 @@ db.password=youdontknow
 
 启动 nacos 后，打开 nacos 管理界面，在命名空间模块，创建一个开发环境配置的命名空间 develop ，如下图所示：
 
-![](https://cdn.mobaijun.com//2022/image-20220714085831481.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220714085831481.png)
 
 此时再查看我们的数据库表 tenant_info中已有创建的develop记录了，如下图所示：
 
-![](https://cdn.mobaijun.com//2022/image-20220714091332735.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220714091332735.png)
 
 #### 参考文档
 

@@ -349,4 +349,3 @@ SHOW VARIABLES LIKE '%datadir%';
 | datadir       | /var/lib/mysql/ |
 +---------------+-----------------+
 ~~~
-

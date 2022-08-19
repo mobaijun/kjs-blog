@@ -1,7 +1,7 @@
 /* Here is your custom css styles. */
 /*背景调试*/
 body {
-    background: url("https://cdn.mobaijun.com/qiniu_cdn/img/icon/pexels-felix-mittermeier-956999.jpg");
+    background: url("https://tencent.cos.mobaijun.com/img/icon/pexels-felix-mittermeier-956999.jpg");
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
@@ -9,12 +9,12 @@ body {
     /*修改字体*/
     font-family: "JetBrains Mono", serif;
     /*指针开始*/
-    cursor: url(https://cdn.mobaijun.com/qiniu_cdn/img/icon/Arrow.cur), auto;
+    cursor: url(https://tencent.cos.mobaijun.com/img/icon/Arrow.cur), auto;
 }
 
 /*指针结束*/
 a:hover {
-    cursor: url(https://cdn.mobaijun.com/qiniu_cdn/img/icon/Hand.cur), auto;
+    cursor: url(https://tencent.cos.mobaijun.com/img/icon/Hand.cur), auto;
 }
 
 /*导航栏颜色*/

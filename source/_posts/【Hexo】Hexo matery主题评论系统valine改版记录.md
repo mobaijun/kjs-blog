@@ -19,7 +19,7 @@ summary:
 
 * 记一次Valine修改记录，效果如下
 
-![修改记录](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20201212123856.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20201212123856.png)
 
 * 本主题为matery主题，修改适配matery
 

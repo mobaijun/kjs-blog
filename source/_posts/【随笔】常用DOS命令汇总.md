@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-![dos窗口](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20210118145719.png)
+![dos窗口](https://tencent.cos.mobaijun.com/article_with_pictures/20210118145719.png)
 
 ## Dos简介
 

@@ -52,11 +52,11 @@ $ dism /online /Enable-Feature /FeatureName:TelnetClient
 1. 打开 **控制面板** > **程序** > **启用或关闭 `Windows `功能**。
 2. 勾选 **`Telnet` 客户端** 选项。
 
-![image-20211129114305555](https://i.loli.net/2021/11/29/OqALRY1tHxzGMeJ.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/OqALRY1tHxzGMeJ.png)
 
 3. 单击 **确定**，等待安装完毕。
 
-![image-20211129114305666](https://i.loli.net/2021/11/29/FCsWQ2n1eLrf9wm.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/FCsWQ2n1eLrf9wm.png)
 
 ## Linux 系统安装 Telnet
 

@@ -91,7 +91,7 @@ $ hexo server(或者简写:hexo s）)
 
  然后浏览器打开`http://localhost:4000/`，就可以看到我们的博客啦，效果如下： 
 
-![]( https://mobaijun.gitee.io/mobai_images.gitee.io/img/hexo/3.png )
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819145605918.png)
 
 ## 安装主题
 
@@ -320,8 +320,6 @@ lazyload:
 > 2019-12-27 16:13😀😀
 
 这里中间出现了一个白色框框,看着很不舒服,尤其是有强迫症的人 ,定位到`themes\matery\layout\friends.ejs`这个文件
-
-![]( https://mobaijun.gitee.io/mobai_images.gitee.io/img/hexo/4.png )
 
 大概在229行代码左右,注释掉多余的代码
 
@@ -1066,8 +1064,6 @@ $ hexo d
 
 ## 文章头部添加作者
 
-![]( https://mobaijun.gitee.io/mobai_images.gitee.io/img/hexo/2.png )
-
 在这个`themes\matery\layout\_partial`位置打开`post-detail.ejs`,在如下位置添加代码
 
 ~~~javascript
@@ -1124,31 +1120,19 @@ $ cnpm -v
 
 ### 添加CNZZ统计
 
-**1.进入[友盟](https://workbench.umeng.com)官网注册账户**
+1.进入[友盟](https://workbench.umeng.com)官网注册账户
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/8.png)
+2.进入你的控制台
 
-**2.进入你的控制台**
+3.有三种选项供你选择,网站选择WEB端即可
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/8.jpg)
+4.添加你的网站相关信息
 
-**3.有三种选项供你选择,网站选择WEB端即可**
+5.挑选代码,[图标样式和文字统计]
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/9.jpg)
+6.文字统计需要开启统计图标“带数据显示”
 
-**4.添加你的网站相关信息**
-
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/10.jpg)
-
-**5.挑选代码,[图标样式和文字统计]**
-
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/11.jpg)
-
-**6.文字统计需要开启统计图标“带数据显示”**
-
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/12.jpg)
-
-**7.将代码复制粘贴到`\themes\matery\layout\_partial\footer.ejs`（任选一种样式就可以)**
+7.将代码复制粘贴到`\themes\matery\layout\_partial\footer.ejs`（任选一种样式就可以)
 
 ### hexo-neat插件实现代码压缩
 
@@ -1446,23 +1430,4 @@ $ hexo version
 
  显示 Hexo 版本。 
 
->  **持续更新中...，如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】，当然，欢迎点击文章最后的打赏按键，请墨白喝一杯冰阔乐，笑～**
-
-<table align="center">
-    <tr>
-        <td align="center"><img width="250px" height="250px"
-                                src="https://cdn.jsdelivr.net/gh/mobaijun/blog_css_js/image/alipay.png"/>
-        </td>
-        <td align="center"><img width="250px" height="250px"
-                                src="https://cdn.jsdelivr.net/gh/mobaijun/blog_css_js/image/wechat.png"/>
-        </td>
-        <td align="center"><img width="250px" height="250px"
-                                src="https://mobaijun.gitee.io/mobai_images.gitee.io\img\zf\zan.jpg"/>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">支付宝</td>
-        <td align="center">微信支付</td>
-        <td align="center">赞赏</td>
-    </tr>
-</table>
+>  持续更新中...，如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】

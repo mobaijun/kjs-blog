@@ -25,7 +25,7 @@ Hello World！ 新的故事从这里开始！
 
 ---
 
-![](https://cdn.mobaijun.com/qiniu_cdn/img/banner/1.jpg)
+![](https://tencent.cos.mobaijun.com/img/banner/0.jpg)
 
 明月何皎皎，照我罗床帏。
 

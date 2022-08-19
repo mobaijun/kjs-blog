@@ -23,7 +23,7 @@ summary:
 
 以前都是在 Centos 系统上面配置静态 IP 的，在 Ubuntu 上面还是第一次，所以就记录下。Ubuntu配置静态 IP 不是在 network 下配置，和 Centos 有很大区别。Ubuntu 从 17.10 版本开始，就放弃在  `/etc/network/interfaces` 里固定 IP 的配置，`interfaces` 文件不复存在，即使配置也不会生效，而是改成 `netplan` 方式 ，配置写在 `/etc/netplan/01-network-manager-all.yaml` 或者类似名称的 `yaml` 文件里
 
-![网卡配置文件](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20210818192540.png)
+![网卡配置文件](https://tencent.cos.mobaijun.com/article_with_pictures/20210818192540.png)
 
 ##  查看网卡
 
@@ -31,7 +31,7 @@ summary:
 $ ip addr
 ```
 
-![image-20210818192721116](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20210818192721.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20210818192721.png)
 
 ## 修改 yaml 文件
 
@@ -41,7 +41,7 @@ $ ip addr
 $ sudo vi /etc/netplan/01-network-manager-all.yaml
 ```
 
-![配置网卡](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20210818194735.png)
+![配置网卡](https://tencent.cos.mobaijun.com/article_with_pictures/20210818194735.png)
 
 
 

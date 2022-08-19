@@ -211,7 +211,7 @@ public class GoodsController {
 
 如果在*idea 或者 webStorm*中可以直接点击右上角浏览器运行，会自动生成一个服务器和端口，打开浏览器控制台页面，查看请求信息：
 
-![模拟跨域](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210707120914750.png)
+![模拟跨域](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210707120914750.png)
 
 看 `has been blocked by CORS policy` ，意味着被 CORS 策略阻塞了。我们的前端页面请求被 CORS 阻塞了，所以没成功获取到后端接口返回的数据。
 
@@ -274,7 +274,7 @@ public class CorsConfig {
 
 通过上面的配置类，实现了允许所有对该 Spring Boot 的请求跨域。此时再次打开网页，被跨域策略阻塞的提示消失，界面显示如下：
 
-![成功界面](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210707121831909.png)
+![成功界面](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210707121831909.png)
 
 ## 小插曲
 

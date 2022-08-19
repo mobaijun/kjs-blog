@@ -21,7 +21,7 @@ summary:
 
 > 写这篇博客主要是因为存储博客图片和一些文件占用GitHub仓库过大，导致仓库体积变大，所以找了一些方案，记录一下
 
-![原仓库大小](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011102608427.png)
+![原仓库大小](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011102608427.png)
 
 上图可以看到原仓库已经很大了，所以必须要清除一些仓库中没用的大文件了，每次下载仓库那个时间简直是太长了，github拉取时间太久，受不了了。
 
@@ -43,7 +43,7 @@ $ git verify-pack -v .git/objects/pack/pack-*.idx | sort -k 3 -g | tail -20
 
 结果类似下图（`从左往右依次是文件ID、文件类型、文件字节数、size-in-packfil、offset-in-packfile`），列表越往下，文件越大
 
-![文件列表](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011103320573.png)
+![文件列表](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011103320573.png)
 
 > 其实，往专业点来说，文件ID其实是SHA1，不过不知道这是啥也没关系。
 
@@ -63,7 +63,7 @@ $ git rev-list --objects --all | grep 273c3734ffbe8df3092e8409f41f895b190612ee
 
 * 结果如下：
 
-![执行结果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011103622472.png)
+![执行结果](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011103622472.png)
 
 复制`image/blog_images090816290568_01.png`文件地址留下来备用
 
@@ -79,7 +79,7 @@ $ git log --pretty=oneline --branches -- 【your_file】
 $ git log --pretty=oneline --branches -- image/blog_images090816290568_01.png
 ~~~
 
-![执行结果](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011103827629.png)
+![执行结果](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011103827629.png)
 
 上图显示了提交记录，然后继续下一步。
 
@@ -97,7 +97,7 @@ $ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch --i
 
 接下来就要稍等一下了，如下图，提交的记录越多，需要等待的时间越长。
 
-![image-20211011104100532](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011104100532.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011104100532.png)
 
 #### 3、4步需要注意的地方
 
@@ -133,7 +133,7 @@ $ git prune
 
 * 做完这一步查看仓库大小
 
-![清理后的仓库体积](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011104640539.png)
+![清理后的仓库体积](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011104640539.png)
 
 ## Gitee清理仓库体积
 
@@ -173,13 +173,13 @@ Force overwriting the backup with -f
 
 按照下图操作即可。
 
-![进入gc](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011105319487.png)
+![进入gc](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011105319487.png)
 
-![gc确认](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011105335910.png)
+![gc确认](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011105335910.png)
 
-![正在清理中](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011105347667.png)
+![正在清理中](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011105347667.png)
 
 然后，去仓库数据统计刷新一下仓库大小即可，大功告成！
 
-![查看大小](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211011105427312.png)
+![查看大小](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211011105427312.png)
 

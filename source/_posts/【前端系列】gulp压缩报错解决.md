@@ -19,8 +19,6 @@ summary:
 
 ## gulp压缩报错解决
 
-![gulp异常](https://mobaijun.gitee.io/mobai_images.gitee.io/img/hexo/5.png)
-
 刚刚上传博客的时候查看日志发现gulp压缩插件出现了一个bug,因为之前一直都是好好的,所有有点奇怪,看了一下说是 `Error in plugin "gulp-htmlmin"`这个错误,这个错误主要是我们没有在gulp的配置文件里面配置下面这行代码
 
 ~~~js

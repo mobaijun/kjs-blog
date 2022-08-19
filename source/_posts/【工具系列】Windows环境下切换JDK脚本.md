@@ -93,15 +93,15 @@ pause>nul
 
 * 设置脚本环境变量
 
-![](https://s2.loli.net/2022/01/24/O2yRpwab1tPVB5i.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/O2yRpwab1tPVB5i.png)
 
 * 打开 `cmd` 命令行窗口，输入脚本名称即可调用脚本，如下
 
-![](https://s2.loli.net/2022/01/24/L7zXaR1fwg2jHkc.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/L7zXaR1fwg2jHkc.png)
 
 * 新打开一个 `cmd` 窗口，输入 `java -version` 查看是否切换成功。
 
-![](https://s2.loli.net/2022/01/24/dMXJu5Hw2lj1i8k.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/dMXJu5Hw2lj1i8k.png)
 
 * 脚本源文件
 

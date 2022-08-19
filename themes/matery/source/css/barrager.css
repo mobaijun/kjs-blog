@@ -52,7 +52,7 @@
     margin-left: 20px;
     border-radius: 50%;
     margin-top: 8px;
-    background: rgba(255, 255, 255, .1) url("https://cdn.mobaijun.com/qiniu_cdn/img/icon/pexels-felix-mittermeier-956999.jpg");
+    background: rgba(255, 255, 255, .1) url("https://tencent.cos.mobaijun.com/img/icon/pexels-felix-mittermeier-956999.jpg");
 }
 
 .barrage_box:hover .close {

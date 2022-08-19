@@ -40,13 +40,13 @@ summary:
 
 * 新建仓库
 
-![image-20200525113231129](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525113237.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525113237.png)
 
 * 获取Token
 
 定位到码云[/设置/私人令牌/生成新令牌](https://gitee.com/profile/personal_access_tokens/new),一定记得`点击提交之后记得复制Token`,不然还要重新生成一个
 
-![image-20200525113618619](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525113640.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525113640.png)
 
 ### 设置PicGo
 
@@ -58,21 +58,21 @@ summary:
 
 * 下载插件
 
-![image-20200525114109400](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525114111.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114111.png)
 
 * 配置图床相关设置
 
-![image-20200525114351948](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525114353.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114353.png)
 
 * 其他一些设置(参考我的就好)
 
-![image-20200525115105123](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525115106.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525115106.png)
 
 ### 配置Typora
 
 定位到`/文件/偏好设置/图像/`
 
-![image-20200525114656323](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525114658.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114658.png)
 
 正常情况下是没有问题的了,下面配置狙击手
 
@@ -82,11 +82,11 @@ summary:
 
 `/状态栏/首选项/控制/`需要的话就按照我的配置即可
 
-![image-20200525114902015](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525114903.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114903.png)
 
 ### 最后的效果
 
-![image-20200525114932759](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200525114934.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114934.png)
 
 ### 结语
 

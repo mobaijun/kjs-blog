@@ -23,7 +23,7 @@ summary:
 
 > **目标**:MybatisPlus,为简化Mybatis开发而生,只做增强,不做改变
 
-![image-20200608115412280](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608115413.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608115413.png)
 
 ### 简介
 
@@ -33,7 +33,7 @@ summary:
 >
 > 我们的愿景是成为 MyBatis 最好的搭档，就像 [魂斗罗](https://mp.baomidou.com/img/contra.jpg) 中的 1P、2P，基友搭配，效率翻倍。
 
-![ ](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608115907.png)
+![ ](https://tencent.cos.mobaijun.com/article_with_pictures/20200608115907.png)
 
 ### 特性
 
@@ -59,7 +59,7 @@ summary:
 
 ### 框架结构
 
-![image-20200608120054528](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608120055.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608120055.png)
 
 ### 快速开始
 
@@ -235,7 +235,7 @@ class MybatisPlusApplicationTests {
 
 * 效果
 
-![image-20200608142055445](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608142057.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608142057.png)
 
 #### 思考
 
@@ -257,7 +257,7 @@ mybatis-plus:
 
 * 测试
 
-![image-20200608143341153](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608143346.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608143346.png)
 
 ### 插入测试和雪花算法
 
@@ -380,11 +380,11 @@ public void testInsert() {
 }
 ~~~
 
-![image-20200608151827902](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608151829.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608151829.png)
 
 * 查看数据表是否自增
 
-![image-20200608151959110](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608152000.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608152000.png)
 
 ### 更新操作
 
@@ -412,7 +412,7 @@ public void testUpdate() {
 
 * 结果
 
-![image-20200608153225436](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608153226.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608153226.png)
 
 ### 自动填充处理
 
@@ -595,7 +595,7 @@ where id = 2 and version = 1
 
 * 在数据库中添加`version`字段
 
-![image-20200608170606512](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200608170607.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200608170607.png)
 
 * 实体类
 
@@ -809,7 +809,7 @@ public void testDeleteMap() {
 
 * 在表中新增一个字段`deleted`逻辑删除
 
-![image-20200609092747972](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200609092811.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200609092811.png)
 
 * 实体类
 
@@ -854,13 +854,13 @@ public void testDeleted() {
 }
 ~~~
 
-![image-20200609100105430](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200609100106.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200609100106.png)
 
 * 数据库字段值变为`0`
 
 > 记录依旧在数据库，但是值确已经变化了！
 
-![image-20200609100143803](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200609100145.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200609100145.png)
 
 ### 性能分析插件
 
@@ -925,7 +925,7 @@ public void contextLoads2() {
 }
 ~~~
 
-![image-20200609102937985](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200609102939.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200609102939.png)
 
 > 使用性能分析插件，可以帮助我们提高效率！
 

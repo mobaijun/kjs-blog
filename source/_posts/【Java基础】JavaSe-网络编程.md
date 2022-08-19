@@ -19,7 +19,7 @@ summary:
 
 ### 网络编程概述
 
-![image-20210422164536696](https://i.loli.net/2021/04/23/a7wKTXMHBxPCfv9.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/a7wKTXMHBxPCfv9.png)
 
 * 计算机网络：
 
@@ -49,7 +49,7 @@ summary:
 
 TCP/IP参考模型
 
-![image-20210423150718052](https://i.loli.net/2021/04/23/bSHRxEj9287q6oK.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/bSHRxEj9287q6oK.png)
 
 1. 网络编程中有两个主要问题
    * 如何准确的定位到网络上的一台主机或多台主机
@@ -219,11 +219,11 @@ TCP和UDP对比
 
 * 三次握手建立连接
 
-![三次握手](https://i.loli.net/2021/04/25/KBw7JlDhr9fxAGR.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/KBw7JlDhr9fxAGR.png)
 
 * 四次握手关闭连接
 
-![四次握手](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210425094232014.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210425094232014.png)
 
 * UDP
   * 发短信
@@ -233,7 +233,7 @@ TCP和UDP对比
   * DDOS：洪水攻击！
   * 导弹攻击，（饱和攻击）
 
-![UDP传输协议](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/add.gif)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/add.gif)
 
 ### TCP实现聊天
 
@@ -422,7 +422,7 @@ public class TcpClientFile {
 
 > Internet 的传输层有两个主要协议，互为补充。无连接的是 UDP，它除了给应用程序发送数据包功能并允许它们在所需的层次上架构自己的协议之外，几乎没有做什么特别的事情。面向连接的是 [TCP](https://baike.baidu.com/item/TCP/33012)，该协议几乎做了所有的事情。
 
-![udp传输概念图](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210425140225667.png)
+![udp传输概念图](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210425140225667.png)
 
 * 发送消息
 

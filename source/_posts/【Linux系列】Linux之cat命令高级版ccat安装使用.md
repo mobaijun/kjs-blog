@@ -91,4 +91,4 @@ $ source ~/.bashrc
 $ cp -f /usr/bin/ccat /usr/bin/cat
 ```
 
-![img](https://cdn.mobaijun.com/qiniu_cdn/img/banner/3.jpg)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/3.jpg)

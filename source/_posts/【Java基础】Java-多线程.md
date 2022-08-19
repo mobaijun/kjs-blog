@@ -75,7 +75,7 @@ public class ThreadTest extends Thread {
 }
 ~~~
 
-![image-20200615103447585](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200615103449.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200615103449.png)
 
 > 注意:线程开启不一定立即执行,由CPU调度执行
 
@@ -354,7 +354,7 @@ public class RunnableTest implements Runnable {
 
 ## 多线程龟兔赛跑
 
-![龟兔赛跑](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200615114639.png)
+![龟兔赛跑](https://tencent.cos.mobaijun.com/article_with_pictures/20200615114639.png)
 
 > * 首先需要定义赛道距离,然后要离终点越来越近
 > * 判断比赛是否接受
@@ -613,7 +613,7 @@ class WeddingCompany implements Marry {
 
 ## Lambda表达式
 
-![Lambda](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200615140344.png)
+![Lambda](https://tencent.cos.mobaijun.com/article_with_pictures/20200615140344.png)
 
 > * 希腊字母表中排序第十一位的字母，大写为Λ，英语名称为Lambda。
 > * 避免匿名内部类定义过多
@@ -811,7 +811,7 @@ i love you -->522
 
 ### 概览
 
-![线程状态](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200615145733.png)
+![线程状态](https://tencent.cos.mobaijun.com/article_with_pictures/20200615145733.png)
 
 > * 创建状态: 	new的时候,诞生
 > * 启动线程: 	调用start()的时候
@@ -822,7 +822,7 @@ i love you -->522
 
 ### 详细图
 
-![线程状态详细图](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200615150305.png)
+![线程状态详细图](https://tencent.cos.mobaijun.com/article_with_pictures/20200615150305.png)
 
 * 线程状态常用方法
 
@@ -1603,7 +1603,7 @@ class BuyTicket implements Runnable {
 }
 ~~~
 
-![image-20200616113356744](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200616113357.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200616113357.png)
 
 > > 同步块
 >
@@ -1958,7 +1958,7 @@ class TestLock2 implements Runnable {
 >   * 如果仓库中放有产品,则消费者可以将产品取走消费,否则停止消费并等待
 >     直到仓库中再次放入产品为止
 >
-> ![生产消费模式](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200616125943.png)
+> ![生产消费模式](https://tencent.cos.mobaijun.com/article_with_pictures/20200616125943.png)
 
 ### 线程通信分析
 

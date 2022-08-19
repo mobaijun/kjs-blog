@@ -44,7 +44,7 @@ Typora 官网
 https://typora.io
 ~~~
 
-![](https://www.runoob.com/wp-content/uploads/2019/03/md1.gif)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/md1.gif)
 
 # Markdown 标题
 
@@ -64,7 +64,7 @@ Markdown 标题有两种格式。
 
 显示效果如下图：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/01986C87-7E19-4497-878E-AE996AFC088E.jpg)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/01986C87-7E19-4497-878E-AE996AFC088E.jpg)
 
 ### 使用 # 号标记
 
@@ -81,17 +81,17 @@ Markdown 标题有两种格式。
 
 显示效果如下图：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/md2.gif)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/md2.gif)
 
 # Markdown 段落
 
 Markdown 段落没有特殊的格式，直接编写文字就好，**段落的换行是使用两个以上空格加上回车**。
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg)
 
 当然也可以在段落后面使用一个空行来表示重新开始一个段落。
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/3F254936-778E-417A-BEF2-467116A55D00.jpg)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/3F254936-778E-417A-BEF2-467116A55D00.jpg)
 
 ------
 
@@ -110,7 +110,7 @@ ___粗斜体文本___
 
 显示效果如下所示：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/md3.gif)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/md3.gif)
 
 ------
 
@@ -132,7 +132,7 @@ ___粗斜体文本___
 
 显示效果如下所示：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/3F46EAA9-DADE-48FD-99AA-DF7BEBFAA4FA.jpg)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/3F46EAA9-DADE-48FD-99AA-DF7BEBFAA4FA.jpg)
 
 ------
 
@@ -148,7 +148,7 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/B5270A31-15D0-410B-AE1D-B9655B8F331C.jpg)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/B5270A31-15D0-410B-AE1D-B9655B8F331C.jpg)
 
 ------
 
@@ -162,7 +162,7 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg)
+![img](https://tencent.cos.mobaijun.com/article_with_pictures/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg)
 
 ------
 
@@ -870,7 +870,7 @@ A[方形] -->B(圆角)
 **2、竖向流程图源码格式：**
 
 ```
-​```mermaid
+```mermaid
 graph TD
 A[方形] --> B(圆角)
     B --> C{条件a}

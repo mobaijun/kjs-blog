@@ -126,7 +126,7 @@ $ rpm -i gitlab-ce-14.4.2-ce.0.el7.x86_64.rpm
 
 安装成功后会看到`gitlab-ce`打印了以下图形
 
-![image-20211114020918874](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211114020918874.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211114020918874.png)
 
 ### 2、配置 `GitLab `站点 `Url `和端口号
 
@@ -174,7 +174,7 @@ $ systemctl status gitlab-runsvdir.service
 
 `将设置的域名DNS解析到服务器IP，或者修改本地host将域名指向服务器IP。`访问：[http://192.168.0.10:8000/users/sign_in](http://192.168.0.10:8000/users/sign_in)
 
-![image-20211114023705951](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211114023705951.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211114023705951.png)
 
 进入首页，随后进行登录，管理员账号默认用户名是`root`。
 
@@ -188,7 +188,7 @@ Password: E+EA7WZie9zJbMQ2gwISeVN/We9DBZmYsMFpbjzhYcc=
 
 登录进来进入首页：
 
-![image-20211114024044448](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20211114024044448.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211114024044448.png)
 
 ## 四、GitLab常用配置
 

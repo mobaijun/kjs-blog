@@ -25,6 +25,6 @@ summary:
 
 最后终于找到了问题所在 原来是开网易云音乐的锅
 
-![image-20200529231236414](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/20200529231237.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529231237.png)
 
 网易云会有一个全局的快捷键ctrl+alt+L跟idea冲突 去网易云关了就好了,蛋疼

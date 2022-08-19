@@ -19,7 +19,7 @@ summary:
 
 ## 简介
 
-![](https://s2.loli.net/2022/01/07/Fmleh7kHuOZq4yv.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/Fmleh7kHuOZq4yv.png)
 
 * 什么是 Mybatis ？
 
@@ -41,7 +41,7 @@ Mybatis 是 Apache 软件基金会下的一个开源项目， 前身是 ibatis �
 
 ## 框架原理
 
-![](https://s2.loli.net/2022/01/07/oBZQhaRwNnxkz62.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/oBZQhaRwNnxkz62.png)
 
 ### 图说：
 

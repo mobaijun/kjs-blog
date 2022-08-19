@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-![](https://cdn.mobaijun.com/qiniu_cdn/img/banner/4.jpg)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/4.jpg)
 
 ## 介绍
 
@@ -27,15 +27,15 @@ summary:
 
 * 服务器架构信息如下：
 
-![image-20210608170457815](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210608170457815.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210608170457815.png)
 
 * 内存信息如下
 
-![image-20210608174250174](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210608174250174.png)
+![image-20210608174250174](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210608174250174.png)
 
 * os版本如下
 
-![image-20210608175348263](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210608175348263.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210608175348263.png)
 
 这台是*Kylin Linux Advanced Server V10 for ARM*操作系统，是标准的aarch64指令集的ARM架构服务器。kylin服务器是基于redhat版本的，基本可以等同于centos，所以熟悉centos的朋友操作麒麟应该非常熟练。
 
@@ -142,7 +142,7 @@ $ systemctl status docker
 $ docker -version
 ~~~
 
-![image-20210610165300607](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210610165300607.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210610165300607.png)
 
 ## 安装JDK
 
@@ -172,7 +172,7 @@ PATH=$JAVA_HOME/bin:$PATH
 export JAVA_HOME CLASSPATH PATH
 ~~~
 
-![验证](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210609151927191.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210609151927191.png)
 
 ## 安装influxdb
 
@@ -241,7 +241,7 @@ systemctl status influxdb
 
 因为已经安装了*Docker*，所以就直接用Docker操作了，*docker pull下载redis镜像*，*MySQL*是没有arm架构的，这个已经在*docker hup*上面确认过了，官方提供的包都是*AMD和Linux架构*，替代品为*mysql/mysql-server*,[传送门](https://registry.hub.docker.com/r/mysql/mysql-server/tags?page=1&ordering=last_updated)
 
-![image-20210610164927740](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210610164927740.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210610164927740.png)
 
 1. 拉取*redis*和*MySQL*镜像
 
@@ -256,7 +256,7 @@ $ docker pull mysql/mysql-server:latest
 $ docker images
 ~~~
 
-![image-20210610165206731](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210610165206731.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210610165206731.png)
 
 3. 启动*MySQL*和*redis*容器
 
@@ -278,7 +278,7 @@ $ docker run -itd --name mysql -p 3306:3306 -v /server/mysql/conf:/etc/mysql/con
 $ docker ps
 ~~~
 
-![image-20210610165940699](https://cdn.mobaijun.com/qiniu_cdn/img/blog_images/image-20210610165940699.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210610165940699.png)
 
 5. 进入容器
 

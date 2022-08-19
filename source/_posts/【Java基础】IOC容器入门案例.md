@@ -72,8 +72,6 @@ public class User {
 
 * `resource`目录下新建application.xml文件
 
-![快捷新建spring配置文件](https://mobaijun.gitee.io/mobai_images.gitee.io/img/14.42/1.jpg)
-
 * 编写xml配置文件
 
 ~~~xml

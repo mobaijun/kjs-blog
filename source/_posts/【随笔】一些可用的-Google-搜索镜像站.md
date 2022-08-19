@@ -27,7 +27,7 @@ summary:
 
 3. 请勿搜索含有政治、色情、敏感、暴力血腥、恐怖、其他国家法律法规禁止的词汇，以及浏览违法内容。
 
-![](https://cdn.mobaijun.com//2022/image-20220808091830661.png)
+![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220808091830661.png)
 
 ### 香港区域：
 
