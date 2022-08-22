@@ -198,5 +198,8 @@ doubanCard:
   #  https://ip.webmasterapi.com/api/imageproxy/
   #  https://images.weserv.nl/?url=
   #  https://pic1.xuehuaimg.com/proxy/
+  #  https://www.cloudimage.io/
+  #  https://cloudinary.com/
   #  https://search.pstatic.net/common?src=
+  #  https://imageproxy.pimg.tw/resize?url=
   imgProxy: https://images.weserv.nl/?url=
