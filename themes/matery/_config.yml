@@ -239,21 +239,6 @@ tcaptcha:
   enable: false
   appid: xxxxxxxxxx # 你的appid
 
-# Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
-valine:
-  enable: false
-  appId:  # 必填
-  appKey: # 必填
-  serverURLs: # 必填 https://你的api
-  notify: false
-  verify: false
-  visitor: true
-  avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
-  pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
-  background: https://tencent.cos.mobaijun.com/img/gif/Sitich30.gif
-  coolpushkey:
-
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
@@ -333,7 +318,6 @@ libs:
     dplayer: https://tencent.cos.mobaijun.com/libs/dplayer/DPlayer.min.js
     crypto: https://tencent.cos.mobaijun.com/libs/cryptojs/crypto-js.min.js
     echarts: https://tencent.cos.mobaijun.com/libs/echarts/echarts.min.js
-    valine: https://tencent.cos.mobaijun.com/libs/valine/Valine.min.js
     twikoo: https://tencent.cos.mobaijun.com/libs/twikoo/twikoo.all.min.js
     jqcloud: https://tencent.cos.mobaijun.com/libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: https://tencent.cos.mobaijun.com/libs/tocbot/tocbot.min.js
