@@ -881,10 +881,10 @@ hexo-deployer-git@^3.0.0:
     moment "^2.18.0"
     nunjucks "^3.2.1"
 
-hexo-douban-card@^1.3.6:
-  version "1.3.6"
-  resolved "https://registry.npmmirror.com/hexo-douban-card/-/hexo-douban-card-1.3.6.tgz"
-  integrity sha512-q+47NCfld0EQfq7wpIclgh5D+VDB0NfCnTKRO4L5/dGF636/YQs634/B8fldGsBV3ZD2DsKAqjO0MMQyJ7FYnw==
+hexo-douban-card@^1.3.7:
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/hexo-douban-card/-/hexo-douban-card-1.3.7.tgz#ecdb09fbdda74444e54decf5550a0110a8fdbb1c"
+  integrity sha512-0LacbzS1Tco7iJ5AXLlXJI++jGPkbGEnwshcgmQtV7iveie4MxrUGIUqe7WALYGJx1nZP6qwrpJoy2wSEVTnzA==
   dependencies:
     cheerio "^1.0.0-rc.3"
     hexo-fs "^3.1.0"
