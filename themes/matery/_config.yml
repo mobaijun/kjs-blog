@@ -183,6 +183,21 @@ myProjects:
       iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #45b97c 100%)'
       url: https://github.com/april-projects/april-wallpaper
       desc: 一個自動每日拉取 Wallpaper 網站的壁紙並進行分類整理(維護中/公共庫)
+    april-wallpasper:
+      icon: fa-brands fa-zhihu
+      iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #08A5F3 100%)'
+      url: https://github.com/april-projects/april-zh-hotspot-push
+      desc: 定時更新知乎熱點信息(維護中/公共庫)
+    april-sensitive:
+      icon: fa-solid fa-pen
+      iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #77E526 100%)'
+      url: https://github.com/april-projects/april-sensitive
+      desc: 简易小巧的脱敏工具类(維護中/公共庫)
+    april-typora-theme:
+      icon: fa-regular fa-text
+      iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #654485 100%)'
+      url: https://github.com/april-projects/april-typora-theme
+      desc: 一款 Typora 护眼绿主题(維護中/公共庫)
 
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
