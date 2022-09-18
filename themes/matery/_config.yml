@@ -260,10 +260,19 @@ githubLink:
   url: https://github.com/mobaijun
   title: Fork Me
 
+# Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
+waline:
+  enable: true
+  # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
+  # 下面是一个例子，请替换成自己的服务端
+  serverURL: https://waline-l9eqqbylw-mobaijun.vercel.app
+  # 头像风格
+  avatar: mm
+
 # Twikoo 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置环境 ID envId.
 # See: https://twikoo.js.org
 twikoo:
-  enable: true
+  enable: false
   envId: twikoo-8gwekmzl2719ceef # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
   region: ap-guangzhou # 环境地域，默认为 ap-shanghai
 
@@ -326,6 +335,8 @@ libs:
     sakura: https://tencent.cos.mobaijun.com/libs/others/sakura.js
     star: https://tencent.cos.mobaijun.com/libs/others/star.js
     snow: https://tencent.cos.mobaijun.com/libs/others/snow.js
+    waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
+    # waline: https://tencent.cos.mobaijun.com/libs/waline/Waline.min.js
     tcaptcha: https://tencent.cos.mobaijun.com/libs/others/TencentCaptcha.js
     busuanzi: https://tencent.cos.mobaijun.com/libs/others/busuanzi.pure.mini.js
     aplayer: https://tencent.cos.mobaijun.com/libs/aplayer/APlayer.min.js
@@ -569,7 +580,7 @@ fireworks:
 onload:
   enable: false
 
-# CDN访问加速 
+# CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
 # 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
 # URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
