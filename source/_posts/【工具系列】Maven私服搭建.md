@@ -145,6 +145,41 @@ $ ./nexus force-reload
 $ ./nexus status
 ~~~
 
+## 配置为系统服务
+
+* 添加配置文件
+
+~~~bash
+$ vi /etc/systemd/system/nexus.service
+[Unit]
+Description=nexus service
+After=network.target
+
+[Service]
+Type=forking
+LimitNOFILE=65536
+ExecStart=/usr/local/nexus-3.38.1-01/bin/nexus start
+ExecStop=/usr/local/nexus-3.38.1-01/bin/nexus stop
+User=root
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+~~~
+
+* 刷新系统服务&设置开机启动&启动服务
+
+~~~bash
+# 刷新系统服务
+$ systemctl daemon-reload
+# 设置开机启动
+$ systemctl enable nexus.service
+# 启动服务
+$ systemctl start nexus.service
+# 查看服务状态
+$ systemctl status nexus.service
+~~~
+
 ## 登录
 
 * 登录 nexus
