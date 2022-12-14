@@ -57,10 +57,10 @@ a:hover {
 
 
 /*整个网站变灰*/
-html {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
-    -webkit-filter: grayscale(100%);
-}
+/*html {*/
+/*    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);*/
+/*    -webkit-filter: grayscale(100%);*/
+/*}*/
 
 
 /* note 公共样式 */
