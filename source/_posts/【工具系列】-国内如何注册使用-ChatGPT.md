@@ -5,16 +5,16 @@ top: false
 cover: false
 toc: true
 mathjax: false
+abbrlink: 858351133
+tags:
+  - ChatGPT
+categories:
+  - 随笔
 date: 2022-12-13 15:04:20
 img:
 coverImg:
-abbrlink:
 password:
 summary:
-tags:
-- ChatGPT
-categories:
-- 随笔
 ---
 
 ![image-20221213150831700](./C:/Users/mobai/AppData/Roaming/Typora/typora-user-images/image-20221213150831700.png)

@@ -33,7 +33,7 @@ summary:
 
 > 下面来介绍下 Maven 中 dependencyManagement 作用说明。
 
-在Maven多模块的时候，管理依赖关系是非常重要的，各种依赖包冲突，查询问题起来非常复杂，于是就用到了 <dependencyManagement> ，
+在Maven多模块的时候，管理依赖关系是非常重要的，各种依赖包冲突，查询问题起来非常复杂，于是就用到了 `<dependencyManagement>` ，
 
 ### 示例说明，
 
@@ -52,7 +52,7 @@ summary:
 </dependencyManagement>
 ```
 
-那么在子模块中只需要 <groupId >和 <artifactId> 即可，如：
+那么在子模块中只需要 `<groupId >` 和 `<artifactId>` 即可，如：
 
 ~~~xml
 <dependencies>
