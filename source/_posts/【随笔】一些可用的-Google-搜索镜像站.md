@@ -29,13 +29,35 @@ summary:
 
 ![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220808091830661.png)
 
+---
+
+### 2023年3月2日更新
+
+Google搜索：[https://note.cm](https://yimili.net/go/?url=https://note.cm)
+
+~~Google搜索：[https://search.aust.cf/](https://yimili.net/go/?url=https://search.aust.cf/)~~
+
+~~Google搜索：[https://txt.muxinghe.ga/](https://yimili.net/go/?url=https://txt.muxinghe.ga/)~~
+
+~~Google搜索：[https://search.ecnu.cf/](https://yimili.net/go/?url=https://search.ecnu.cf/)~~
+
+Google学术：[https://so.niostack.com](https://yimili.net/go/?url=https://so.niostack.com/)
+
+Google搜索：[https://googe.fun/](https://yimili.net/go/?url=https://googe.fun/)
+
+Google搜索：[https://serx.ml/](https://yimili.net/go/?url=https://serx.ml/)
+
+Google搜索：[https://serx.ml/](https://yimili.net/go/?url=https://serx.ml/)
+
+Google搜索：[https://ge2.azurewebsites.net/](https://yimili.net/go/?url=https://ge2.azurewebsites.net/)
+
 ### 香港区域：
 
 ~~https://g.xzx725.top/~~
 
-http://d.6wl.cc/
+~~http://d.6wl.cc/~~
 
-https://g.qwq.fan/
+~~https://g.qwq.fan/~~
 
 [https://shitu.paodekuaiweixinqun.com/webhp/](https://shitu.paodekuaiweixinqun.com/webhp)
 
@@ -51,7 +73,7 @@ https://gogogle.cf/
 
 ### 日本区域：
 
-[https://www.谷歌.cf/](https://www.xn--flw351e.cf/)
+~~[https://www.谷歌.cf/](https://www.xn--flw351e.cf/)~~
 
 ~~https://www.googlejxz.ml/~~
 
@@ -75,9 +97,9 @@ https://gogogle.cf/
 
 ~~https://search.ecnu.cf/~~
 
-https://search.ahnu.cf/
+~~https://search.ahnu.cf/~~
 
-https://search.njau.cf/
+~~https://search.njau.cf/~~
 
 ~~https://goo.xbzxs.org/~~
 
@@ -85,10 +107,16 @@ https://s.iit.xyz/
 
 [https://谷歌.ml/](https://xn--flw351e.ml/)
 
-https://google.icloudnative.io/ （基于Google的Startpage）
+~~https://google.icloudnative.io/ （基于Google的Startpage）~~
 
 ~~https://google.pem.app/~~
 
 https://g48.i-research.edu.eu.org/
 
 ~~https://g20.i-research.edu.eu.org/~~
+
+### 注意：
+
+1.不要在镜像网站上登录谷歌账户，也不要搜索敏感词汇，只能用来查阅学习资料使用，滥用者与博主无关。
+
+2.请勿浏览有关于政治、暴力、色情等国家明令禁止的信息。
