@@ -603,6 +603,6 @@ public class SpringbootInfluxApplicationTests {
 }
 ~~~
 
-源码地址：[传送门](https://gitee.com/mobaijun/springboot_demo/tree/master/springboot_influx)
+源码地址：[传送门](https://github.com/mobaijun/spring-boot-wikis/tree/master/spring-boot-influxdb)
 
 以上就是完整项目代码，项目使用可能有所不同，按照项目需求修改即可！如有疑问，请在下方留言，或添加博主微信！

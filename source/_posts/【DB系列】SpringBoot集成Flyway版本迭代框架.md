@@ -386,7 +386,8 @@ ALTER TABLE `user` ADD COLUMN `address` VARCHAR(20) DEFAULT NULL;
 
 
 
-> <font color="#dc143c">源码地址：[传送门](https://gitee.com/mobaijun/spring-boot-wikis/tree/devople/spring-boot-flyway)</font>
+> <font color="#dc143c">
+源码地址：[传送门](https://github.com/mobaijun/spring-boot-wikis/tree/master/spring-boot-flyway)</font>
 >
 > 欢迎留言分享下你们的数据库版本管理方式😁😁😁！
 

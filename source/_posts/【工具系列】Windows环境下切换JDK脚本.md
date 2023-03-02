@@ -105,6 +105,7 @@ pause>nul
 
 * 脚本源文件
 
-> 传送门：[jdk切换脚本](https://gitee.com/mobaijun/windows-bat/blob/master/Windows%E7%A8%8B%E5%BA%8F%E7%9B%B8%E5%85%B3%E8%84%9A%E6%9C%AC/7.ToggleJdk.bat)
+> 传送门：[jdk切换脚本](https://github.com/april-projects/april-script/blob/main/windows-bat/application/7.ToggleJdk.bat)
 >
-> 环境变量刷新工具：[传送门](https://gitee.com/mobaijun/windows-bat/blob/master/Windows%E7%A8%8B%E5%BA%8F%E7%9B%B8%E5%85%B3%E8%84%9A%E6%9C%AC/RefreshEnv.exe)
+>
+环境变量刷新工具：[传送门](https://github.com/april-projects/april-script/blob/main/windows-bat/application/RefreshEnv.exe)

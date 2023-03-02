@@ -131,7 +131,7 @@ localhost:8080/xss?data=<script>alert("xss");</script>
 
   ![](https://tencent.cos.mobaijun.com/article_with_pictures/L7q8lk53vwCbZoG.png)
 
-返回内容为空，表示防护成功，是不是很简单😁😁😁。模拟 `demo` 源码：[spring-boot-xss · 墨白/spring-boot-wikis - 码云 - 开源中国](https://gitee.com/mobaijun/spring-boot-wikis/tree/devople/spring-boot-xss)
+返回内容为空，表示防护成功，是不是很简单😁😁😁。模拟 `demo`
+源码：[传送门](https://github.com/mobaijun/spring-boot-wikis/tree/master/spring-boot-xss)
 
 想要了解更多内容，可以查看官方文档。
-
