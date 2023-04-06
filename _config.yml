@@ -203,3 +203,6 @@ doubanCard:
   #  https://search.pstatic.net/common?src=
   #  https://imageproxy.pimg.tw/resize?url=
   imgProxy: https://images.weserv.nl/?url=
+  
+ # Ads.txt
+ads_txt: /ads.txt

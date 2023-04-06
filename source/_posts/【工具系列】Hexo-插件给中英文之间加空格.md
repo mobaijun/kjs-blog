@@ -34,7 +34,7 @@ npm install hexo-filter-auto-spacing --save
 ~~~yaml
 # hexo 中英文之间自动加空格
 auto_spacing:
-  enable: true
+  enable: false
 ~~~
 
 
