@@ -31,6 +31,20 @@ summary:
 
 ---
 
+### 2023年4月9日更新
+
+Google搜索：[https://google.qinai.blog/](https://google.qinai.blog/)
+
+Google搜索：[https://g.damfu.com/](https://g.damfu.com/)
+
+Google搜索：[https://xgoogle.xyz/](https://xgoogle.xyz/)
+
+Google搜索：[https://goo.xbzxs.org/](https://goo.xbzxs.org/)
+
+Google搜索：[https://google.power365.ml/](https://google.power365.ml/)
+
+Google搜索：[https://jsapi.usthk.cn/](https://jsapi.usthk.cn/)
+
 ### 2023年3月2日更新
 
 Google搜索：[https://note.cm](https://yimili.net/go/?url=https://note.cm)
@@ -43,9 +57,9 @@ Google搜索：[https://note.cm](https://yimili.net/go/?url=https://note.cm)
 
 Google学术：[https://so.niostack.com](https://yimili.net/go/?url=https://so.niostack.com/)
 
-Google搜索：[https://googe.fun/](https://yimili.net/go/?url=https://googe.fun/)
+~~Google搜索：[https://googe.fun/](https://yimili.net/go/?url=https://googe.fun/)~~
 
-Google搜索：[https://serx.ml/](https://yimili.net/go/?url=https://serx.ml/)
+Google搜索：[https://s.iit.xyz/](https://s.iit.xyz/)
 
 Google搜索：[https://serx.ml/](https://yimili.net/go/?url=https://serx.ml/)
 
@@ -102,8 +116,6 @@ https://gogogle.cf/
 ~~https://search.njau.cf/~~
 
 ~~https://goo.xbzxs.org/~~
-
-https://s.iit.xyz/
 
 [https://谷歌.ml/](https://xn--flw351e.ml/)
 

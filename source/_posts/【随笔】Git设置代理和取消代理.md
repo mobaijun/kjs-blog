@@ -19,7 +19,7 @@ summary:
 
 ## 前言
 
-很少拉取超过几个 GB 的仓库，但最近就是有这个需求，需要在 GitHub 拉取一个存放 PDF 的仓库，PDF 源文件小的有几 MB，大的有几十 MB，一个仓库大概有3GB左右，在启用全局代理的情况下，拉取速度还是很慢，保持在几十 KB 左右，换成 Git 代理来操作。
+很少拉取超过几个 GB 的仓库，但最近就是有这个需求，需要从 GitHub 拉取一个存放 PDF 的仓库，PDF 源文件小的有几 MB，大的有几十 MB，一个仓库大概有3GB左右，在启用全局代理的情况下，拉取速度还是很慢，保持在几十 KB 左右，换成 Git 代理来操作。
 
 ## 添加 https 和 htpp 代理
 
@@ -44,7 +44,7 @@ $ git config --global --unset https.proxy
 
 添加完代理下载这个仓库大概 3 分钟左右搞定。
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230408012228712.png)
+![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230408025513359.png)
 
 效果还是很理想的！
 
