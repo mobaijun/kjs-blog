@@ -7,16 +7,14 @@ toc: true
 mathjax: false
 abbrlink: 3073865067
 tags:
-
-- Junit
-  categories:
-- 后端
-  date: 2023-03-13 11:49:26
-  img:
-  coverImg:
-  password:
-  summary:
-
+  - Junit
+categories:
+  - 后端
+date: 2023-03-13 11:49:26
+img:
+coverImg:
+password:
+summary:
 ---
 
 ## 前言

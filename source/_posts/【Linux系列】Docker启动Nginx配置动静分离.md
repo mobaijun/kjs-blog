@@ -76,6 +76,8 @@ $ docker run -dit --restart=always --name=nginx -p 8005:80 -v /nginx/data/image:
 
 * 配置动静分离,修改`/nginx/conf.d/default.conf`配置文件
 
+<details>
+<summary>折叠代码块</summary>
 ~~~nginx
 server {
     # 监听端口
@@ -132,6 +134,7 @@ server {
     #}
 }
 ~~~
+</details>
 
 ![](https://tencent.cos.mobaijun.com/article_with_pictures/vzo9igPfqdhjbUY.png)
 

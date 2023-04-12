@@ -13,7 +13,7 @@ password:
 summary:
 tags:
 - Watchtower
-  categories:
+categories:
 - Linux
 ---
 

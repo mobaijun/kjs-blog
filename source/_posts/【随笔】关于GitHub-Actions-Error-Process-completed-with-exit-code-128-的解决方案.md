@@ -7,16 +7,14 @@ toc: true
 mathjax: false
 abbrlink: 1959112193
 tags:
-
-- Github Actions
-  categories:
-- 随笔
-  date: 2023-03-04 10:23:59
-  img:
-  coverImg:
-  password:
-  summary:
-
+ - Github Actions
+categories:
+ - 随笔
+date: 2023-03-04 10:23:59
+img:
+coverImg:
+password:
+summary:
 ---
 
 > Error: Process completed with exit code 128.
