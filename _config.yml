@@ -112,9 +112,10 @@ deploy:
 
 # 搜索
 search:
-  path: search.json
+  path: search.xml
   field: post
   content: false
+  template: ./search.xml
 
 # 中文链接转拼音
 permalink_pinyin:
@@ -205,5 +206,5 @@ doubanCard:
   #  https://imageproxy.pimg.tw/resize?url=
   imgProxy: https://pic1.xuehuaimg.com/proxy/
   
- # Ads.txt
+  # Ads.txt
 ads_txt: /ads.txt
