@@ -112,8 +112,9 @@ deploy:
 
 # 搜索
 search:
-  path: search.xml
+  path: search.json
   field: post
+  content: false
 
 # 中文链接转拼音
 permalink_pinyin:
