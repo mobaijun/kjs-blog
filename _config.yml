@@ -202,7 +202,7 @@ doubanCard:
   #  https://cloudinary.com/
   #  https://search.pstatic.net/common?src=
   #  https://imageproxy.pimg.tw/resize?url=
-  imgProxy: https://images.weserv.nl/?url=
+  imgProxy: https://pic1.xuehuaimg.com/proxy/
   
  # Ads.txt
 ads_txt: /ads.txt

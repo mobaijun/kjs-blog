@@ -73,7 +73,7 @@ indexbtn:
 socialLink:
   github: https://github.com/mobaijun
   gitee: https://gitee.com/mobaijun
-  java: https://mobaijun.gitee.io/mobai_images.gitee.io/ziliaoxiazai.html
+  java:
   wechat: https://tencent.cos.mobaijun.com/img/icon/about.png
   email: mobaijun8@163.com
   rss: true # true、false
