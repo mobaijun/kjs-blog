@@ -368,15 +368,15 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-  - https://tencent.cos.mobaijun.com/img/featureimages/1.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/2.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/2.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/4.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/5.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/6.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/7.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/8.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/9.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/01.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/02.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/02.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/04.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/05.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/06.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/07.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/08.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/09.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/10.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/11.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/12.jpg
@@ -418,56 +418,6 @@ featureImages:
   - https://tencent.cos.mobaijun.com/img/featureimages/48.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/49.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/50.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/51.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/52.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/53.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/54.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/55.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/56.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/57.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/58.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/59.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/60.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/61.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/62.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/63.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/64.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/65.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/66.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/67.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/68.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/69.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/70.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/71.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/72.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/73.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/74.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/75.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/76.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/77.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/78.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/79.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/80.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/81.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/82.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/83.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/84.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/85.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/86.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/87.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/88.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/89.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/90.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/91.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/92.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/93.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/94.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/95.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/96.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/97.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/98.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/99.jpg
-  - https://tencent.cos.mobaijun.com/img/featureimages/100.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -596,7 +546,7 @@ jsDelivr:
 # 网站背景图
 background:
   enable: false
-  url: "https://s3.ax1x.com/2020/12/12/rVUfCn.jpg"
+  url: "https://tencent.cos.mobaijun.com/img/banner/0.jpg"
 
 # 说说 https://artitalk.js.org/
 artitalk:
