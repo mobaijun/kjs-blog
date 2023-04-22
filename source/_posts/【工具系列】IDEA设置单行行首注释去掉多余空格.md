@@ -38,8 +38,6 @@ public class Demo1 {
 
 设置完这个地方还需要再设置一个地方
 
-![设置](https://mobaijun.gitee.io/mobai_images.gitee.io/img/zatu/1.jpg)
-
 在`Code Generation`标签卡中取消勾选`Line comment at first column`和`Block comment at first column`，然后勾选`Add a space at comment start`就好了。 最后在“Scheme”中设置项目“Project”。然后重新使用快捷键注释即可达到效果
 
 ~~~java
