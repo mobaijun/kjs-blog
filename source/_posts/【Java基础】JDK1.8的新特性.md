@@ -181,8 +181,6 @@ new Thread(r).start();//报错
 
 其实这样的接口，我们称为函数式接口，我们学过的`Runnable`、`Comparator`都是函数式接口的典型代表。但是在实践中，函数接口是非常脆弱的，只要有人在接口里添加多一个方法，那么这个接口就不是函数接口了，就会导致编译失败。Java 8提供了一个特殊的注解`@FunctionalInterface`来克服上面提到的脆弱性并且显示地表明函数接口。而且jdk8版本中，对很多已经存在的接口都添加了`@FunctionalInterface`注解，例如`Runnable`接口：
 
-![](https://mobaijun.gitee.io/mobai_images.gitee.io/img/runnable.png)
-
 另外，Jdk8默认提供了一些函数式接口供我们使用：
 
 ### 3.1 Function类型接口

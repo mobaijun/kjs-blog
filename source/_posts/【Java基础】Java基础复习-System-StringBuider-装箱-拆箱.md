@@ -172,7 +172,6 @@ public class StringBuilderDemo1 {
 
 根据这句话分析我们的代码，其实总共产生了三个字符串，即 "Hello" 、 "World" 和 "HelloWorld" 。引用变量s 首先指向 Hello 对象，终指向拼接出来的新字符串对象，即 HelloWord 。
 
-![String](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-4-29/5.jpg)
 
 > 由此可知，如果对字符串进行拼接操作，每次拼接，都会构建一个新的`String`对象，既耗时，又浪费空间。为了解 决这一问题，可以使用` java.lang.StringBuilder` 类。 
 

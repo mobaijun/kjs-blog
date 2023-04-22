@@ -35,7 +35,6 @@ and the repository exists.
 
 * **在clone的时候输入账户密码即可(公共库不需要,私有库需要)**
 
-![之前的用户名是mobaijun8](https://mobaijun.gitee.io/mobai_images.gitee.io/img/2020-5-9/6.jpg)
 
 * **使用config --global命令查看当前用户配置信息**
 
