@@ -19,7 +19,7 @@ summary:
 
 ## 了解阿里云用户权限操作
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610225503.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/0.png)
 
 ## 开通阿里云的短信服务
 
@@ -29,21 +29,21 @@ summary:
 
 * 点击个人头像`AccessKey 管理`
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610231004.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/1.png)
 
 * 进来以后就会弹出一个安全提示,选择`开始使用子用户AccessKey`即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610231037.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/2.png)
 
 > 提示信息云账号AccessKey是您访问阿里云API的密钥，具有该账户完全的权限，请您务必妥善保管！不要通过任何方式(eg, Github)将AccessKey公开到外部渠道，以避免被他人利用而造成 [安全威胁](https://help.aliyun.com/knowledge_detail/54059.html) 。强烈建议您遵循 [阿里云安全最佳实践](https://help.aliyun.com/document_detail/102600.htm) ，使用RAM子用户AccessKey来进行API调用。
 
 * 创建用户组和用户
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610231351.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/3.png)
 
 * 创建用户组
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610231704.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/4.png)
 
 > * 创建完成接收验证码
 > * 输入验证码点击确认即可
@@ -53,13 +53,13 @@ summary:
 
 > 点击用户组账号,选择添加权限,搜索SMS,添加短信权限,点击确认完成即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610232222.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/5.png)
 
 * 创建用户
 
 > 点击创建用户,填写登录名称和显示名称,将`编程访问`打✔,点击确认即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610232458.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/6.png)
 
 > 一定要打开编程访问,因为我们需要使用阿里云提供的`AccessKey ID`和`AccessKey Secret`进行访问短信服务
 
@@ -67,13 +67,13 @@ summary:
 
 > 点击用户进入账号页面,新建`AccessKey`
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610233156.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/7.png)
 
 * 将用户添加到用户组内
 
 >将用户添加到用户组内,点击确认即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610233358.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/8.png)
 
 * 操作步骤小结
   * 登录阿里云
@@ -91,13 +91,13 @@ summary:
 >
 > * 搜索短信服务
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610233918.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/9.png)
 
 > 进来以后会弹出一个短信服务开通,点击开通即可
 
 * 查看帮助文档
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610234139.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/10.png)
 
 * 查看标记的相关文档和页面
 
@@ -106,13 +106,13 @@ summary:
 > * 短信字数<=70个字数，按照70个字数一条短信计算
 > * 短信字数>70个字数，即为长短信，按照67个字数记为一条短信计算
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610234844.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/11.png)
 
 * 充值短信业务(看情况自己选择,1,10元就够了)
 
 * 新建`国内消息`模板
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200610235326.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/12.png)
 
 **常见的模板内容**
 
@@ -129,7 +129,7 @@ summary:
 | 验证码           | 验证码为：${code}，您正在尝试变更重要信息，请妥善保管账户信息。 |
 | 验证码           | 验证码为：${code}，您正在注册成为平台会员，感谢您的支持！    |
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611000208.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/13.png)
 
 * 等待审核完成即可,一般情况下`1-2个小时内`就审核完成了
 
@@ -137,13 +137,13 @@ summary:
 
 * 点击国内消息,添加签名
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611000427.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/14.png)
 
 * 签名的构成
 
 > 一般签名为公司名称或者网站名称等等,申请说明记得好好写,瞎写可能会不通过!!
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611000657.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/15.png)
 
 * 短信服务开通小结
   * 进入控制台,搜索短信服务
@@ -315,13 +315,13 @@ public class AliYunApplicationTests {
 
 * 可能出现的异常
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611101145.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/16.png)
 
 > 出现这种异常已经提示的很明白了,查看签名是否有误,修改签名参数即可
 
 * 成功页面如下图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611101856.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/17.png)
 
 ## 微服务短信实战
 
@@ -526,6 +526,6 @@ public class SendSmsImpl implements SendSms {
 }
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611110507.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】阿里云短信服务实战/18.png)
 
 > 代码仓库:[传送门](https://github.com/mobaijun/aliyun)

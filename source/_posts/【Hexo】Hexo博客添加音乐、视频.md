@@ -26,7 +26,7 @@ summary:
 
 复制代码
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819143518449.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Hexo】Hexo博客添加音乐、视频/0.png)
 
 ### 插入视频
 

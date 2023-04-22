@@ -32,7 +32,7 @@ password:
 
 * 点开Editor=>Code Style=>Java=>Code Generation ==勾选下面截图的位置==
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819154224251.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IDEA单行注释快捷键输出空格问题/0.png)
 
 返回IDEA重新输入:
 

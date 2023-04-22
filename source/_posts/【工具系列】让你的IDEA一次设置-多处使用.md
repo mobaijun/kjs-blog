@@ -25,17 +25,17 @@ summary:
 
 打开你的浏览器,进入GitHub官网,如果没有账号就自行注册一个,有的话直接登录点击`new repository`新建一个仓库,按照如下操做即可;
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011342.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/0.jpg)
 
 ## 二 :
 
 在GitHub新建一个token,相当于个人令牌,按照以下步骤操做,点击个人头像最下方Settings,然后点击Developer settings
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011339.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/1.jpg)
 
 设置token相关权限
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011337.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/2.jpg)
 
 拉到最下方点击确认即可,会显示一串数字,
 
@@ -47,7 +47,7 @@ summary:
 
 重要的事情说三遍,存放到你的本地txt文件里面或者微信传输助手都可以
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011334.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/3.jpg)
 
 
 
@@ -55,15 +55,15 @@ summary:
 
 将你的配置推送到远程仓库,第一次推送需要你填入token,具体操做看下图
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011330.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/4.jpg)
 
 填入仓库链接
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011328.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/5.jpg)
 
 后面会弹出一个窗口,输入你复制的token即可,将其推送到远程仓库,效果图
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/20200629011323.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】让你的IDEA一次设置-多处使用/6.jpg)
 
 > 按钮解释:
 >

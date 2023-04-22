@@ -65,7 +65,7 @@ summary:
 
 依赖关系图如下，大致看一下就好
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/pom.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】java-lang-ClassNotFoundException-异常解决及思路/0.png)
 
 `base-model-spring-boot-starter` 排除掉了一些无效依赖导致出现这个异常，那么找到这个类所在的包并添加依赖就可以了
 

@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-![dos窗口](https://tencent.cos.mobaijun.com/article_with_pictures/20210118145719.png)
+![dos窗口](https://tencent.cos.mobaijun.com/img/blog/【随笔】常用DOS命令汇总/0.png)
 
 ## Dos简介
 

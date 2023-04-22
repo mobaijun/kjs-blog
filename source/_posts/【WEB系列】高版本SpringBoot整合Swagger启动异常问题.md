@@ -29,7 +29,7 @@ summary:
 > > 2022-05-13 11:34:35.770 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
 > > org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException`
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/I7MFqR1d9JPOVsf.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】高版本SpringBoot整合Swagger启动异常问题/0.png)
 
 ## 原因：
 

@@ -63,4 +63,4 @@ summary:
 
 因为我这个是解决了邮箱问题就可以正常push了,所以我就附上邮箱解决方案,可能是我某一次设置码云个人信息的时候乱点导致邮箱设置成禁止命令行推送暴露个人邮箱,所以关闭这个选项卡即可,定位到`设置\多邮箱管理\禁止命令行推送暴露个人邮箱`关闭;
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819145254517.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Git系列】详细记录一次码云和Git异常解决方案/0.png)

@@ -23,7 +23,7 @@ summary:
 
 ## Actuator 简介
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20210818103724.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot监控工具之《Actuator》/0.png)
 
 > Definition of Actuator
 >
@@ -366,7 +366,7 @@ $ curl http://localhost:8080/actuator/info
 
 访问：`http://localhost:8080/actuator/heapdump`会自动生成一个 `Jvm `的堆文件 `heapdump`，我们可以使用 `JDK `自带的 `Jvm `监控工具 `VisualVM `打开此文件查看内存快照。点击装入快照，选择自动生成的`heapdump`，如下图：
 
-![快照内存](https://tencent.cos.mobaijun.com/article_with_pictures/image-20210805144851548.png)
+![快照内存](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot监控工具之《Actuator》/1.png)
 
 ### shutdown
 

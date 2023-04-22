@@ -21,7 +21,7 @@ categories:
 
 > 写了一个推送当前地区天气信息的小程序，不想使用 `nohup java -jar` 去部署运行，就做了一个Docker Image,这里记录下。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220830150559517.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【部署】SpringBoot项目打包为Docker Images并上传到Docker Hub/0.png)
 
 > 注意这里的推送时间（凌晨 1 点半）🤣🤣🤣
 
@@ -85,13 +85,13 @@ docker run -dit --restart=always --name=april-weather-push  -p 8009:8080 -v /etc
 
 点击 `repositories/Create repository`,创建仓库，这里仓库的概念类似 GitHub，一个项目创建一个仓库，写入仓库名称和项目简介（仓库名称最好和你上传的镜像名称保持一致，避免歧义），是否公开，如下图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220830144549336.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【部署】SpringBoot项目打包为Docker Images并上传到Docker Hub/1.png)
 
 3. ### 服务器登录Docker Hub
 
 > 输入 docker login，输入账号密码，成功如下图，返回 Login Succeeded。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220830144948030.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【部署】SpringBoot项目打包为Docker Images并上传到Docker Hub/2.png)
 
 ### 4.将容器 commit 成镜像
 
@@ -115,7 +115,7 @@ $ docker push mobaijun/april-weather-push:1.0.0
 
 如图：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220830145715539.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【部署】SpringBoot项目打包为Docker Images并上传到Docker Hub/3.png)
 
 > 这样就完成了一个镜像的推送啦！这样后续在其他环境，只需要安装 Docker 环境，把仓库的镜像拉取下来，运行容器就快速部署好一个项目了。
 

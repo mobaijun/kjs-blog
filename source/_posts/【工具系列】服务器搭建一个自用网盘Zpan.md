@@ -76,7 +76,7 @@ $ docker run -dit -p 8222:8222 -v /usr/local/zpan:/etc/zpan --name zpan saltbo/z
 
 ### 访问
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/87aSkRG12vp9C5X.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】服务器搭建一个自用网盘Zpan/0.png)
 
 > 第一次访问的页面需要根据你选择的数据库来配置
 >
@@ -90,7 +90,7 @@ $ docker run -dit -p 8222:8222 -v /usr/local/zpan:/etc/zpan --name zpan saltbo/z
 
 点击头像，进入管理后台，点击存储管理，创建存储
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/QrgXqCGktcFBfMW.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】服务器搭建一个自用网盘Zpan/1.png)
 
 有多个平台可供选择，根据你选择的平台填入相关参数即可使用。设置完毕以后，点击左上角图标，进入文件管理区域。
 

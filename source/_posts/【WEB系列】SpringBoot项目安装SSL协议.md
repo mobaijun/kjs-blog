@@ -56,15 +56,15 @@ keytool -genkey -alias tomcat -storetype PKCS12 -keyalg RSA -keysize 2048 -keyst
 > * 所在的省/市/自治区名称：浏览器中查看证书信息时会显示。
 > * 单位的双字母国家/地区代码：国家或地区编码，浏览器中查看证书信息时会显示。
 
-![如图](https://tencent.cos.mobaijun.com/article_with_pictures/20201119165457.png)
+![如图](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot项目安装SSL协议/0.png)
 
 * 生成的文件位置
 
-![文件位置](https://tencent.cos.mobaijun.com/article_with_pictures/20201119165537.png)
+![文件位置](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot项目安装SSL协议/1.png)
 
 * 将生成的密钥证书拷贝到项目中的resource中（也可以不拷贝到项目中，后面配置路径时配置密钥证书的绝对路径即可）。
 
-![文件路径](https://tencent.cos.mobaijun.com/article_with_pictures/20201119165618.png)
+![文件路径](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot项目安装SSL协议/2.png)
 
 * 修改项目配置文件application-dev.yml，增加如下配置项：
 
@@ -85,7 +85,7 @@ server:
 
 * 启动项目，直接访问项目即可：
 
-![访问项目](https://tencent.cos.mobaijun.com/article_with_pictures/20201119165842.png)
+![访问项目](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot项目安装SSL协议/3.png)
 
 ### http链接自动跳转https链接访问
 
@@ -183,8 +183,8 @@ public class SslConfig {
 
 * 打开浏览器，搜索管理证书
 
-![浏览器](https://tencent.cos.mobaijun.com/article_with_pictures/20201202154445.png)
+![浏览器](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot项目安装SSL协议/4.png)
 
 * 按步骤操作即可
 
-![操作](https://tencent.cos.mobaijun.com/article_with_pictures/20201202154559.png)
+![操作](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot项目安装SSL协议/5.png)

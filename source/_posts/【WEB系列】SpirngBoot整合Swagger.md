@@ -62,7 +62,7 @@ summary:
 > * 可以直接运行,可以在线测试API接口
 > * 支持多种语言:(Java,PHP)
 
-![官网界面](https://tencent.cos.mobaijun.com/article_with_pictures/20200611131036.png)
+![官网界面](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/0.png)
 
 Swagger 是一款RESTFUL接口的文档在线自动生成+功能测试功能软件。本文简单介绍了在项目中集成swagger的方法和一些常见问题。
 
@@ -97,7 +97,7 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 
 > 扩展,一个hello程序有两个请求,一个是`SpringBoot`项目默认的`/error`
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611133104.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/1.png)
 
 ~~~java
 @RestController
@@ -128,7 +128,7 @@ public class SwaggerConfig {
 
 > 唯一地址:`http://localhost:8080/swagger-ui.html`
 
-![首页信息](https://tencent.cos.mobaijun.com/article_with_pictures/20200611133910.png)
+![首页信息](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/2.png)
 
 ## 配置Swagger信息
 
@@ -342,7 +342,7 @@ public Docket docket(Environment environment) {
 
 * 效果
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611145707.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/3.png)
 
 * 配置多个组
 
@@ -413,7 +413,7 @@ public class SwaggerConfig {
 
 * 效果
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200611150303.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/4.png)
 
 * 实体类配置
 
@@ -469,7 +469,7 @@ public class User {
 
 * 效果
 
-![效果图](https://tencent.cos.mobaijun.com/article_with_pictures/20200611151246.png)
+![效果图](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/5.png)
 
 * Swagger常用注解
   * `@ApiModel("注释")`:实体类添加注释 
@@ -845,7 +845,7 @@ public class Application {
 
 Swagger 除了有 Json 形式的数据外，也有对 Json 数据页面化展示的 Swagger UI，在开始的时候 pom.xml 就已经引入该 Swagger UI 相关 Jar，所以这里我们将项目启动后，输入地址 http://localhost:8080/swagger-ui.html 就能访问到 Swagger 接口信息。
 
-![测试](https://tencent.cos.mobaijun.com/article_with_pictures/20210115170229.png)
+![测试](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpirngBoot整合Swagger/6.png)
 
 * 总结
   * 创建SpringBoot项目,导入`Swagger`依赖

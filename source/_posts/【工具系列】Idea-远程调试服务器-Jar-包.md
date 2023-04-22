@@ -25,13 +25,13 @@ summary:
 
 > 找到 Edit Configurations，新增一个 Remote JVM Debug 模块
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/1ZHiE78yLBdVIgD.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Idea-远程调试服务器-Jar-包/0.png)
 
 * 添加配置信息
 
 > 填写远程 IP 和端口，我这里是 jar 包部署在服务器，所以写服务器 IP 和程序端口
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/nLoZi7GaMjceFPt.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Idea-远程调试服务器-Jar-包/1.png)
 
 > 复制剪贴板生成的参数：-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 进入对应的 ip 的远程服务器
 

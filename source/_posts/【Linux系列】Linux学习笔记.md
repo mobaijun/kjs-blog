@@ -97,11 +97,11 @@ ping www.mobaijun.com
 
 > linux系统没有盘符，一切从根目录/开始，如下图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525150813.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/0.png)
 
 > 根目录下所有子目录
 
-![image-20200525150911453](https://tencent.cos.mobaijun.com/article_with_pictures/20200525150918.png)
+![image-20200525150911453](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/1.png)
 
 #### 常见的目录配置
 
@@ -200,7 +200,7 @@ mkdir -p /父目录名称/子目录名称
 
 #### 编辑文件内容
 
-![image-20200525154146121](https://tencent.cos.mobaijun.com/article_with_pictures/20200525154147.png)
+![image-20200525154146121](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/2.png)
 
 * 命令模式下命令
 
@@ -310,7 +310,7 @@ mkdir -p /父目录名称/子目录名称
 
 ### 文件权限
 
-![image-20200525160550045](https://tencent.cos.mobaijun.com/article_with_pictures/20200525160555.png)
+![image-20200525160550045](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/3.png)
 
 * 每一类用户都有3个权限
   * r：读取权限， 只读
@@ -332,7 +332,7 @@ mkdir -p /父目录名称/子目录名称
 
 ### 服务管理—自启动服务管理
 
-![image-20200525161016493](https://tencent.cos.mobaijun.com/article_with_pictures/20200525161022.png)
+![image-20200525161016493](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/4.png)
 
 * 服务管理的命令：systemctl start/stop/restart/status 服务名  操作服务启动/停止/重启/查看状态
 
@@ -441,7 +441,7 @@ $ ping www.mobaijun.com
 * ##### url域名访问服务器通信原理
 
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200528161739.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/5.png)
 
 * 本地域名映射文件位置
 * Windows系统本地域名映射位置:
@@ -655,7 +655,7 @@ $ systemctl restart firewalld
 
 * [下载Tomcat](https://tomcat.apache.org/download-80.cgi)
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529105937.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/6.png)
 
 ~~~bash
 # 将软件上传到linux系统/soft目录下并解压
@@ -691,7 +691,7 @@ $ rm -rf /usr/local/logs/*.txt &
 $ rm -rf /usr/local/logs/*.log &
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529110826.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/7.png)
 
 #### Redis安装-启动
 
@@ -800,7 +800,7 @@ mobaijun:x:1000:1000::/home/mobaijun:/bin/bash
 tom:x:1001:1000::/home/tom:/bin/bash
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529113326.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/8.png)
 
 * 给用户设置密码并切换用户
 
@@ -811,7 +811,7 @@ $ passwd mobaijun
 $ su mobaijun
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529115738.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/9.png)
 
 * 删除用户
 
@@ -822,7 +822,7 @@ $ su root
 $ userdel -r tom
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529114210.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux学习笔记/10.png)
 
 * 修改登录名
 

@@ -19,7 +19,7 @@ summary:
 
 
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233340.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/0.png)
 
 ## 一、前言
 
@@ -40,7 +40,7 @@ summary:
 
 其实也可以从老版本直接升级，这里为了照顾大部分人可能第一次安装，我们选择从官网下载，下载地址为: https://www.jetbrains.com/idea/download/
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233404.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/1.png)
 
 点击下载，静待下载完成~
 
@@ -48,24 +48,24 @@ summary:
 
 这里笔者机器上，之前是安装过 IDEA 2019.2.3 版本的，所以提示是否删除老版本，这里我们选择删除老版本：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233431.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/2.png)
 
 注意: 若你第一次安装，是没有这一步的，跳过看后面即可~
 继续点击下一步，这里笔者的电脑是 64 位的，顺便将 64 位的 IDEA 启动图标生成到桌面上：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233451.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/3.png)
 
 点击下一步，这里又弹出卸载老版本 IDEA 2019.2.3 可以做的操作，如果是第一次安装，则没有这一步，看下面步骤即可~
 
 这里由于我之前安装有老版本的 IDEA, 选择将老版本的缓存、本地历史也删除掉：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233509.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/4.png)
 
 注意：很多小伙伴激活失败，很可能是之前老版本的遗留缓存导致的，在升级的时候，一定记住要给删除掉，否则，可能导致激活失败的情况~
 
 继续点击下一步，启动 IDEA 2019.3, 启动成功后，我们可以看到 IDEA 新的欢迎界面如下:
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233542.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/5.png)
 
 IDEA 2019.3激活破解教程
 
@@ -73,7 +73,7 @@ IDEA 2019.3激活破解教程
 
 如下图所示，我们先选择免费试用 30 天，先进去再说:
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233603.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/6.png)
 
 ## 五、配置破解补丁
 
@@ -81,17 +81,17 @@ IDEA 2019.3激活破解教程
 
 注意：切记一定要通过 IDEA 来修改 .vmoptions 文件，不要手动直接去修改，现在 IDEA 针对反破解已经越来越严格了~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233625.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/7.png)
 
 下载破解补丁成功以后，笔者将它放置在了 IDEA 的安装目录 /bin 路径下，以防止后面被自己误删:
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233644.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/8.png)
 
 注意：补丁全路径中不要包含中文，否则，可能导致破解失败！
 
 激活码、破解补丁：点击下载 https://mobaijun.lanzous.com/icb3qbi
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233704.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/9.png)
 
 在` .vmoptions `文件中配置我们补丁放置的全路径位置。
 
@@ -106,9 +106,9 @@ IDEA 2019.3激活破解教程
 
 重启完成后，开始填入激活码，点击菜单栏 Help -> Register:
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233723.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/10.png)
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233745.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/11.png)
 
 注意：激活码需搭配上面的破解补丁一起使用才有效！！！
 
@@ -126,7 +126,7 @@ A82DEE284F-eyJsaWNlbnNlSWQiOiJBODJERUUyODRGIiwibGljZW5zZWVOYW1lIjoiaHR0cHM6Ly96a
 
 点击激活:
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525233806.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IntelliJ-IDEA-2020最新激活码-亲测有效，可激活至-2089-年/12.png)
 
 可以看到，已经激活到 2089 年了，开心编码吧~
 

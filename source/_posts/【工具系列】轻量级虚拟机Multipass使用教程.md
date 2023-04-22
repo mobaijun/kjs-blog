@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/GiuNOta831VpqFD.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】轻量级虚拟机Multipass使用教程/0.png)
 
 ## 简介
 
@@ -29,7 +29,7 @@ summary:
 
 ## 下载
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/1v5QJX8BRsFO9qt.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】轻量级虚拟机Multipass使用教程/1.png)
 
 根据自己操作系统选择合适的版本进行下载，我这里是 `Windows`，就点击下载 `Windows` 版本。
 
@@ -90,11 +90,11 @@ $ multipass launch -n test01 -c 2 -m 4G -d 10G
 
 然后双击 `multipass`,鼠标右键点击任务栏 `open shell`
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/vE9SIRGbKAoN2Lj.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】轻量级虚拟机Multipass使用教程/2.png)
 
 会打开创建的虚拟机，
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/gK1GCiLXP5IlHeB.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】轻量级虚拟机Multipass使用教程/3.png)
 
 ## 其他操作
 

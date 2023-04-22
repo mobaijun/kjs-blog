@@ -31,7 +31,7 @@ summary:
 
 `Erlang `是安装 `RabbitMQ `的预备环境，其中版本对应关系可在传送门链接获取，`RabbitMQ `官网已有说明。
 
-![image-20211124101724553](https://i.loli.net/2021/11/24/nGa25CmtEgARzY6.png)
+![image-20211124101724553](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】CentOS-7下安装RabbitMQ教程/0.png)
 
 > 在基于 `RPM ` 的发行版上， `Erlang `有三个替代来源：
 >
@@ -55,7 +55,7 @@ $ rpm -Uvh erlang-solutions-2.0-1.noarch.rpm
 $ yum install -y erlang
 ~~~
 
-![image-20211124110453594](https://i.loli.net/2021/11/24/56NItLm4kjEFvPx.png)
+![image-20211124110453594](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】CentOS-7下安装RabbitMQ教程/1.png)
 
 > 我这里安装的版本是：`23.3.4.8-1.el7`
 

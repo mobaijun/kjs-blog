@@ -55,15 +55,15 @@ flush privileges;
 
 * 点击 idea git log ，选择提交记录
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819162645348.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Git提交隐私内容到远程处理/0.png)
 
 * 点击 idea git \ Reset HEAD...
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819162709329.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Git提交隐私内容到远程处理/1.png)
 
 * 需要几次回滚就写入几个 ^ 号
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819162732937.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Git提交隐私内容到远程处理/2.png)
 
 * 重新提交内容，强制推送
 

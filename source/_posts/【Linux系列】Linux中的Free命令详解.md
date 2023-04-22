@@ -17,7 +17,7 @@ password:
 summary:
 ---
 
-![Linux free命令](https://tencent.cos.mobaijun.com/article_with_pictures/featured_hub45b8f618072624c689ed73d6dec475c_41300_768x0_resize_q75_lanczos.jpg)
+![Linux free命令](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux中的Free命令详解/0.jpg)
 
 > 我的 `Linux `系统上有多少可用 `RAM `内存？是否有足够的可用内存来安装和运行新应用程序？
 >
@@ -89,7 +89,7 @@ Swap:            0B          0B          0B
 
 buffer 在操作系统中指 buffer cache， 中文一般翻译为 "缓冲区"。要理解缓冲区，必须明确另外两个概念："扇区" 和 "块"。扇区是设备的最小寻址单元，也叫 "硬扇区" 或 "设备块"。块是操作系统中文件系统的最小寻址单元，也叫 "文件块" 或 "I/O 块"。每个块包含一个或多个扇区，但大小不能超过一个页面，所以一个页可以容纳一个或多个内存中的块。当一个块被调入内存时，它要存储在一个缓冲区中。每个缓冲区与一个块对应，它相当于是磁盘块在内存中的表示(下图来自互联网)：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/952033-20171206203017159-1892838721.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux中的Free命令详解/1.png)
 
 注意，buffer cache 只有块的概念而没有文件的概念，它只是把磁盘上的块直接搬到内存中而不关心块中究竟存放的是什么格式的文件。
 

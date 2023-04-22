@@ -26,20 +26,20 @@ summary:
 
 在 idea 中定位菜单到 `File | Settings | Editor | File and Code Templates | Code`，配置生成 Junit 的默认信息，我这里配置的是注释模板，如下：
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230313115640998.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【后端】IntelliJ-IDEA快速自动生成Junit测试类/0.png)
 
 ## 自动生成 Junit 测试用例
 
 1. 在你需要生成测试用例的类中，摁下 `ctrl + insert` ，调起菜单栏，如下，选择 `Test `
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230313115908509.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【后端】IntelliJ-IDEA快速自动生成Junit测试类/1.png)
 
 2. 配置生成的方法以及包路径等参数
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230313121050758.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【后端】IntelliJ-IDEA快速自动生成Junit测试类/2.png)
 
 3. 生成效果如下
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230313120533848.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【后端】IntelliJ-IDEA快速自动生成Junit测试类/3.png)
 
 > 以上操作可减少大量重复工作，并且使开发人员更加专注于业务测试。

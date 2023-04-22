@@ -40,13 +40,13 @@ summary:
 
 * 新建仓库
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525113237.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/0.png)
 
 * 获取Token
 
 定位到码云[/设置/私人令牌/生成新令牌](https://gitee.com/profile/personal_access_tokens/new),一定记得`点击提交之后记得复制Token`,不然还要重新生成一个
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525113640.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/1.png)
 
 ### 设置PicGo
 
@@ -58,21 +58,21 @@ summary:
 
 * 下载插件
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114111.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/2.png)
 
 * 配置图床相关设置
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114353.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/3.png)
 
 * 其他一些设置(参考我的就好)
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525115106.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/4.png)
 
 ### 配置Typora
 
 定位到`/文件/偏好设置/图像/`
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114658.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/5.png)
 
 正常情况下是没有问题的了,下面配置狙击手
 
@@ -82,11 +82,11 @@ summary:
 
 `/状态栏/首选项/控制/`需要的话就按照我的配置即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114903.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/6.png)
 
 ### 最后的效果
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200525114934.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】使用码云-PicGO-Typora搭建一个自动化图床/7.png)
 
 ### 结语
 

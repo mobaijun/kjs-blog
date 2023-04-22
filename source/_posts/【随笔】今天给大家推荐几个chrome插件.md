@@ -49,37 +49,37 @@ summary:
 >
 > 11、适用于本地文件
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530143923.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/0.png)
 
 ### Google 翻译
 
 > 浏览网页时可轻松查看翻译版本。由Google翻译小组提供。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530144109.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/1.png)
 
 ### 谷歌上网助手
 
 > 专门为科研、外贸、跨境电商、海淘人员、开发人员服务的上网加速工具，chrome内核浏览器专用!可以解决chrome扩展无法自动更新的问题，同时可>以访问谷歌google搜索，gmail邮箱，google+等谷歌产品
 
-![image-20200530144214296](https://tencent.cos.mobaijun.com/article_with_pictures/20200530144215.png)
+![image-20200530144214296](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/2.png)
 
 ### IE Tab
 
 > 在标签页中以IE内核显示网页。快捷、强健、可靠。这个版本是最流行的一个原因。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530144346.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/3.png)
 
 ### Octotree
 
 通过Chrome市场，安装Octotree，然后就可以在浏览Github代码的时候，体验到IDE式的快感，如图：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/762ace9d7891130d68fefc15b0ddac1a_720w.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/4.png)
 
 ### 迅雷下载支持
 
 > 没啥说的,见名知意
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530144719.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/5.png)
 
 
 
@@ -91,16 +91,16 @@ summary:
 - • 默认允许可接受广告来支持网站
 - • Adblock Plus 为免费开源软件([GPLv3+](https://www.gnu.org/licenses/gpl.html))
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530144825.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/6.png)
 
 ### Stylus
 
 > Stylus 是一个调整网页外观的用户样式管理器。它可让您轻松地为许多热门网站网站安装主题和皮肤。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530145047.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/7.png)
 
 ### 小结:
 
 我用的插件也就这么几个,大家看情况按需下载
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200530145139.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】今天给大家推荐几个chrome插件/8.png)

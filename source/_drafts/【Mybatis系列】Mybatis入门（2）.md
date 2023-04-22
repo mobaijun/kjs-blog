@@ -408,11 +408,11 @@ public void testFindAll() throws IOException {
 
 结果：
 
-[![img](https://img2018.cnblogs.com/blog/1415026/201907/1415026-20190717224258788-1403260411.png)](https://img2018.cnblogs.com/blog/1415026/201907/1415026-20190717224258788-1403260411.png)
+[![img](https://tencent.cos.mobaijun.com/img/blog/【Mybatis系列】Mybatis入门（2）/0.png)](https://tencent.cos.mobaijun.com/img/blog/【Mybatis系列】Mybatis入门（2）/0.png)
 
 因为除了userName属性，其他所有属性都没对应上数据库的列名。mysql数据库在为windows下不区别大小写，因此userName是能对应到数据库中username列。在linux下严格区分大小写。
 
-[![img](https://img2018.cnblogs.com/blog/1415026/201907/1415026-20190717224317815-200897896.png)](https://img2018.cnblogs.com/blog/1415026/201907/1415026-20190717224317815-200897896.png)
+[![img](https://tencent.cos.mobaijun.com/img/blog/【Mybatis系列】Mybatis入门（2）/1.png)](https://tencent.cos.mobaijun.com/img/blog/【Mybatis系列】Mybatis入门（2）/1.png)
 
 解决方法1：
 
@@ -432,7 +432,7 @@ Copy<?xml version="1.0" encoding="UTF-8" ?>
 
 完美：
 
-[![img](https://img2018.cnblogs.com/blog/1415026/201907/1415026-20190717224336912-99868070.png)](https://img2018.cnblogs.com/blog/1415026/201907/1415026-20190717224336912-99868070.png)
+[![img](https://tencent.cos.mobaijun.com/img/blog/【Mybatis系列】Mybatis入门（2）/2.png)](https://tencent.cos.mobaijun.com/img/blog/【Mybatis系列】Mybatis入门（2）/2.png)
 
 使用resultMap，配置查询结果的列名和实体类的属性名的对应关系。修改xml配置文件。
 

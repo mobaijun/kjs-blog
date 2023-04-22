@@ -93,15 +93,15 @@ pause>nul
 
 * 设置脚本环境变量
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/O2yRpwab1tPVB5i.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Windows环境下切换JDK脚本/0.png)
 
 * 打开 `cmd` 命令行窗口，输入脚本名称即可调用脚本，如下
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/L7zXaR1fwg2jHkc.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Windows环境下切换JDK脚本/1.png)
 
 * 新打开一个 `cmd` 窗口，输入 `java -version` 查看是否切换成功。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/dMXJu5Hw2lj1i8k.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Windows环境下切换JDK脚本/2.png)
 
 * 脚本源文件
 

@@ -76,7 +76,7 @@ summary:
 >
 >   > MIME,全称为“MultipurposeInternetMailExtensions”,比较确切的中文名称为“多用途互联网邮件扩展”。它是当前广泛应用的一种电子邮件技术规范，基本内容定义于RFC2045-2049（注意RFC1521和RFC1522是它的过时版本）。MIME试图在不改变SMTP协议和RFC822（邮件格式标准）的基础上，使得邮件可以传送任意二进制文件。
 
-![邮件收发流程](https://tencent.cos.mobaijun.com/article_with_pictures/20200710052550.png)
+![邮件收发流程](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/0.png)
 
 ## 邮件发送历史
 
@@ -351,7 +351,7 @@ class HelloworldApplicationTests {
 
 * 效果
 
-![测试效果](https://tencent.cos.mobaijun.com/article_with_pictures/20200710062203.png)
+![测试效果](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/1.png)
 
 ### 发送Html邮件
 
@@ -404,7 +404,7 @@ public void sendHtmlMail(String to, String subject, String content) throws Messa
 
 * 效果
 
-![html效果](https://tencent.cos.mobaijun.com/article_with_pictures/20200710063758.png)
+![html效果](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/2.png)
 
 ### 发送附件邮件
 
@@ -458,7 +458,7 @@ public void sendAttachmentsMail(String to, String subject, String content, Strin
 
 * 效果
 
-![附件邮件](https://tencent.cos.mobaijun.com/article_with_pictures/20200710065829.png)
+![附件邮件](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/3.png)
 
 ### 发送图片邮件
 
@@ -510,7 +510,7 @@ public void sendInlineResourceMail() throws MessagingException {
 
 * 效果
 
-![图片邮件](https://tencent.cos.mobaijun.com/article_with_pictures/20200710202502.png)
+![图片邮件](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/4.png)
 
 ### 发送模板邮件
 
@@ -576,7 +576,7 @@ public void sendThymeleafMail() throws MessagingException {
 
 * 效果
 
-![模板邮件](https://tencent.cos.mobaijun.com/article_with_pictures/20200710205848.png)
+![模板邮件](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/5.png)
 
 ### 邮件异常处理
 
@@ -644,11 +644,11 @@ public void sendInlineResourceMail() {
 
 * 查看方法日志
 
-![日志内容](https://tencent.cos.mobaijun.com/article_with_pictures/20200710211837.png)
+![日志内容](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/6.png)
 
 * 邮件效果
 
-![图片邮件](https://tencent.cos.mobaijun.com/article_with_pictures/20200710202502.png)
+![图片邮件](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot实现邮件发送/4.png)
 
 > 常见邮件程序错误:
 >

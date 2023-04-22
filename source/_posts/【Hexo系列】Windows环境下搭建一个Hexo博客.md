@@ -91,7 +91,7 @@ $ hexo server(或者简写:hexo s）)
 
  然后浏览器打开`http://localhost:4000/`，就可以看到我们的博客啦，效果如下： 
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819145605918.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Hexo系列】Windows环境下搭建一个Hexo博客/0.png)
 
 ## 安装主题
 

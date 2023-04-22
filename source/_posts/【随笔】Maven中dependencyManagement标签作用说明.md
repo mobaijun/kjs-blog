@@ -23,11 +23,11 @@ summary:
 >
 > 部门负责人推荐了一个高级技术开发工程师进来，在一个通用工具类子模块使用 dependencyManagement 包裹了依赖包，如下
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20221010085146251.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】Maven中dependencyManagement标签作用说明/0.png)
 
 > 看到这里我真的是又好气又好笑，因为在项目中已经对依赖进行统一管理，所以子模块只需要按需引入依赖即可，不需要其他操作，否则定义的统一依赖管理就毫无意义，并且使用了 dependencyManagement 标签后会导致当前模块的所有依赖全部失效，因为 dependencyManagement 只是声明依赖，并不会自动引入依赖。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20221011101616508.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】Maven中dependencyManagement标签作用说明/1.png)
 
 ## dependencyManagement 简介
 

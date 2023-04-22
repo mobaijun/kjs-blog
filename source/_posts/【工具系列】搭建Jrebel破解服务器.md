@@ -150,4 +150,4 @@ $ http://127.0.0.1:8888/1782cd13-a1d1-4a14-9a91-085bb84eafd9
 $ https://www.guidgen.com/
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211020171939111.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】搭建Jrebel破解服务器/0.png)

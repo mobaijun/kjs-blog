@@ -215,7 +215,7 @@ public void afterPropertiesSet() {
 
  另外，在`RedisTemplate`类源码中，看到的缓存数据`key、value`的各种序列化类型都是`RedisSerializer`。进入`RedisSerializer`源码查看`RedisSerializer`支持的序列化方式（进入该类后，使用`Ctrl+Alt+左键单击类名`查看）
 
-![RedisSerializer源码](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211021111343186.png)
+![RedisSerializer源码](https://tencent.cos.mobaijun.com/img/blog/【DB系列】SpringBoot 整合-MySQL-和-Redis-实战/0.png)
 
  可以看出，`RedisSerializer `是一个`Redis`序列化接口，默认有`6`个实现类，这6个实现类代表了`6`种不同的数据序列化方式。其中，`JdkSerializationRedisSerializer`是JDK自带的，也是RedisTemplate内部默认使用的数据序列化方式，我们可以根据需要选择其他支持的序列化方式（例如`JSON`方式）
 
@@ -361,7 +361,7 @@ class SpringBootRedisApplicationTests {
 
  使用Redis客户端可视化管理工具`Redis Desktop Manager`查看缓存数据 ,这里我找到了两款软件，都还不错，按需下载：[传送门](https://www.aliyundrive.com/s/uPa8vJEW1Uc)
 
-![客户端查看信息](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211021142837587.png)
+![客户端查看信息](https://tencent.cos.mobaijun.com/img/blog/【DB系列】SpringBoot 整合-MySQL-和-Redis-实战/1.png)
 
 ### 异常处理
 

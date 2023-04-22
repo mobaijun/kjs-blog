@@ -29,31 +29,31 @@ summary:
 
 * 新建一个虚拟向导，选择自定义并下一步
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/lXutiB169S4IAxz.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/0.png)
 
 * 选择虚拟机硬件兼容性，默认即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/pTmaHxC5bGRBlUy.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/1.png)
 
 * 选择稍后安装操作系统
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/7B6GRFkTEmVeyqM.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/2.png)
 
 * 选择客户机操作系统为*Linux*
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/qZob4nImaUGuALj.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/3.png)
 
 * 设置虚拟机名称
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/X9MnmvlxtZ4j1Uh.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/4.png)
 
 * 设置处理器配置，按需配置即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/Kr3uqEs1dLTkWQI.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/5.png)
 
 * 虚拟机内存配置，越大越好，因为我将这台虚拟机作为主力测试机，所以参数设置和一般不太一样
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/6tGON3P49ySie5W.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/6.png)
 
 * 网络连接类型的选择，网络连接类型一共有桥接、NAT、仅主机和不联网四种。
 
@@ -63,40 +63,40 @@ summary:
 
 > 桥接与NAT模式访问互联网过程，如下图所示
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/J9LspNzCXlxSWa5.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/7.png)
 
 * 这里选择桥接模式
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/ulm1oAkbQLe4rcH.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/8.png)
 
 * IO控制器类型和磁盘类型选择默认即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/ClISJEb8rjc7nom.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/9.png)
 
 * 磁盘容量
 
 > 默认值为20GB，磁盘容量暂时分配50G即可后期可以随时增加，不要勾选【立即分配所有磁盘】，否则虚拟机会将100G直接分配给CentOS，会导致宿主机所剩硬盘容量减少。勾选将虚拟磁盘拆分成多个文件，这样可使虚拟机方便用储存设备拷贝复制。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/yXBRWEtQ8Gr2Pm3.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/10.png)
 
 * 磁盘名称，默认即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/HaISzqbt8GdQNmR.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/11.png)
 
 * 自定义硬件设备
   1. 添加两个或以上网络适配器
   2. 删除不需要的打印机|USB控制器|声卡等
   3. 修改新建的网络适配器网络连接模式为桥接模式
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/kFUVNz4KWRJdlb8.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/12.png)
 
 * 点击CD设置镜像位置
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/T2LFyvw6aAoGMDU.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/13.png)
 
 * 点击完成，开启虚拟机
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/b5skEpTMOIWGmef.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/14.png)
 
 * 安装操作系统
 
@@ -108,41 +108,41 @@ summary:
 
 选择第一项，安装直接CentOS 7，回车，进入下面的界面
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/1564741132-3806-6852280-989a4d1bc37e8653.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/15.png)
 
 * 选择安装过程中使用的语言，这里选择中文。点击继续
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/NGfWEMYd2bLJOaq.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/16.png)
 
 * 首先设置时间，默认即可，联网后会自动更新
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/OVfnB5DFSTYzwCo.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/17.png)
 
 * 安装环境选择基本网页服务器，基本开发环境即可
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/PngQpcB62bq5AFy.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/18.png)
 
 * 配置网络，将三个网络全部打开
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/e2hB91m5SxkPKQd.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/19.png)
 
 * 在配置选项常规勾选可用时自动链接到这个网络，三个网卡同样的配置
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/FLuwESjyJfdVA8G.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/20.png)
 
 * 配置密码、等待安装完成
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/PL3VGrC7bd4qNzw.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/21.png)
 
 ## 编辑网卡配置
 
 * 安装完成，登录系统，查看网卡配置
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/Ic8vSq6PZVW1h39.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/22.png)
 
 * 查看Linux默认内核路由表
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/GD34bj7AIiPJ96E.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/23.png)
 
 * 进入网卡配置目录，查看网卡配置文件
 
@@ -151,7 +151,7 @@ $ cd /etc/sysconfig/network-scripts/
 $ ls
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/6Gn7cVvzA9IheFO.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/24.png)
 
 > 目录下, 有CentOS的发行及系统升级或许可能会存在网卡设备名称与之前版本不一致的情况, 这也很容易理解, 网卡设备名称在linux系统中它只是一个标志, 它并不能说明什么问题, 关键是这个设备文件的配置参数, 我当前CentOS7的网卡设备名称是
 
@@ -167,7 +167,7 @@ ifcfg-ens34 # 网卡3
 $ cat ifcfg-ens32
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/m9WZ1TBIQS7Kgy8.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Centos7安装并配置多网口/25.png)
 
 ~~~perl6
 TYPE=Ethernet								# 网卡类型：为以太网

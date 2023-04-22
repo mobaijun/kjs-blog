@@ -21,19 +21,19 @@ categories:
 
 在 GitHub 许多开源项目都有很漂亮的徽章，它们可以用来显示项目的进度，访问人数，版本信息以及GitHub stars 数量等等，比如 [kjs-common](https://github.com/mobaijun/kjs-common) 这个项目
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20221124103653739.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】为你的项目制作Shields徽章/0.png)
 
 ## 自定义徽章
 
 > shields 徽章可用来说明项目状态或者版本等信息，可以访问官网 https://www.shields.io/ 制作徽章，
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20221124104353213.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】为你的项目制作Shields徽章/1.png)
 
 
 
 找到Your BADGE 自定义定制徽章，输入标签和信息，点击生成：
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20221124105411974.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】为你的项目制作Shields徽章/2.png)
 
 
 

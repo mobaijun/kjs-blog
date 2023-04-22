@@ -248,19 +248,19 @@ $ show slave status \G;
 
 类似下图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220818134150418.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】基于Docker的MySQL主从复制搭建和配置/0.png)
 
 > Slave_IO_Running 和 Slave_SQL_Running 都是 Yes，说明主从复制已经开启。此时可以测试数据同步是否成功。如果需要主从双向同步，在主库重复以上操作即可，一主多从，多主多从操做都是一样的，注意用户账号密码/及服务器 IP 端口正确。
 
 * 双向同步最终效果
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220818143322260.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】基于Docker的MySQL主从复制搭建和配置/1.png)
 
 ## 异常排查
 
 如果出现异常，重点观察从库主从状态的异常日志，按照日志提示做出修改。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220818134633893.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】基于Docker的MySQL主从复制搭建和配置/2.png)
 
 > 上图原因就是 IP 不通导致的，两台非局域网服务器，比如线上的服务器，以 Docker 启动后，拿外网 IP + 端口，非 Docker IP
 
@@ -281,7 +281,7 @@ $ show slave status \G;
 
 > 最后让我们来看一下，一个 update 语句在节点 A 执行，然后同步到节点 B 的完整流程图。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220818135459255.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】基于Docker的MySQL主从复制搭建和配置/3.png)
 
 可以看到：主库接收到客户端的更新请求后，执行内部事务的更新逻辑，同时写入 binlog。
 备库 B 跟主库 A 之间维持了一个长连接。主库 A 内部有一个线程，专门用于服务备库 B 的这个长连接。

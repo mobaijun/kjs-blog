@@ -19,7 +19,7 @@ summary:
 
 * 记一次Valine修改记录，效果如下
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20201212123856.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Hexo】Hexo matery主题评论系统valine改版记录/0.png)
 
 * 本主题为matery主题，修改适配matery
 

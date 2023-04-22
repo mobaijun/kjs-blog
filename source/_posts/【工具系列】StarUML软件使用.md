@@ -23,13 +23,13 @@ summary:
 
 官网地址:[传送门](http://staruml.io/)
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20200812165219042.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】StarUML软件使用/0.png)
 
 ### 面板介绍
 
 > 安装完成主界面如下图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20200812170720333.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】StarUML软件使用/1.png)
 
 > 如上图所示，StarUML的软件操作面板主要可分为如下几个区域。
 
@@ -46,13 +46,13 @@ summary:
 
 > 在启动StarUML的时候,会创建一个默认工程,如果这个工程不是想要的,可以如下图操作,选择模板新建工程
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20200812172140467.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】StarUML软件使用/2.png)
 
 ### 侧面板介绍
 
 > 在StarUML中默认打开的“toolbox”工具中就是类相关的一下基础功能组件，以及组件的功能简介基础组件中有类实例，以及描述类的各个功能组件。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20200812172504376.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】StarUML软件使用/3.png)
 
 > 类图:类图是面向对象系统建模中最常用和最重要的图，是定义其它图的基础。类图主要是用来显示系统中的类、接口以及它们之间的静态结构和关系的一种静态模型。
 >
@@ -62,7 +62,7 @@ summary:
 
 ### 类组件基本操作
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20200812174049407.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】StarUML软件使用/4.png)
 
 | 序号 |                 释义                  |
 | :--: | :-----------------------------------: |
@@ -84,7 +84,7 @@ summary:
 
 ### UML基础知识
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20200812175453600.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】StarUML软件使用/5.png)
 
 
 

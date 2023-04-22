@@ -31,7 +31,7 @@ summary:
 
 * 打开idea，点击help
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20220819154338007.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IDEA启动项目很慢解决方案/0.png)
 
  2个最重要的必须改Xmx与Xms ,修改你的IDEA内存参数:**idea64.exe.vmoptions**,把它们改的大一点，并且一样大。
 

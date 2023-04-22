@@ -91,4 +91,4 @@ $ source ~/.bashrc
 $ cp -f /usr/bin/ccat /usr/bin/cat
 ```
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/3.jpg)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Linux之cat命令高级版ccat安装使用/0.jpg)

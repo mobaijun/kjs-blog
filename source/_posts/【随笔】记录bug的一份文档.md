@@ -37,7 +37,7 @@ summary:
 
 ### On branch master Your branch is up to date with 'origin/master'.
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200606115752.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】记录bug的一份文档/0.png)
 
 **问题描述**
 
@@ -85,7 +85,7 @@ ause: java.sql.SQLException: Field 'id' doesn't have a default value
 
 > 报错信息:
 >
-> ![](https://tencent.cos.mobaijun.com/article_with_pictures/20200609135153.png)
+> ![](https://tencent.cos.mobaijun.com/img/blog/【随笔】记录bug的一份文档/1.png)
 
 * 问题描述
 
@@ -115,7 +115,7 @@ ause: java.sql.SQLException: Field 'id' doesn't have a default value
 
 * 解决方案
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200612225923.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】记录bug的一份文档/2.png)
 
 ### git上传异常
 

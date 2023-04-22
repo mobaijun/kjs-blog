@@ -25,6 +25,6 @@ summary:
 
 最后终于找到了问题所在 原来是开网易云音乐的锅
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/20200529231237.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】IDEA ctrl+alt+L 格式化快捷键无效时解决/0.png)
 
 网易云会有一个全局的快捷键ctrl+alt+L跟idea冲突 去网易云关了就好了,蛋疼

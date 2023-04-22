@@ -32,7 +32,7 @@ summary:
 
 以上内容搬的以前 `nginx` 的文章，感兴趣的小伙伴可以去看下这篇笔记[动静分离简介](https://www.mobaijun.com/posts/1706463495.html#toc-heading-29)
 
-![动静分离](https://tencent.cos.mobaijun.com/article_with_pictures/20200613213818.png)
+![动静分离](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Docker启动Nginx配置动静分离/0.png)
 
 > 通过 `location`指定不同的后缀名实现不同的请求转发。通过 `expires`参数设置，可以使浏 览器缓存过期时间，减少与服务器之前的请求和流量。具体 `Expires`定义：是给一个资源 设定一个过期时间，也就是说无需去服务端验证，直接通过浏览器自身确认是否过期即可， 所以不会产生额外的流量。此种方法非常适合不经常变动的资源。（如果经常更新的文件， 不建议使用 Expires 来缓存），我这里设置`3d`，表示在这 3 天之内访问这个`URL`，发送一 个请求，比对服务器该文件最后更新时间没有变化，则不会从服务器抓取，返回状态码`304`， 如果有修改，则直接从服务器重新下载，返回状态码 `200`。
 
@@ -136,6 +136,6 @@ server {
 ~~~
 </details>
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/vzo9igPfqdhjbUY.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Linux系列】Docker启动Nginx配置动静分离/1.png)
 
 > PS: 中间有一段踩坑经历：在备份 `default.conf` 的时候名字前缀不要为 `default-*.conf`,最好也不要放在同级目录下，不然会导致配置覆盖，无法生效，不注意就排查很久无法找到原因，同时修改配置后建议重启容器。`docker restart [容器ID]`；

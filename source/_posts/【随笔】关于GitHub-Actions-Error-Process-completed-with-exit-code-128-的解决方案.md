@@ -23,7 +23,7 @@ summary:
 
 如果你正在运行 GitHub Actions scraper,可能会收到如下错误信息
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230304102934958.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】关于GitHub-Actions-Error-Process-completed-with-exit-code-128-的解决方案/0.png)
 
 ~~~bash
 Run git config --local user.email "mobaijun8@163.com"

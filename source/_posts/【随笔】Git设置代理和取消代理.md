@@ -44,7 +44,7 @@ $ git config --global --unset https.proxy
 
 添加完代理下载这个仓库大概 3 分钟左右搞定。
 
-![](https://tencent.cos.mobaijun.com//xxbj_img/image-20230408025513359.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【随笔】Git设置代理和取消代理/0.png)
 
 效果还是很理想的！
 

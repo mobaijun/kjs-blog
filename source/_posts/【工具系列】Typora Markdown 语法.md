@@ -44,7 +44,7 @@ Typora 官网
 https://typora.io
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/md1.gif)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/0.gif)
 
 # Markdown 标题
 
@@ -64,7 +64,7 @@ Markdown 标题有两种格式。
 
 显示效果如下图：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/01986C87-7E19-4497-878E-AE996AFC088E.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/1.jpg)
 
 ### 使用 # 号标记
 
@@ -81,17 +81,17 @@ Markdown 标题有两种格式。
 
 显示效果如下图：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/md2.gif)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/2.gif)
 
 # Markdown 段落
 
 Markdown 段落没有特殊的格式，直接编写文字就好，**段落的换行是使用两个以上空格加上回车**。
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/3.jpg)
 
 当然也可以在段落后面使用一个空行来表示重新开始一个段落。
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/3F254936-778E-417A-BEF2-467116A55D00.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/4.jpg)
 
 ------
 
@@ -110,7 +110,7 @@ ___粗斜体文本___
 
 显示效果如下所示：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/md3.gif)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/5.gif)
 
 ------
 
@@ -132,7 +132,7 @@ ___粗斜体文本___
 
 显示效果如下所示：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/3F46EAA9-DADE-48FD-99AA-DF7BEBFAA4FA.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/6.jpg)
 
 ------
 
@@ -148,7 +148,7 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/B5270A31-15D0-410B-AE1D-B9655B8F331C.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/7.jpg)
 
 ------
 
@@ -162,7 +162,7 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/8.jpg)
 
 ------
 
@@ -534,7 +534,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/89446A8E-6D83-4666-AACC-980145D5F070.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/9.jpg)
 
 有序列表使用数字并加上 **.** 号来表示，如：
 
@@ -546,7 +546,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/560384BB-2B00-41D5-ACF2-18972F7F2775.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/10.jpg)
 
 ### 列表嵌套
 
@@ -563,7 +563,7 @@ Markdown 支持有序列表和无序列表。
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/8ED795DA-F124-4E70-BA71-57CD9CF958A4.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/11.jpg)
 
 
 
@@ -579,7 +579,7 @@ Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/DFE1124E-BC38-4C12-B7AC-053E560D4C9C.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/12.jpg)
 
 另外区块是可以嵌套的，一个 **>** 符号是最外层，两个 **>** 符号是第一层嵌套，以此类推退：
 
@@ -591,7 +591,7 @@ Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/AA0A4A6A-33A7-48C7-971F-73FFC8FE85B0.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/13.jpg)
 
 ### 区块中使用列表
 
@@ -608,7 +608,7 @@ Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/E3BF6399-6483-4C7A-8502-AE75E8D66C96.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/14.jpg)
 
 ### 列表中使用区块
 
@@ -643,7 +643,7 @@ Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/C928FDA3-E0A7-4AFF-AB2A-B3AF44F93DF9.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/15.jpg)
 
 ### 代码区块
 
@@ -651,11 +651,11 @@ Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟
 
 实例如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/16.jpg)
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/6DC89E5C-B41A-4938-97D8-D7D06B879F91.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/17.jpg)
 
 你也可以用 **```** 包裹一段代码，并指定一种语言（也可以不指定）：
 
@@ -669,7 +669,7 @@ $(document).ready(function () {
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/88F52386-2F98-4D7E-8935-E43BECA6D868.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/18.jpg)
 
 # Markdown 链接
 
@@ -722,24 +722,24 @@ Markdown 图片语法格式如下：
 使用实例：
 
 ```markdown
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+![RUNOOB 图标](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/19.png)
 
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
+![RUNOOB 图标](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/19.png "RUNOOB")
 ```
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/20.jpg)
 
 Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。
 
 ```markdown
-<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
+<img src="https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/19.png" width="50%">
 ```
 
 显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/55F2A67D-F4BD-4960-AC55-DC690A415878.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/21.jpg)
 
 
 
@@ -758,7 +758,7 @@ Markdown 制作表格使用 **|** 来分隔不同的单元格，使用 **-** 来
 
 以上代码显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/23EACC50-38E0-4284-B99A-6BC22E284BAC.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/22.jpg)
 
 对齐方式
 
@@ -779,7 +779,7 @@ Markdown 制作表格使用 **|** 来分隔不同的单元格，使用 **-** 来
 
 以上代码显示结果如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/87DE9D5C-44FB-4693-8735-194D3779EC3E.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/23.jpg)
 
 # Markdown 高级技巧
 
@@ -795,7 +795,7 @@ Markdown 制作表格使用 **|** 来分隔不同的单元格，使用 **-** 来
 
 输出结果为：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/81999271-F914-428D-B7BF-164BDC67CAAC.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/24.jpg)
 
 ### 转义
 
@@ -808,7 +808,7 @@ Markdown 使用了很多特殊符号来表示特定的意义，如果需要显�
 
 输出结果为：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/25.jpg)
 
 Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
 
@@ -844,13 +844,13 @@ $$
 
 输出结果为：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/1311AD24-5804-4302-82D3-973D177E58CF.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/26.jpg)
 
 ### typora 画流程图、时序图(顺序图)、甘特图
 
 复制以下代码使用 typora 的源码模式粘贴到编辑器中查看效果：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/22A9BC11-BA3E-40D8-90B0-DC4FD29F9C02.jpg)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/27.jpg)
 
 以下几个实例效果图如下：
 
@@ -989,7 +989,7 @@ Note right of C: 没人陪我玩
 
 效果图如下：
 
-![img](https://www.runoob.com/wp-content/uploads/2019/03/md-flow.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【工具系列】Typora Markdown 语法/28.png)
 
 # 附录
 

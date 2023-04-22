@@ -171,4 +171,4 @@ HTTP 的动词（或是 Method ）是在协议头中，所以，其主要用于�
 
 **希望大家都能尊重自己从事的这个职业，成为真正的职业化的程序员，而不是一个码农！**
 
-![你的工作给你权力，而只有你的行为才会给你尊重](https://coolshell.cn/wp-content/uploads/2022/02/quote-your-job-gives-you-authority-your-behavior-gives-you-respect-irwin-federman-73-55-75.jpeg)
+![你的工作给你权力，而只有你的行为才会给你尊重](https://tencent.cos.mobaijun.com/img/blog/【转载】一把梭：REST-API-全用-POST/0.jpeg)

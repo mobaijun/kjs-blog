@@ -42,7 +42,7 @@ summary:
 
 ## 一、WebSocket 简介
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1002.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/0.png)
 
 ​    WebSocket 是一种基于 TCP 的网络协议。在 2009 年诞生，于 2011 年被 IETF 定为标准 RFC 6455 通信标准，并由 RFC7936 补充规范。WebSocket API 也被 W3C 定为标准。
 
@@ -62,7 +62,7 @@ WebSocket 也是一种全双工通信的协议，既允许客户端向服务器�
 
 ​    谈起为什么需要 WebSocket 前，那得先了解在没有 WebSocket 那段时间说起，那时候基于 Web 的消息基本上是靠 Http 协议进行通信，而经常有”聊天室”、”消息推送”、”股票信 息实时动态”等这样需求，而实现这样的需求常用的有以下几种解决方案：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1003.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/1.png)
 
 **(1)、短轮询(Traditional Polling)**
 
@@ -223,7 +223,7 @@ STOMP 的客户端和服务器之间的通信是通过”**帧**“（Frame）�
 
 Spring 官方提供的处理流图:
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1004.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/2.png)
 
 上面中的一些概念关键词：
 
@@ -540,7 +540,7 @@ function sendMessageNoParameter() {
 
 执行完上面步骤成后，可以观察到成功接收到订阅地址的消息，如下：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1005.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/3.png)
 
 ## 十、SpringBoot 实现 WebSocket 示例二：实现点对点模式(引入 Spring Security 实现鉴权)
 
@@ -905,7 +905,7 @@ function sendMessageNoParameter() {
 * 浏览器1登录的用户：mydlq1，密码：123456
 * 浏览器2登录的用户：mydlq2，密码：123456
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1006.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/4.png)
 
 两个浏览器中都输入用户名/密码 `mydlq1/123456` 与 `mydlq2/123456` 进行登录，然后会回到 `/index.html` 页面，然后执行下面步骤进行测试：
 
@@ -917,7 +917,7 @@ function sendMessageNoParameter() {
 
 执行完上面步骤成后，可以在两个不同浏览器中观察到如下内容：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1007.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/5.png)
 
 ## 十一、SpringBoot 实现 WebSocket 示例三：实现点对点模式(根据请求头 Header 实现鉴权)
 
@@ -1332,7 +1332,7 @@ function sendMessageNoParameter() {
 
 执行完上面步骤成后，可以在两个不同浏览器中观察到如下内容：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1008.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/6.png)
 
 ## 十二、SpringBoot 实现 WebSocket 示例四：实现点对点模式(根据 HTTP Session 实现鉴权)
 
@@ -1872,7 +1872,7 @@ function sendMessageNoParameter() {
 * 浏览器1登录的用户：mydlq1，密码：123456
 * 浏览器2登录的用户：mydlq2，密码：123456
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1009.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/7.png)
 
 两个浏览器中都输入用户名/密码 `mydlq1/123456` 与 `mydlq2/123456` 进行登录，然后会回到 `/index.html` 页面，然后执行下面步骤进行测试：
 
@@ -1884,7 +1884,7 @@ function sendMessageNoParameter() {
 
 执行完上面步骤成后，可以在两个不同浏览器中观察到如下内容：
 
-![img](https://tencent.cos.mobaijun.com/article_with_pictures/springboot-websocket-1010.png)
+![img](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBoot 实现 Websocket 通信详解/8.png)
 
 ## 十三、SpringBoot 结合 WebSocket 的常用方法示例
 

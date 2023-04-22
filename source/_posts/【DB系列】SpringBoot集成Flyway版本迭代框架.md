@@ -317,7 +317,7 @@ class SpringBootFlywayApplicationTests {
 >
 > 连上数据库看看。此时应该多出了这两张表：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211115140057721.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】SpringBoot集成Flyway版本迭代框架/0.png)
 
 - `user`表就是我们维护在`SQL`脚本中要创建的表
 - `flyway_schema_history`表是`flyway`的管理表，用来记录在这个数据库上跑过的脚本，以及每个脚本的检查依据。这样每次应用启动的时候，就可以知道哪个脚本需要运行，或者哪个脚本发生了变动，运行基础可能不对，造成数据结构的混乱而阻止运行。
@@ -376,11 +376,11 @@ ALTER TABLE `user` ADD COLUMN `address` VARCHAR(20) DEFAULT NULL;
 
 * 再查看一下数据库中的内容：
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211115141020685.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】SpringBoot集成Flyway版本迭代框架/1.png)
 
 `user`表中已经有了`Address`列
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/image-20211115141051238.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【DB系列】SpringBoot集成Flyway版本迭代框架/2.png)
 
 `Flyway`管理表中已经有新脚本的加载记录
 

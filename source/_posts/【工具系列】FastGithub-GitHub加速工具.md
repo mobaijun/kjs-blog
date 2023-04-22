@@ -25,19 +25,19 @@ summary:
 
 ## github连接不上
 
- ![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110123635300-696575870.jpg)
+ ![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/0.jpg)
 
 #### 代码pull/push失败
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110123755371-634339402.jpg)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/1.jpg)
 
 #### 找问题的网站也卡
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110123901857-657145800.jpg)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/2.jpg)
 
 #### 想看个代码结果是欣赏loading的艺术
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110124005765-987396488.jpg)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/3.jpg)
 
 ### FastGithub
 
@@ -51,19 +51,19 @@ google的CDN资源替换，解决大量国外网站无法加载js和css的问题
 
 这是一个本机工具，无任何中转的远程服务器，但也能让你的网络产生很大的改善：
 
- ![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110124413785-1298115440.png)
+ ![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/4.png)
 
 ### 简单易用
 
 不用任何设置，只需要双击运行即可，与代理工具、vpn等不冲突（因为不是同一种类型），也不修改你的系统网络配置。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110125726739-366933964.jpg)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/5.jpg)
 
 ### 免费+开源
 
 代码100%开源，且不收费就可以使用软件的100%功能，但如果你打赏，开源人从心理感激你，大家都是开发者，你懂。
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/160192-20211110130712846-1204094189.jpg)
+![](https://tencent.cos.mobaijun.com/img/blog/【工具系列】FastGithub-GitHub加速工具/6.jpg)
 
 ### 应用下载
 

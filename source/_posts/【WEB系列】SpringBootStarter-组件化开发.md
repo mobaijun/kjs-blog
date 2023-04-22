@@ -37,7 +37,7 @@ summary:
 
 ### 总目录结构
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/gyRdisQhTSbacZz.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBootStarter-组件化开发/0.png)
 
 总架构
 
@@ -146,11 +146,11 @@ summary:
 
 * 依赖关系图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/cUYqxW3BNvpHOAa.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBootStarter-组件化开发/1.png)
 
 * 核心开发包
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/bpsVPfdIRnwUkui.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBootStarter-组件化开发/2.png)
 
 > 核心的 `autoconfiguration`
 
@@ -464,7 +464,7 @@ swagger:
 
 > 具体可参考项目源码 `Readme.md` 文档说明
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/DvmJSiKlaV5bHW8.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【WEB系列】SpringBootStarter-组件化开发/3.png)
 
 ## 总结
 

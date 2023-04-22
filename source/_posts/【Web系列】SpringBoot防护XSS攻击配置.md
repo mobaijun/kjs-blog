@@ -21,7 +21,7 @@ summary:
 
 源于最近接到的一个小需求，解决平台扫描出现的漏洞，如下图
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/Yb9qKvgIMVnkdpZ.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Web系列】SpringBoot防护XSS攻击配置/0.png)
 
 后端解决这个其实很简单的，有句名言，不要相信前端传过来的任何参数，简单来说，`XSS` 在后端处理的时候对所有用户提交的数据进行校验和转义，比如`把< 转换为 &lt; 把 > 转换为 &rt`；
 
@@ -121,7 +121,7 @@ public class XssController {
 localhost:8080/xss?data=<script>alert("xss");</script>
 ~~~
 
-![](https://tencent.cos.mobaijun.com/article_with_pictures/7KS1fpmcdh5WqQ6.png)
+![](https://tencent.cos.mobaijun.com/img/blog/【Web系列】SpringBoot防护XSS攻击配置/1.png)
 
 * 说明
 
@@ -129,7 +129,7 @@ localhost:8080/xss?data=<script>alert("xss");</script>
 
   当我们把`@XssCleanIgnore`注解去掉，设置`xss`防护
 
-  ![](https://tencent.cos.mobaijun.com/article_with_pictures/L7q8lk53vwCbZoG.png)
+  ![](https://tencent.cos.mobaijun.com/img/blog/【Web系列】SpringBoot防护XSS攻击配置/2.png)
 
 返回内容为空，表示防护成功，是不是很简单😁😁😁。模拟 `demo`
 源码：[传送门](https://github.com/mobaijun/spring-boot-wikis/tree/master/spring-boot-xss)

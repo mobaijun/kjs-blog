@@ -21,7 +21,7 @@ summary:
 
 #### 时序数据库简介排行
 
-![主要内容](https://tencent.cos.mobaijun.com/article_with_pictures/20200820154355.png)
+![主要内容](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/0.png)
 
 [时间序列数据库 Time Series Database (TSDB)](https://baike.baidu.com/item/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93/922671)
 
@@ -71,15 +71,15 @@ summary:
 >
 > [下载地址](https://portal.influxdata.com/downloads/)
 
-![选择时序数据库](https://tencent.cos.mobaijun.com/article_with_pictures/20200820164830.png)
+![选择时序数据库](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/1.png)
 
 * 选择下载的系统版本,我这里下载的是Windows系统版本
 
-![选择版本](https://tencent.cos.mobaijun.com/article_with_pictures/20200820164934.png)
+![选择版本](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/2.png)
 
 * 下载完成以后解压压缩包,文件如下
 
-![文件内容](https://tencent.cos.mobaijun.com/article_with_pictures/20200820165121.png)
+![文件内容](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/3.png)
 
 > influxd.exe   启动程序
 >
@@ -119,7 +119,7 @@ $ exit
 
 * Windows环境下需要配置默认文件夹路径
 
-![修改默认配置](https://tencent.cos.mobaijun.com/article_with_pictures/20200820170839.png)
+![修改默认配置](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/4.png)
 
 ### 权限
 
@@ -137,19 +137,19 @@ $ chown influxdb:influxdb /mnt/db
 
 > [下载地址](https://github.com/CymaticLabs/InfluxDBStudio/releases/tag/v0.2.0-beta.1)
 
-![启动程序](https://tencent.cos.mobaijun.com/article_with_pictures/20200820171348.png)
+![启动程序](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/5.png)
 
 #### 链接时序数据库
 
-![创建链接对象](https://tencent.cos.mobaijun.com/article_with_pictures/20200820171957.png)
+![创建链接对象](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/6.png)
 
-![默认值](https://tencent.cos.mobaijun.com/article_with_pictures/20200820172213.png)
+![默认值](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/7.png)
 
 * influxDB数据库初始无账号密码，随意填写即可
 
 > 需要注意的是,链接时序数据库时不能关闭influxd.exe程序
 
-![启动程序](https://tencent.cos.mobaijun.com/article_with_pictures/20200820172319.png)
+![启动程序](https://tencent.cos.mobaijun.com/img/blog/【DB系列】InfluxDB/8.png)
 
 ### InfluxQL
 
