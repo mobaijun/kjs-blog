@@ -37,6 +37,7 @@ import cn.hutool.core.lang.Console;
 import cn.hutool.core.util.ZipUtil;
 import cn.hutool.http.HttpUtil;
 import com.mobaijun.constant.Constant;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
 import java.io.IOException;
@@ -44,6 +45,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 /**
  * software：IntelliJ IDEA 2023.1.1<br>
@@ -52,6 +54,7 @@ import java.util.List;
  *
  * @author MoBaiJun 2023/7/16 20:50
  */
+@Slf4j
 public class UpdateChromeDriverActual {
 
     /**
@@ -60,58 +63,86 @@ public class UpdateChromeDriverActual {
      * @param directoryPath 目录地址
      * @return 浏览器版本号
      */
-    public static String getInstalledChromeVersion(String directoryPath) {
+    public static String getSubdirectories(String directoryPath) {
         List<String> subdirectories = new ArrayList<>();
-        try {
-            Files.list(Path.of(directoryPath))
-                    .filter(Files::isDirectory)
+        try (Stream<Path> paths = Files.list(Path.of(directoryPath))) {
+            paths.filter(Files::isDirectory)
                     .forEach(path -> subdirectories.add(path.getFileName().toString()));
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error("The chrome browser version is incorrect：{}", e.getMessage());
         }
-        return subdirectories.get(0);
+        return subdirectories.isEmpty() ? null : subdirectories.get(0);
     }
 
-    private static void downloadAndInstallChromeDriver(String chromeVersion) {
+    private static void downloadChromeDriver(String chromeVersion) {
         try {
             // 构建ChromeDriver的版本URL
             String latestReleaseUrl = "https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_" + chromeVersion.split("\\.")[0];
             // 获取最新版本号
-            String latestVersion = HttpUtil.get(latestReleaseUrl).trim();
+            String latestVersion = HttpUtil.createGet(latestReleaseUrl).setHttpProxy("127.0.0.1", 10809).execute().body();
             // 构建ChromeDriver下载URL
             String downloadUrl = "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/" + latestVersion + "/win64/chromedriver-win64.zip";
 
             // 设置下载的压缩文件路径
             String zipFilePath = Constant.RESOURCES_PATH + File.separator + "chromedriver.zip";
             // 设置解压后的目录路径
-            String unzipDirectory = Constant.RESOURCES_PATH + File.separator + "chromedriver";
+            String unzipDirectory = Constant.RESOURCES_PATH + File.separator;
 
-            // 使用 Hutool 下载文件
+            // 下载文件
             HttpUtil.downloadFile(downloadUrl, zipFilePath);
 
-            // 使用 Hutool 解压缩文件到目标目录
+            // 解压缩文件到目标目录
             ZipUtil.unzip(zipFilePath, unzipDirectory);
 
             // 删除下载的压缩文件
             FileUtil.del(zipFilePath);
-
-            // 将解压后的ChromeDriver移动到Google目录
-            FileUtil.move(new File(unzipDirectory), new File(Constant.CHROME_DRIVER_UPDATE_PATH), true);
         } catch (Exception e) {
-            e.printStackTrace();
+            log.error("Unzip file exception：{}", e.getMessage());
         }
     }
 
+    /**
+     * 删除文件
+     *
+     * @return 是否成功
+     */
+    private static boolean tryDeleteFile() {
+        int attempts = 0;
+        while (attempts < 3) {
+            try {
+                // 删除文件
+                FileUtil.del(Constant.CHROME_DRIVER_UPDATE_PATH);
+                return true;
+            } catch (Exception e) {
+                System.err.println("尝试删除文件失败，等待重试...");
+                attempts++;
+                // 等待一段时间再重试
+                try {
+                    // 等待5秒
+                    Thread.sleep(5000);
+                } catch (InterruptedException ignored) {
+                }
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
-        String chromeVersion = getInstalledChromeVersion(Constant.CHROME_VERSION);
-        if (chromeVersion != null) {
-            downloadAndInstallChromeDriver(chromeVersion);
-            Console.log("Google Chrome driver updated successfully!");
+        if (tryDeleteFile()) {
+            String chromeVersion = getSubdirectories(Constant.CHROME_VERSION);
+            if (chromeVersion != null) {
+                downloadChromeDriver(chromeVersion);
+                Console.log("Google Chrome driver updated successfully!");
+            } else {
+                Console.error("Unable to get Chrome browser version number. Make sure Chrome is installed and able to connect to the internet.");
+            }
         } else {
-            Console.error("Unable to get Chrome browser version number. Make sure Chrome is installed and able to connect to the internet.");
+            Console.error("File deletion failed. It seems to be occupied. Please try again!");
         }
     }
 }
 ~~~
 
-> 需要注意的是，`getInstalledChromeVersion` 方法用于获取 Windows 系统上已安装的 Chrome 浏览器的最新版本号。该方法基于默认的安装路径，如果安装路径不同，需要相应地进行修改。`downloadAndInstallChromeDriver` 方法主要用于比对获取到的 Chrome 浏览器版本与最新的 `chromedriver` API 版本是否一致，如果不一致，则进行更新。随后，它会下载并将 `chromedriver` 安装到指定的路径中。在代码中，我使用了 Hutool 这个第三方库来进行文件下载和解压操作。经过多次测试，代码正常运行。
+> `12-05 更新`：添加了删除文件夹操作，添加了代理配置，以保证地址可访问
+>
+> 需要注意的是，`getSubdirectories` 方法用于获取 Windows 系统上已安装的 Chrome 浏览器的最新版本号。该方法基于默认的安装路径，如果安装路径不同，需要相应地进行修改。`downloadChromeDriver` 方法主要用于比对获取到的 Chrome 浏览器版本与最新的 `chromedriver` API 版本是否一致，如果不一致，则进行更新。随后，它会下载并将 `chromedriver` 安装到指定的路径中。在代码中，我使用了 Hutool 这个第三方库来进行文件下载和解压操作。经过多次测试，代码正常运行。
