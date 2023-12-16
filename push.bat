@@ -2,11 +2,11 @@
 echo ===============================现在时间是:%time%================================
 title= Git自动拉取上传脚本
 color 3
+cd /d %~dp0
+echo 当前脚本所在目录：%cd%
 echo "-------Begin-------"
-git config --global https.proxy http://127.0.0.1:10809
-git config --global https.proxy https://127.0.0.1:10809
-echo -------正在查看当前目录-------
-echo 当前目录是：%cd%
+git config --global https.proxy 127.0.0.1:10809
+git config --global https.proxy 127.0.0.1:10809
 echo -------正在从远程拉取代码-------
 git pull
 echo -------拉取成功-------
