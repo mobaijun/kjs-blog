@@ -9,6 +9,7 @@ echo -------正在查看当前目录-------
 echo 当前目录是：%cd%
 echo -------正在执行部署-------
 hexo g -d
+echo -------正在取消代理-------
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 echo -------End！-------
