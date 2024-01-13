@@ -9,9 +9,6 @@ menu:
   Archives:
     url: /archives
     icon: fas fa-archive
-  Book:
-    url: /book
-    icon: fas fa-book
   About:
     url: /about
     icon: fas fa-user-circle
@@ -313,7 +310,6 @@ libs:
     jqcloud: https://tencent.cos.mobaijun.com/libs/jqcloud/jqcloud.css
     tocbot: https://tencent.cos.mobaijun.com/libs/tocbot/tocbot.css
     prism: https://tencent.cos.mobaijun.com/libs/prism/prism.min.css
-    mermaid: https://tencent.cos.mobaijun.com/libs/mermaid/mermaid.min.css
     fancybox: https://tencent.cos.mobaijun.com/libs/fancybox/jquery.fancybox.css
     justifiedGallery: https://tencent.cos.mobaijun.com/libs/justifiedGallery/justifiedGallery.min.css
   js:
@@ -345,7 +341,6 @@ libs:
     ribbonRefresh: https://tencent.cos.mobaijun.com/libs/background/ribbon-refresh.min.js
     ribbon_dynamic: https://tencent.cos.mobaijun.com/libs/background/ribbon-dynamic.js
     instantpage: https://tencent.cos.mobaijun.com/libs/instantpage/instantpage.js
-    mermaid: https://tencent.cos.mobaijun.com/libs/mermaid/mermaid.min.js
     fancybox: https://tencent.cos.mobaijun.com/libs/fancybox/fancybox.js
     justifiedGallery: https://tencent.cos.mobaijun.com/libs/justifiedGallery/justifiedGallery.min.js
     prism: https://tencent.cos.mobaijun.com/libs/prism/prism.min.js
@@ -431,6 +426,34 @@ featureImages:
   - https://tencent.cos.mobaijun.com/img/featureimages/69.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/70.jpg
   - https://tencent.cos.mobaijun.com/img/featureimages/71.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/72.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/73.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/74.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/75.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/76.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/77.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/78.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/79.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/80.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/81.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/82.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/83.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/84.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/85.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/86.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/87.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/88.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/89.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/90.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/91.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/92.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/93.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/94.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/95.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/96.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/97.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/98.jpg
+  - https://tencent.cos.mobaijun.com/img/featureimages/99.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -550,37 +573,6 @@ jsDelivr:
 background:
   enable: false
   url: "https://tencent.cos.mobaijun.com/img/banner/0.jpg"
-
-# 图表绘制插件
-# 建议更换更换hexo-renderer-markdown-it引擎。参考下面链接
-# https://github.com/hexojs/hexo-renderer-markdown-it
-# https://github.com/hexojs/hexo-renderer-markdown-it/wiki/Advanced-Configuration
-# 使用教程： https://blog.17lai.site/posts/cf0f47fd/#Mermaid
-# 安装配置方法
-# yarn remove hexo-renderer-marked
-# yarn add hexo-renderer-markdown-it hexo-tag-mermaid
-# 注意：hexo-renderer-markdown-it 比默认引擎更快，可选择插件较多，请认真看上面两个链接教程。
-# mermaid语法教程 https://mermaid-js.github.io/mermaid/#/
-# 使用方法：
-# 在post文章中填写mermaid语句，需要使用{% mermaid %} 包裹
-# {% mermaid %}
-# [mermaid 语句正文]
-# {% endmermaid %}
-# 样例如下所示：
-# {% mermaid %}
-# graph TD
-#     A[Christmas] -->|Get money| B(Go shopping)
-#     B --> C{Let me think}
-#     C -->|One| D[Laptop]
-#     C -->|Two| E[iPhone]
-#     C -->|Three| F[Car]
-# {% endmermaid %}
-# mermaid chart。 依赖hexo-tag-mermaid
-mermaid: ## mermaid url https://github.com/knsv/mermaid
-  enable: false  # default false
-  version: "latest" # default v7.1.2
-  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
-  #startOnload: true  // default true
 
 # utteranc config, default disabled
 # utteranc 评论模块的配置，默认为不激活

@@ -190,21 +190,7 @@ hexo_external_link:
 
 # hexo 中英文之间自动加空格
 auto_spacing:
-  enable: false
+  enable: true
 
-# 豆瓣书单
-doubanCard:
-  # 图片代理地址
-  #  https://img.noobzone.ru/getimg.php?url=
-  #  https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
-  #  https://ip.webmasterapi.com/api/imageproxy/
-  #  https://images.weserv.nl/?url=
-  #  https://pic1.xuehuaimg.com/proxy/
-  #  https://www.cloudimage.io/
-  #  https://cloudinary.com/
-  #  https://search.pstatic.net/common?src=
-  #  https://imageproxy.pimg.tw/resize?url=
-  imgProxy: https://pic1.xuehuaimg.com/proxy/
-  
-  # Ads.txt
+# Ads.txt
 ads_txt: /ads.txt
