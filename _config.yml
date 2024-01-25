@@ -49,11 +49,16 @@ future: true
 # 代码高亮
 highlight:
   enable: false
-  line_number: true
-  auto_detect: false
+  line_number: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: true    # default false
+  custom_css:
 prismjs:
   enable: true
   preprocess: true

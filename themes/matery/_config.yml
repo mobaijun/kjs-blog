@@ -259,10 +259,10 @@ githubLink:
 
 # Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
 waline:
-  enable: false
+  enable: true
   # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
   # 下面是一个例子，请替换成自己的服务端
-  serverURL: https://waline.mobaijun.com
+  serverURL: https://blog-waline-seven-dusky.vercel.app/
   # 头像风格
   avatar: mm
   lang: zh-CN
@@ -548,4 +548,4 @@ background:
 # utteranc config, default disabled
 # utteranc 评论模块的配置，默认为不激活
 utteranc:
-  enable: true
+  enable: false

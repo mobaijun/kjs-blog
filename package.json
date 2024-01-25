@@ -9,10 +9,10 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.0.0"
+    "version": "6.3.0"
   },
   "dependencies": {
-    "hexo": "^7.0.0",
+    "hexo": "^6.2.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-baidu-url-submit": "^0.0.6",
     "hexo-deployer-git": "^4.0.0",
@@ -34,7 +34,6 @@
     "hexo-renderer-marked": "^6.2.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
     "i": "^0.3.7",
     "yarn": "^1.22.21"
