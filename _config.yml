@@ -197,5 +197,5 @@ hexo_external_link:
 auto_spacing:
   enable: true
 
-# Ads.txt
+# ads.txt
 ads_txt: /ads.txt
