@@ -52,3 +52,48 @@ public class SysDictTypeDTO implements Serializable {
 ~~~
 
 通过这种方式，可以确保 `Long` 类型的数据在传输过程中不会丢失精度，前端可以正确显示大整数值。
+
+## 更好的解决方案
+
+新建全局配置类，处理 `Jackson` 导致 `Long` 型数据精度丢失问题
+
+~~~java
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.module.SimpleModule;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+
+/**
+ * Description: [解决Jackson导致Long型数据精度丢失问题]
+ * Author: [mobaijun]
+ * Date: [2024/8/1 15:58]
+ * IntelliJ IDEA Version: [IntelliJ IDEA 2023.1.4]
+ */
+@Slf4j
+@Configuration
+public class JacksonConfig {
+
+    /**
+     * 解决Jackson导致Long型数据精度丢失问题
+     *
+     * @return 返回ObjectMapper对象
+     */
+    @Bean
+    public ObjectMapper jacksonObjectMapper(Jackson2ObjectMapperBuilder builder) {
+        ObjectMapper objectMapper = builder.createXmlMapper(false).build();
+        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        SimpleModule module = new SimpleModule();
+        module.addSerializer(Long.class, ToStringSerializer.instance);
+        module.addSerializer(Long.TYPE, ToStringSerializer.instance);
+        objectMapper.registerModule(module);
+        log.info("Jackson init: {}", objectMapper);
+        return objectMapper;
+    }
+}
+~~~
+
+==如果是多模块项目，启动类扫描这个包即可==
