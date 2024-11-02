@@ -274,7 +274,7 @@ verifyPassword:
   promptMessage: 請輸入訪問本文章的密碼!
   errorMessage: 密碼錯誤，將返回主頁！
 
-# 不蒜子(http://busuanzi.ibruce.info/) 网站统计
+# 不蒜子(https://busuanzi.ibruce.info) 网站统计
 busuanziStatistics:
   enable: true
   totalTraffic: true # 总访问量
@@ -328,7 +328,8 @@ libs:
     waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
     # waline: https://tencent.cos.mobaijun.com/libs/waline/Waline.min.js
     tcaptcha: https://tencent.cos.mobaijun.com/libs/others/TencentCaptcha.js
-    busuanzi: https://tencent.cos.mobaijun.com/libs/others/busuanzi.pure.mini.js
+    # busuanzi: https://tencent.cos.mobaijun.com/libs/others/busuanzi.pure.mini.js
+    busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
     aplayer: https://tencent.cos.mobaijun.com/libs/aplayer/APlayer.min.js
     meting: https://tencent.cos.mobaijun.com/libs/aplayer/Meting.min.js
     dplayer: https://tencent.cos.mobaijun.com/libs/dplayer/DPlayer.min.js
