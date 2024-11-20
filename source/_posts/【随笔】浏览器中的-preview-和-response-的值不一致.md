@@ -21,7 +21,7 @@ summary:
 
 > 今天遇到一个问题，数据库数据无误，接口请求数据无误，但在浏览器发起请求后，接口数据在浏览器的 `preview` 和 `response` 中显示不一致。数据库中的数据类型是 `bigint`，实体类对应的数据类型是 `Long`。问题表现如下：
 
-![c04eef552e0f26aaa286c15c90f3564](https://tencent.cos.mobaijun.com/xxbj_img/202407241747120.png)
+![c04eef552e0f26aaa286c15c90f3564](https://img.mobaijun.com:8888/i/2024/11/20/673db8ebcdd1e.png)
 
 ## 原因
 

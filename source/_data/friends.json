@@ -21,13 +21,6 @@
     "title": "访问主页"
   },
   {
-    "avatar": "https://hasaik.com/images/avatar.jpg",
-    "name": "Xu’s Blog",
-    "introduction": "简单不先于复杂，而是在复杂之后。",
-    "url": "https://hasaik.com",
-    "title": "访问主页"
-  },
-  {
     "name": "Sitoi",
     "avatar": "https://avatars.githubusercontent.com/u/32479597?v=4",
     "introduction": "活到老，学到老",
@@ -49,17 +42,10 @@
     "title": "访问主页"
   },
   {
-    "avatar": "https://perrys.cc/images/avatar.png",
-    "name": "Perry’s",
-    "introduction": "我会在夏天开放吗",
-    "url": "https://perrys.cc",
-    "title": "访问主页"
-  },
-  {
-    "avatar": "https://hesifan.top/medias/avatar.jpg",
-    "name": "凡尘纪",
+    "avatar": "https://foreverblog.cn/favicon.ico",
+    "name": "十年之约",
     "introduction": "念念不忘 必有回响",
-    "url": "https://hesifan.top/",
+    "url": "https://foreverblog.cn/",
     "title": "访问主页"
   },
   {
@@ -81,13 +67,6 @@
     "name": "掘墓人小铲子",
     "introduction": "记录生活，分享技术",
     "url": "https://juemuren4449.com/",
-    "title": "访问主页"
-  },
-  {
-    "avatar": "https://cdn.jsdelivr.net/gh/coder-lida/CDN/img/logoImg.png",
-    "name": "LeePandar",
-    "introduction": "Don’t be one of the leches Practice make perfect",
-    "url": "http://101.42.116.102:8090",
     "title": "访问主页"
   },
   {
@@ -116,13 +95,6 @@
     "name": "风也雨忆笙",
     "introduction": "编程与学习，自律与生活",
     "url": "https://blog.kaygb.com",
-    "title": "访问主页"
-  },
-  {
-    "avatar": "https://cdn.jsdelivr.net/gh/fenghen0918/jm-imgs/markdown/logo.png",
-    "name": "小苏の万事屋",
-    "introduction": "一个不是只会写业务代码的后端攻城狮！",
-    "url": "https://sulog.top",
     "title": "访问主页"
   },
   {
