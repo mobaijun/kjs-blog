@@ -7,11 +7,11 @@
     "title": "访问主页"
   },
   {
-    "avatar": "https://cdn.icon-icons.com/icons2/3912/PNG/512/gitee_logo_icon_248227.png",
-    "name": "Gitee",
-    "introduction": "我的 Gitee 主页！",
-    "url": "https://gitee.com/mobaijun",
-    "title": "访问主页"
+    "avatar": "https://tencent.cos.mobaijun.com/img/icon/avatar.jpg",
+    "name": "寻·秒",
+    "introduction": "导航",
+    "url": "https://nav.mobaijun.com",
+    "title": "访问导航"
   },
   {
     "avatar": "https://avatars.githubusercontent.com/u/107024930?s=200&v=4",
