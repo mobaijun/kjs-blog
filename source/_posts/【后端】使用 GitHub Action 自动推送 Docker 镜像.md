@@ -27,7 +27,7 @@ summary:
 > 先来说说 Spring Boot[项目打包](https://so.csdn.net/so/search?q=maven%20%E9%A1%B9%E7%9B%AE%E6%89%93%E5%8C%85&urw=)成
 > Docker 镜像，并上传到仓库的流程
 
-![1731464893944.png](https://img.mobaijun.com:8888/i/2024/11/20/673db8eddbf97.png)
+![1731464893944.png](https://tencent.cos.mobaijun.com/xxbj_img/202501241027823.png)
 
 1. 使用 `Spring Boot` 项目: [传送门](https://github.com/mobaijun/ballcat-codegen)
 2. 运行 `maven`命令 `mvn -B clean package --file pom.xml` 打包 `jar` 文件
@@ -41,7 +41,7 @@ summary:
 1. 登录 Docker Hub 获取用户名和密码。
 2. 将这些认证信息存储在 GitHub Secrets 中，确保安全性。
 
-![1731464114594.png](https://img.mobaijun.com:8888/i/2024/11/20/673db8eca1df1.png)
+![1731464114594.png](https://tencent.cos.mobaijun.com/xxbj_img/202501241026359.png)
 
 ## 创建 GitHub Actions 工作流
 
@@ -170,7 +170,7 @@ jobs:
 当你成功配置并推送到 GitHub 后，每次提交或标签推送都会自动触发工作流，并将构建好的 Docker 镜像上传至 Docker
 Hub。你可以通过以下图片看到最终的工作流执行结果：
 
-![1731464385553.png](https://img.mobaijun.com:8888/i/2024/11/20/673db8ed540b3.png)
+![1731464385553.png](https://tencent.cos.mobaijun.com/xxbj_img/202501241027390.png)
 
 > 通过这种自动化方式，你可以节省大量的时间和精力，同时确保 Docker 镜像的构建和推送过程完全可重复。快来体验 GitHub Actions
 > 的强大功能吧！
