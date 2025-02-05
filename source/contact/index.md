@@ -1,5 +1,5 @@
 ---
-title: contact
+title: 留言
 date: 2022-07-20 14:03:14
 type: contact
 layout: contact
