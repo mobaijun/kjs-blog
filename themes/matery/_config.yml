@@ -243,14 +243,6 @@ myGallery:
 # 设置在归档页面中是否显示'文章日历'控件
 postCalendar: true
 
-# 腾讯人机验证
-# 注意：目前只适配和测试了valine，其它评论系统未调试验证！
-# 介绍: https://cloud.tencent.com/document/product/1110/36841
-# 管理验证码: https://console.cloud.tencent.com/captcha/graphical
-tcaptcha:
-  enable: false
-  appid: xxxxxxxxxx # 你的appid
-
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
@@ -545,8 +537,3 @@ jsDelivr:
 background:
   enable: false
   url: "https://tencent.cos.mobaijun.com/img/banner/0.jpg"
-
-# utteranc config, default disabled
-# utteranc 评论模块的配置，默认为不激活
-utteranc:
-  enable: false
