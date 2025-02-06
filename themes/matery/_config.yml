@@ -151,50 +151,50 @@ myProjects:
   enable: true
   data:
     kjs-common:
-      icon: fa-solid fa-gear
+      icon: fas fa-tools
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://gitee.com/april-projects/kjs-common
       desc: 本項目集成了項目中常用的工具類(維護中/公共庫)
-    spring-boot-wikis:
-      icon: fa-solid fa-democrat
-      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-      url: https://github.com/mobaijun/spring-boot-wikis
-      desc: 記錄學習所創建的集成框架 Demo (維護中/公共庫)
+    mobaijun-spring-boot-starter:
+      icon: fa-solid fa-keyboard
+      iconBackground: 'linear-gradient(to bottom right, #5fef50 0%, #c9331d 100%)'
+      url: https://github.com/mobaijun/mobaijun-spring-boot-starter
+      desc: 抽象化並封裝常用模組，幫助開發者快速整合和客製化應用，提升開發效率。 (維護中/公共庫)
+    docker-image:
+      icon: fab fa-docker
+      iconBackground: 'linear-gradient(to bottom right, #0d2950 0%, #e8ea03 100%)'
+      url: https://github.com/april-projects/docker-image
+      desc: 常用的 Docker 映像工具與配置，可協助開發者高效建置與部署應用程式。 （維護中/公共庫）
+    april-github-star-list:
+      icon: fab fa-github
+      iconBackground: 'linear-gradient(to bottom right, #b01ebc 0%, #34df90 100%)'
+      url: https://github.com/april-projects/april-github-star-list
+      desc: 此項目實現了自動記錄GitHub star ，以方便備份和維護。 （維護中/公共庫）
     april-script:
-      icon: fa-solid fa-superscript
+      icon: fab fa-linux
       iconBackground: 'linear-gradient(to bottom right, #594c6d 0%, #594c6d 100%)'
       url: https://github.com/april-projects/april-script
       desc: 收集和自己工作中常用的一些 Windows 腳本倉庫(維護中/公共庫)
-    ballcat-codegen:
-      icon: fas fa-code
-      iconBackground: 'linear-gradient(to bottom right, #b2d235 0%, #b2d235 100%)'
-      url: https://github.com/ballcat-projects/ballcat-codegen
-      desc: 一個動態模板代碼生成器(維護中/公共庫)
-    spring-boot-starter:
-      icon: fa-solid fa-gear
-      iconBackground: 'linear-gradient(to bottom right, #508a88 0%, #508a88 100%)'
-      url: https://search.maven.org/search?q=mobaijun
-      desc: 基於 SpringBoot 自定義 Starter(維護中/私有庫)
     april-wallpaper:
-      icon: fa-solid fa-image
+      icon: fas fa-images
       iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #45b97c 100%)'
       url: https://github.com/april-projects/april-wallpaper
-      desc: 一個自動每日拉取 Wallpaper 網站的壁紙並進行分類整理(維護中/公共庫)
-    april-wallpasper:
-      icon: fa-brands fa-zhihu
-      iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #08A5F3 100%)'
-      url: https://github.com/april-projects/april-zh-hotspot-push
-      desc: 定時更新知乎熱點信息(維護中/公共庫)
+      desc: 每日拉取 Wallpaper 網站的壁紙並進行分類整理(維護中/公共庫)
     april-sensitive:
-      icon: fa-solid fa-pen
+      icon: fas fa-id-card
       iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #77E526 100%)'
       url: https://github.com/april-projects/april-sensitive
       desc: 简易小巧的脱敏工具类(維護中/公共庫)
-    april-typora-theme:
-      icon: fa-regular fa-text
-      iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #654485 100%)'
-      url: https://github.com/april-projects/april-typora-theme
-      desc: 一款 Typora 护眼绿主题(維護中/公共庫)
+    april-zh-hotspot-push:
+      icon: fab fa-zhihu
+      iconBackground: 'linear-gradient(to bottom right, #45b97c 0%, #08A5F3 100%)'
+      url: https://github.com/april-projects/april-zh-hotspot-push
+      desc: 定時更新知乎熱點信息(維護中/公共庫)
+    spring-boot-starter:
+      icon: fas fa-seedling
+      iconBackground: 'linear-gradient(to bottom right, #508a88 0%, #508a88 100%)'
+      url: https://search.maven.org/search?q=mobaijun
+      desc: 基於 SpringBoot 自定義 Starter(維護中/私有庫)
 
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
@@ -202,28 +202,28 @@ mySkills:
   data:
     Java:
       background: 'linear-gradient(to right, #7fb80e 0%, #7fb80e 100%)'
-      percent: 55%
+      percent: 95%
     MySQL:
       background: 'linear-gradient(to right, #00ae9d 0%, #00ae9d 100%)'
-      percent: 85%
+      percent: 95%
     Linux:
       background: 'linear-gradient(to right, #585eaa 0%, #585eaa 100%)'
       percent: 95%
     SpringBoot:
       background: 'linear-gradient(to right, #8e7437 0%, #8e7437 100%)'
-      percent: 80%
+      percent: 98%
     程序设计:
       background: 'linear-gradient(to right, #63434f 0%, #63434f 100%)'
-      percent: 40%
+      percent: 60%
     前端:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 50%
+      percent: 40%
     运维:
       background: 'linear-gradient(to right, #375830 0%, #375830 100%)'
       percent: 88%
     写作:
       background: 'linear-gradient(to right, #293047 0%, #293047 100%)'
-      percent: 65%
+      percent: 80%
 
 # 我的简介
 mySummary:
