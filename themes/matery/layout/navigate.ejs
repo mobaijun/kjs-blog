@@ -17,523 +17,232 @@
                         </ul>
                     </div>
                     <!--更换默认搜索引擎后需要更换name的q或wd、text等-->
-                    <input name="q" id="kw-2" maxlength="100" autocomplete="off" type="text">
-                    <input value="搜 · 索" id="su-2" type="submit">
+                    <label for="kw-2">
+                        <input name="q" id="kw-2" class="search-input" maxlength="100" autocomplete="off"
+                               type="text" placeholder="请输入搜索内容。。。">
+                        <input value="搜 · 索" id="su-2" type="submit">
+                    </label>
                 </div>
             </form>
         </div>
-        <!-- 链接 -->
-        <div class="row tags-posts ">
-            <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                <div class="card">
-                    <div class="jj-list-tit">编程 · 开源</div>
-                    <ul class="jj-list-con">
-                        <li><a href="https://trends.google.com" class="link-3" target="_blank">搜索 Top</a></li>
-                        <li><a href="https://www.tiobe.com/tiobe-index" class="link-3" target="_blank">编程Top</a></li>
-                        <li><a href="https://github-trending.com" class="link-3" target="_blank">Start Top</a></li>
-                        <li><a href="https://www.awesomes.cn/rank" class="link-3" target="_blank">前端 Top</a></li>
-                        <li><a href="https://owasp.org" class="link-3" target="_blank">OWASP</a></li>
-                        <li><a href="https://code.google.com" class="link-3" target="_blank">Google Code</a></li>
-                        <li><a href="https://www.experts-exchange.com" class="link-3" target="_blank">Experts</a></li>
-                        <li><a href="https://gitstar-ranking.com/users" class="link-3" target="_blank">GitHub Star</a>
-                        </li>
-                        <li><a href="https://db-engines.com/de/ranking" class="link-3" target="_blank">数据库</a></li>
-                        <li><a href="https://db-engines.com/en/ranking/time+series+dbms" class="link-3" target="_blank">时序数据库</a>
-                        </li>
-                        <li><a href="https://news.netcraft.com" class="link-3" target="_blank">Server Top</a></li>
-                        <li><a href="https://www.apache.org/" class="link-3" target="_blank">apache</a></li>
-                        <li><a href="https://opensource.oracle.com/" class="link-3" target="_blank">Oracle</a></li>
-                        <li><a href="https://spring.io/projects" class="link-3" target="_blank">Spring</a></li>
-                        <li><a href="https://opensource.google/" class="link-3" target="_blank">Google</a></li>
-                        <li><a href="https://opensource.alibaba.com/" class="link-3" target="_blank">阿里</a></li>
-                        <li><a href="https://opensource.baidu.com/" class="link-3" target="_blank">百度</a></li>
-                        <li><a href="https://opensource.tencent.com/" class="link-3" target="_blank">腾讯</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- 编程·社区 -->
-            <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                <div class="card">
-                    <div class="jj-list-tit">编程 · 交流</div>
-                    <ul class="jj-list-con">
-                        <li><a href="https://github.com" class="link-3" target="_blank">GitHub</a></li>
-                        <li><a href="https://stackoverflow.com" class="link-3" target="_blank">StackOverflow</a></li>
-                        <li><a href="https://gitee.com" class="link-3" target="_blank">码云</a></li>
-                        <li><a href="https://coding.net" class="link-3" target="_blank">Coding</a></li>
-                        <li><a href="https://cloud.tencent.com/developer" class="link-3" target="_blank">云+社区</a></li>
-                        <li><a href="https://www.cnblogs.com" class="link-3" target="_blank">博客园</a></li>
-                        <li><a href="https://juejin.im" class="link-3" target="_blank">掘金</a></li>
-                        <li><a href="https://www.csdn.net" class="link-3" target="_blank">CSDN</a></li>
-                        <li><a href="https://www.jianshu.com" class="link-3" target="_blank">简书</a></li>
-                        <li><a href="https://segmentfault.com" class="link-3" target="_blank">思否</a></li>
-                        <li><a href="https://www.oschina.net" class="link-3" target="_blank">开源中国</a></li>
-                        <li><a href="https://bbs.pediy.com" class="link-3" target="_blank">看雪论坛</a></li>
-                        <li><a href="https://blog.51cto.com/" class="link-3" target="_blank">51CTO</a></li>
-                        <li><a href="https://sourceforge.net" class="link-3" target="_blank">SourceForge</a></li>
-                        <li><a href="https://www.infoq.com" class="link-3" target="_blank">infoq</a></li>
-                        <li><a href="https://tech.meituan.com/" class="link-3" target="_blank">美团技术团队</a></li>
-                        <li><a href="https://www.bookstack.cn" class="link-3" target="_blank">书栈网</a></li>
-                        <li><a href="https://www.kancloud.cn" class="link-3" target="_blank">看云</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- 技术 · 学习 -->
-            <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                <div class="card">
-                    <div class="jj-list-tit">编程 · 学习</div>
-                    <ul class="jj-list-con">
-                        <li><a href="https://how2j.cn/" class="link-3" target="_blank">How2j</a></li>
-                        <li><a href="http://www.imooc.com/wiki/" class="link-3" target="_blank">慕课教程</a></li>
-                        <li><a href="https://www.runoob.com/" class="link-3" target="_blank">菜鸟教程</a></li>
-                        <li><a href="http://www.bjpowernode.com/tutorial/" class="link-3" target="_blank">动力节点</a>
-                        <li><a href="https://learnku.com/" class="link-3" target="_blank">LearnKu</a></li>
-                        <li><a href="https://hihocoder.com/" class="link-3" target="_blank">HihoCoder</a></li>
-                        <li><a href="https://leetcode-cn.com/" class="link-3" target="_blank">LeetCode</a></li>
-                        <li><a href="https://www.lintcode.com/" class="link-3" target="_blank">LintCode</a></li>
-                        <li><a href="https://www.nowcoder.com/" class="link-3" target="_blank">牛客网</a></li>
-                        <li><a href="https://www.lanqiao.cn/" class="link-3" target="_blank">蓝桥云课</a></li>
-                        <li><a href="https://codegym.cc/zh/" class="link-3" target="_blank">CodeGym</a></li>
-                        <li><a href="https://cloud.tencent.com/edu/learning" class="link-3" target="_blank">腾讯云大学</a>
-                        </li>
-                        <li><a href="https://edu.aliyun.com/course/explore" class="link-3" target="_blank">阿里云大学</a>
-                        </li>
-                        <li><a href="https://www.yiibai.com/" class="link-3" target="_blank">易百教程</a></li>
-                        <li><a href="http://www.51gjie.com/" class="link-3" target="_blank">JAVAschool</a></li>
-                        <li><a href="https://refactoringguru.cn/" class="link-3" target="_blank">设计模式</a></li>
-                        <li><a href="https://www.baeldung.com/" class="link-3" target="_blank">Baeldung</a>
-                        <li><a href="https://www.programschool.com/" class="link-3" target="_blank">编程学院</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--实用 · 工具-->
-            <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                <div class="card">
-                    <div class="jj-list-tit">实用 · 工具</div>
-                    <ul class="jj-list-con">
-                        <li><a href="https://study.163.com" class="link-3" target="_blank">网易云课堂</a></li>
-                        <li><a href="https://www.icourse163.org/" class="link-3" target="_blank">中国MOOC</a></li>
-                        <li><a href="https://mdnice.com/" class="link-3" target="_blank">Nice编辑器</a></li>
-                        <li><a href="https://www.guidgen.com/" class="link-3" target="_blank">生成GUID</a></li>
-                        <li><a href="https://www.bypass.cn/" class="link-3" target="_blank">抢票助手</a></li>
-                        <li><a href="https://www.ggcx.com/" class="link-3" target="_blank">狗狗查询</a></li>
-                        <li><a href="https://monitor.firefox.com/" class="link-3" target="_blank">隐私泄露查询</a></li>
-                        <li><a href="https://wallhaven.cc/" class="link-3" target="_blank">超清壁纸</a></li>
-                        <li><a href="https://www.52pojie.cn/" class="link-3" target="_blank">吾爱破解</a></li>
-                        <li><a href="https://fontawesome.com/" class="link-3" target="_blank">FontAwesome</a></li>
-                        <li><a href="https://mobaijun.gitee.io/mobai_images.gitee.io/ysbdq.html" class="link-3"
-                               target="_blank">颜色代码</a></li>
-                        <li><a href="http://assrt.net/" class="link-3" target="_blank">射手网</a></li>
-                        <li><a href="https://www.processon.com/" class="link-3" target="_blank">processon</a></li>
-                        <li><a href="https://icons8.com" class="link-3" target="_blank">icons8图标</a></li>
-                        <li><a href="https://www.iconfont.cn/" class="link-3" target="_blank">阿里图标库</a></li>
-                        <li><a href="http://zhongguose.com/" class="link-3" target="_blank">中国色</a></li>
-                        <li><a href="http://www.uugai.com" class="link-3" target="_blank">Logo设计</a></li>
-                        <li><a href="https://zh.wikihow.com" class="link-3" target="_blank">WikiHow</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--云端 · 工具-->
-            <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                <div class="card">
-                    <div class="jj-list-tit">云端 · 工具</div>
-                    <ul class="jj-list-con">
-                        <li><a href="https://cloud.tencent.com/developer/devdocs" class="link-3" target="_blank">腾讯云</a>
-                        </li>
-                        <li><a href="https://developer.aliyun.com/" class="link-3" target="_blank">阿里云</a></li>
-                        <li><a href="https://www.huaweicloud.com/" class="link-3" target="_blank">华为云</a></li>
-                        <li><a href="https://abcxueyuan.baidu.com/" class="link-3" target="_blank">百度云</a></li>
-                        <li><a href="https://www.apache.org/" class="link-3" target="_blank">Apache</a></li>
-                        <li><a href="https://spring.io/" class="link-3" target="_blank">Spring</a></li>
-                        <li><a href="https://adworld.xctf.org.cn/" class="link-3" target="_blank">攻防世界</a></li>
-                        <li><a href="https://cdnjs.com/" class="link-3" target="_blank">CdnJs</a></li>
-                        <li><a href="https://www.jsdelivr.com/" class="link-3" target="_blank">JsDelivr</a></li>
-                        <li><a href="https://myssl.com/" class="link-3" target="_blank">SSL安全评估</a></li>
-                        <li><a href="https://www.cloudflare.com/" class="link-3" target="_blank">CloudFlare</a></li>
-                        <li><a href="https://www.w3school.com.cn/index.html" class="link-3" target="_blank">w3school</a>
-                        </li>
-                        <li><a href="https://www.lanzou.com/" class="link-3" target="_blank">蓝奏云</a></li>
-                        <li><a href="https://mirrors.cloud.tencent.com/" class="link-3" target="_blank">腾讯源</a></li>
-                        <li><a href="https://tuna.moe/" class="link-3" target="_blank">清华源</a></li>
-                        <li><a href="https://union.lizhi.io/panel/#/" class="link-3" target="_blank">推广联盟</a></li>
-                        <li><a href="https://mirrors.bfsu.edu.cn/" class="link-3" target="_blank">外国语镜像</a></li>
-                        <li><a href="http://www.demodashi.com/" class="link-3" target="_blank">Demo大师</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--影视 · 镜像-->
-            <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                <div class="card">
-                    <div class="jj-list-tit">影视 · 镜像</div>
-                    <ul class="jj-list-con">
-                        <li><a href="http://www.yinfans.me/" class="link-3" target="_blank">音范丝</a></li>
-                        <li><a href="https://www.bilibili.com/" class="link-3" target="_blank">B站</a></li>
-                        <li><a href="https://www.youtube.com/" class="link-3" target="_blank">YouTube</a></li>
-                        <li><a href="https://www.netflix.com/" class="link-3" target="_blank">Netflix</a></li>
-                        <li><a href="https://aidi.tv/" class="link-3" target="_blank">爱迪4K</a></li>
-                        <li><a href="https://m.tiantk.net/" class="link-3" target="_blank">天天看电影</a></li>
-                        <li><a href="https://4k-m.com/" class="link-3" target="_blank">4K电影</a></li>
-                        <li><a href="https://www.mvyxws.com/" class="link-3" target="_blank">医学微视</a></li>
-                        <li><a href="https://my.chsi.com.cn/" class="link-3" target="_blank">学信网</a>
-                        </li>
-                        <li><a href="https://carbon.now.sh/" class="link-3" target="_blank">代码图片</a></li>
-                        <li><a href="https://www.hifini.com/" class="link-3" target="_blank">音乐磁场</a></li>
-                        <li><a href="https://chrome.zzzmh.cn/" class="link-3" target="_blank">极简插件</a></li>
-                        <li><a href="https://trends.google.com" class="link-3" target="_blank">Google指数</a></li>
-                        <li><a href="https://www.foreverblog.cn/" class="link-3" target="_blank">十年之约</a></li>
-                        <li><a href="https://www.zhipin.com/" class="link-3" target="_blank">Boss直聘</a></li>
-                        <li><a href="https://www.zhaopin.com/" class="link-3" target="_blank">智联招聘</a></li>
-                        <li><a href="https://www.biquge.com.cn" class="link-3" target="_blank">笔趣阁</a></li>
-                        <li><a href="https://3d.shejijia.com/" class="link-3" target="_blank">每平每屋</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <script>
-            /*选择搜索引擎*/
-            $('.Select-box ul').hover(function () {
-                $(this).css('height', 'auto')
-            }, function () {
-                $(this).css('height', '40px')
-            });
-            $('.Select-box-2 ul').hover(function () {
-                $(this).css('height', 'auto')
-            }, function () {
-                $(this).css('height', '46px')
-            });
-            $('.Select-box li').click(function () {
-                var _tihs = $(this).attr('class');
-                var _html = $(this).html();
-                if (_tihs == 'baidu_s') {
-                    _tihs = 'https://www.baidu.com/s';
-                    _name = 'wd';
+            // 定义搜索引擎的配置
+            const searchEngines = {
+                'baidu_s': {url: 'https://www.baidu.com/s', name: 'wd'},
+                'google_s': {url: 'https://www.google.com/search', name: 'q'},
+                'bing_s': {url: 'https://www.bing.com/search', name: 'q'},
+                'kaifa_s': {url: 'https://kaifa.baidu.com/searchPage', name: 'wd'},
+                'yahoo_s': {url: 'https://search.yahoo.com/search', name: 'p'},
+                'yandex_s': {url: 'https://yandex.com/search/', name: 'text'}
+            };
+
+            // 更新搜索引擎和输入框的名称
+            function updateSearchEngine(selector, inputSelector, formSelector) {
+                $(selector).click(function () {
+                    const engineClass = $(this).attr('class');
+                    const engineInfo = searchEngines[engineClass];
+                    if (engineInfo) {
+                        // 更新表单的 action 和输入框的 name 属性
+                        $(formSelector).attr('action', engineInfo.url);
+                        $('.this_s').html($(this).html());
+                        $(inputSelector).attr('name', engineInfo.name);
+                    }
+                    // 收起搜索引擎列表
+                    $(this).closest('ul').css('height', '40px');
+                });
+            }
+
+            // 设置搜索引擎选择框的 hover 效果
+            function setSearchEngineHover(selector, smallHeight, largeHeight) {
+                $(selector).hover(function () {
+                    $(this).css('height', largeHeight);
+                }, function () {
+                    $(this).css('height', smallHeight);
+                });
+            }
+
+            // 为两个搜索框设置事件处理
+            updateSearchEngine('.Select-box li', '#kw', '.baidu form');
+            updateSearchEngine('.Select-box-2 li', '#kw-2', '.baidu form');
+            // 设置鼠标悬停时显示完整列表
+            setSearchEngineHover('.Select-box ul', '40px', 'auto');
+            setSearchEngineHover('.Select-box-2 ul', '46px', 'auto');
+        </script>
+
+        <!-- 链接 -->
+        <div class="row tags-posts">
+            <!-- 使用 JavaScript 动态生成 -->
+        </div>
+
+        <script>
+            const categories = [
+                {
+                    title: '编程 · 开源',
+                    links: [
+                        {text: '搜索 Top', url: 'https://trends.google.com'},
+                        {text: '编程Top', url: 'https://www.tiobe.com/tiobe-index'},
+                        {text: 'Start Top', url: 'https://github-trending.com'},
+                        {text: '前端 Top', url: 'https://www.awesomes.cn/rank'},
+                        {text: 'Google Code', url: 'https://code.google.com'},
+                        {text: 'GitHub Star', url: 'https://gitstar-ranking.com/users'},
+                        {text: '数据库', url: 'https://db-engines.com/de/ranking'},
+                        {text: '时序数据库', url: 'https://db-engines.com/en/ranking/time+series+dbms'},
+                        {text: 'Server Top', url: 'https://news.netcraft.com'},
+                        {text: 'apache', url: 'https://www.apache.org/'},
+                        {text: 'Spring', url: 'https://spring.io/projects'},
+                        {text: 'Google', url: 'https://opensource.google/'},
+                        {text: '阿里', url: 'https://opensource.alibaba.com/'},
+                        {text: '百度', url: 'https://opensource.baidu.com/'},
+                        {text: '腾讯', url: 'https://opensource.tencent.com/'}
+                    ]
+                },
+                {
+                    title: '编程 · 交流',
+                    links: [
+                        {text: 'GitHub', url: 'https://github.com'},
+                        {text: 'StackOverflow', url: 'https://stackoverflow.com'},
+                        {text: '码云', url: 'https://gitee.com'},
+                        {text: 'Coding', url: 'https://coding.net'},
+                        {text: '云+社区', url: 'https://cloud.tencent.com/developer'},
+                        {text: '博客园', url: 'https://www.cnblogs.com'},
+                        {text: '掘金', url: 'https://juejin.im'},
+                        {text: 'CSDN', url: 'https://www.csdn.net'},
+                        {text: '简书', url: 'https://www.jianshu.com'},
+                        {text: '思否', url: 'https://segmentfault.com'},
+                        {text: '开源中国', url: 'https://www.oschina.net'},
+                        {text: '看雪论坛', url: 'https://bbs.pediy.com'},
+                        {text: 'SourceForge', url: 'https://sourceforge.net'},
+                        {text: '美团技术团队', url: 'https://tech.meituan.com/'},
+                        {text: '书栈网', url: 'https://www.bookstack.cn'}
+                    ]
+                },
+                {
+                    title: '编程 · 学习',
+                    links: [
+                        {text: 'How2j', url: 'https://how2j.cn/'},
+                        {text: '慕课教程', url: 'https://www.imooc.com/wiki/'},
+                        {text: '菜鸟教程', url: 'https://www.runoob.com/'},
+                        {text: '动力节点', url: 'https://www.bjpowernode.com/tutorial/'},
+                        {text: 'HihoCoder', url: 'https://hihocoder.com/'},
+                        {text: 'LeetCode', url: 'https://leetcode-cn.com/'},
+                        {text: 'LintCode', url: 'https://www.lintcode.com/'},
+                        {text: '牛客网', url: 'https://www.nowcoder.com/'},
+                        {text: 'CodeGym', url: 'https://codegym.cc/zh/'},
+                        {text: '腾讯云大学', url: 'https://cloud.tencent.com/edu/learning'},
+                        {text: '阿里云大学', url: 'https://edu.aliyun.com/course/explore'},
+                        {text: '易百教程', url: 'https://www.yiibai.com/'},
+                        {text: 'JAVAschool', url: 'https://www.51gjie.com/'},
+                        {text: '设计模式', url: 'https://refactoringguru.cn/'},
+                        {text: 'Baeldung', url: 'https://www.baeldung.com/'}
+                    ]
+                },
+                {
+                    title: '实用 · 工具',
+                    links: [
+                        {text: '网易云课堂', url: 'https://study.163.com'},
+                        {text: '生成GUID', url: 'https://www.guidgen.com/'},
+                        {text: '抢票助手', url: 'https://www.bypass.cn/'},
+                        {text: '狗狗查询', url: 'https://www.ggcx.com/'},
+                        {text: '隐私泄露查询', url: 'https://monitor.firefox.com/'},
+                        {text: '超清壁纸', url: 'https://wallhaven.cc/'},
+                        {text: '吾爱破解', url: 'https://www.52pojie.cn/'},
+                        {text: 'FontAwesome', url: 'https://fontawesome.com/'},
+                        {text: '射手网', url: 'https://assrt.net/'},
+                        {text: 'processon', url: 'https://www.processon.com/'},
+                        {text: 'icons8图标', url: 'https://icons8.com'},
+                        {text: '阿里图标库', url: 'https://www.iconfont.cn/'},
+                        {text: '中国色', url: 'https://zhongguose.com/'},
+                        {text: 'Logo设计', url: 'https://www.uugai.com'},
+                        {text: 'WikiHow', url: 'https://zh.wikihow.com'}
+                    ]
+                },
+                {
+                    title: '云端 · 工具',
+                    links: [
+                        {text: '腾讯云', url: 'https://cloud.tencent.com/developer/devdocs'},
+                        {text: '阿里云', url: 'https://developer.aliyun.com/'},
+                        {text: '华为云', url: 'https://www.huaweicloud.com/'},
+                        {text: '百度云', url: 'https://abcxueyuan.baidu.com/'},
+                        {text: 'Apache', url: 'https://www.apache.org/'},
+                        {text: 'CdnJs', url: 'https://cdnjs.com/'},
+                        {text: 'JsDelivr', url: 'https://www.jsdelivr.com/'},
+                        {text: 'SSL安全评估', url: 'https://myssl.com/'},
+                        {text: 'CloudFlare', url: 'https://www.cloudflare.com/'},
+                        {text: 'w3school', url: 'https://www.w3school.com.cn/index.html'},
+                        {text: '蓝奏云', url: 'https://www.lanzou.com/'},
+                        {text: '腾讯源', url: 'https://mirrors.cloud.tencent.com/'},
+                        {text: '清华源', url: 'https://tuna.moe/'},
+                        {text: '推广联盟', url: 'https://union.lizhi.io/panel/#/'},
+                        {text: '外国语镜像', url: 'https://mirrors.bfsu.edu.cn/'}
+                    ]
+                },
+                {
+                    title: '影视 · 镜像',
+                    links: [
+                        {text: '音范丝', url: 'https://www.yinfans.me/'},
+                        {text: 'YouTube', url: 'https://www.youtube.com/'},
+                        {text: 'Netflix', url: 'https://www.netflix.com/'},
+                        {text: '天天看电影', url: 'https://m.tiantk.net/'},
+                        {text: '医学微视', url: 'https://www.mvyxws.com/'},
+                        {text: '学信网', url: 'https://my.chsi.com.cn/'},
+                        {text: '代码图片', url: 'https://carbon.now.sh/'},
+                        {text: '音乐磁场', url: 'https://www.hifini.com/'},
+                        {text: '极简插件', url: 'https://chrome.zzzmh.cn/'},
+                        {text: 'Google指数', url: 'https://trends.google.com'},
+                        {text: '十年之约', url: 'https://www.foreverblog.cn/'},
+                        {text: 'Boss直聘', url: 'https://www.zhipin.com/'},
+                        {text: '智联招聘', url: 'https://www.zhaopin.com/'},
+                        {text: '笔趣阁', url: 'https://www.biquge.com.cn'},
+                        {text: '每平每屋', url: 'https://3d.shejijia.com/'}
+                    ]
                 }
-                if (_tihs == 'google_s') {
-                    _tihs = 'https://www.google.com/search';
-                    _name = 'q';
-                }
-                if (_tihs == 'bing_s') {
-                    _tihs = 'https://www.bing.com/search';
-                    _name = 'q';
-                }
-                if (_tihs == 'kaifa_s') {
-                    _tihs = 'https://kaifa.baidu.com/searchPage';
-                    _name = 'wd';
-                }
-                if (_tihs == 'yahoo_s') {
-                    _tihs = 'https://search.yahoo.com/search';
-                    _name = 'p';
-                }
-                if (_tihs == 'yandex_s') {
-                    _tihs = 'https://yandex.com/search/';
-                    _name = 'text';
-                }
-                $('.baidu form').attr('action', _tihs);
-                $('.this_s').html(_html);
-                $('#kw').attr('name', _name);
-                $('.Select-box ul').css('height', '40px')
-            });
-            $('.Select-box-2 li').click(function () {
-                var _tihs = $(this).attr('class');
-                var _html = $(this).html();
-                if (_tihs == 'baidu_s') {
-                    _tihs = 'https://www.baidu.com/s';
-                    _name = 'wd';
-                }
-                if (_tihs == 'google_s') {
-                    _tihs = 'https://www.google.com/search';
-                    _name = 'q';
-                }
-                if (_tihs == 'bing_s') {
-                    _tihs = 'https://www.bing.com/search';
-                    _name = 'q';
-                }
-                if (_tihs == 'kaifa_s') {
-                    _tihs = 'https://kaifa.baidu.com/searchPage';
-                    _name = 'wd';
-                }
-                if (_tihs == 'yahoo_s') {
-                    _tihs = 'https://search.yahoo.com/search';
-                    _name = 'p';
-                }
-                if (_tihs == 'yandex_s') {
-                    _tihs = 'https://yandex.com/search/';
-                    _name = 'text';
-                }
-                $('.baidu form').attr('action', _tihs);
-                $('.this_s').html(_html);
-                $('#kw-2').attr('name', _name);
-                $('.Select-box-2 ul').css('height', '48px')
+            ];
+            document.addEventListener('DOMContentLoaded', function () {
+                const container = document.querySelector('.tags-posts');
+                categories.forEach(category => {
+                    // 创建一个新的 div
+                    const categoryDiv = document.createElement('div');
+                    categoryDiv.classList.add('col', 's12', 'm6', 'l4', 'friend-div');
+                    categoryDiv.setAttribute('data-aos', 'zoom-in-up');
+
+                    // 创建 card
+                    const card = document.createElement('div');
+                    card.classList.add('card');
+
+                    // 创建标题
+                    const title = document.createElement('div');
+                    title.classList.add('jj-list-tit');
+                    title.textContent = category.title;
+
+                    // 创建 ul
+                    const ul = document.createElement('ul');
+                    ul.classList.add('jj-list-con');
+
+                    // 遍历每个链接，生成 li
+                    category.links.forEach(link => {
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = link.url;
+                        a.classList.add('link-3');
+                        a.target = '_blank';
+                        a.textContent = link.text;
+                        li.appendChild(a);
+                        ul.appendChild(li);
+                    });
+                    // 将标题和 ul 插入 card
+                    card.appendChild(title);
+                    card.appendChild(ul);
+
+                    // 将 card 插入 categoryDiv
+                    categoryDiv.appendChild(card);
+
+                    // 将 categoryDiv 插入 container
+                    container.appendChild(categoryDiv);
+                });
             });
         </script>
     </div>
 </div>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    dd {
-        margin: 0px;
-        padding: 0px;
-        font-size: 14px;
-        font-weight: normal;
-    }
-
-    img {
-        border-style: none;
-    }
-
-    li {
-        list-style: none;
-        float: left
-    }
-
-    a {
-        text-decoration: none
-    }
-
-    .card {
-        background-color: rgba(25, 240, 229, 0);
-        width: 96%;
-        margin-left: 2%
-    }
-
-    .baidu {
-        float: left;
-        margin-left: 100px;
-    }
-
-    .baidu form {
-        position: relative
-    }
-
-    .Select-box ul {
-        height: 40px;
-        position: absolute;
-        left: -1px;
-        top: 0px;
-        z-index: 9999;
-        background: #FFF;
-        border: 1px solid #ccc;
-        border-top: none;
-        overflow: hidden
-    }
-
-    .Select-box li {
-        width: 60px;
-        line-height: 40px;
-        font-size: 14px;
-        color: #484848;
-        border: 0;
-        cursor: pointer;
-    }
-
-    .Select-box li:hover {
-        background: #3385ff;
-        color: #FFF;
-    }
-
-    .Select-box .this_s {
-        color: #317ef3;
-    }
-
-    .Select-box .this_s:hover {
-        background: #FFF;
-        color: #317ef3;
-    }
-
-    .baidu-2 {
-        width: 100%;
-        height: 110px;
-        margin: 0 auto;
-        background: none;
-        /*修改搜索框和网站框距离*/
-        padding-top: 15px;
-    }
-
-    .baidu-2 form {
-        width: 520px;
-        margin: 0 auto;
-    }
-
-    .baidu-2 input {
-        padding: 13px 8px;
-        opacity: 0.9;
-        font-size: 15px;
-    }
-
-    #Select-2 {
-        float: left;
-    }
-
-    .Select-box-2 {
-        text-align: center;
-        float: left;
-        position: relative;
-    }
-
-    .Select-box-2 ul {
-        height: 46px;
-        position: absolute;
-        left: 0px;
-        top: 1px;
-        z-index: 9999;
-        background: rgba(255, 255, 255, 0.9);
-        border: 1px solid #ccc;
-        border-top: none;
-        overflow: hidden;
-        border-radius: 10px;
-    }
-
-    .Select-box-2 li {
-        width: 60px;
-        line-height: 46px;
-        font-size: 15px;
-        color: #484848;
-        border: 0;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-
-    .Select-box-2 li:hover {
-        background: #3385ff;
-        color: #FFF;
-    }
-
-    .Select-box-2 .this_s {
-        color: #317ef3;
-    }
-
-    .Select-box-2 .this_s:hover {
-        background: none;
-        color: #317ef3;
-    }
-
-    #kw-2 {
-        width: 335px;
-        outline: 0;
-        border: 1px solid #ccc;
-        background: rgba(255, 255, 255, 0.2);
-        color: #000000;
-        padding-left: 70px;
-        font-weight: bold;
-        border-radius: 10px;
-    }
-
-    /*修改搜索框样式*/
-    #su-2 {
-        width: 80px;
-        background: blue;
-        border: none;
-        border-top: #3385ff 1px solid;
-        border-bottom: 1px solid #2d78f4;
-        color: #FFF;
-        cursor: pointer;
-        /*去轮廓阴影*/
-        outline: none;
-        border-radius: 35px;
-    }
-
-    /*光标移动到搜索框颜色*/
-    #su-2:hover {
-        background: blue;
-        border-bottom: 1px solid blue;
-    }
-
-    #su-2:active {
-        background: blue;
-        box-shadow: inset 1px 1px 3px blue;
-        -webkit-box-shadow: inset 1px 1px 3px blue;
-    }
-
-    /*表格标题*/
-    .jj-list-tit {
-        font-size: 16px;
-        line-height: 25px;
-        color: #ffffff;
-        width: 100%;
-        padding-left: 38.5%;
-    }
-
-    .jj-list-con {
-        overflow: hidden;
-        margin: 0 auto
-    }
-
-    /*控制网站列表间距*/
-    .jj-list-con li {
-        width: 31.333%;
-        margin: 1%;
-    }
-
-    .link-3 {
-        display: block;
-        background: rgba(0, 0, 0, .35);
-        color: #FFF;
-        font-size: 13px;
-        text-align: center;
-        line-height: 35px;
-        padding: 4px 0;
-        border-radius: 2px;
-        transition: all 0.2s;
-    }
-
-    .link-3:hover {
-        background: rgba(0, 0, 0, .45);
-        font-size: 15px;
-        font-weight: bold
-    }
-
-    /*修改导航不适配问题*/
-    /*1栏 小于584*/
-    @media only screen and (max-width: 601px) {
-        .navi-height {
-            height: 95%;
-        }
-
-        /*博客标题和导航框间距{上下}*/
-        .link-box {
-            margin-top: 12%;
-        }
-
-        .large-screen {
-            display: none;
-        }
-    }
-
-    /* 2栏 大于584  小于993px */
-    @media only screen and (min-width: 600px) and (max-width: 993px) {
-        .navi-height {
-            height: 100%;
-        }
-
-        .link-box {
-            margin-top: 5%;
-        }
-
-        .large-screen {
-            display: none;
-        }
-    }
-
-    /*3栏 大于993px*/
-    @media only screen and (min-width: 993px) {
-        .navi-height {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    /* 隐藏footer */
-    .page-footer {
-        display: none;
-    }
-</style>
 <% if (theme.banner.enable) { %>
     <script>
         // 每天切换 banner 图.  Switch banner image every day.
