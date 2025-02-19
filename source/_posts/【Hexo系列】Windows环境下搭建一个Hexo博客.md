@@ -1,7 +1,7 @@
 ---
 title: 【Hexo系列】Windows环境下搭建一个Hexo博客
 author: 墨白
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false
