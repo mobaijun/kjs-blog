@@ -29,6 +29,35 @@ summary:
 
 ![](https://tencent.cos.mobaijun.com/img/blog/【随笔】一些可用的-Google-搜索镜像站/0.png)
 
+## 2025 年 2 月 26 日更新
+
+[自建 Google 镜像代理站](https://github.com/april-projects/april-google-proxy)
+
+
+
+**Startpage 搜索（Startpage后台使用Google搜索API，所以具有跟Google相同的搜索品质）**
+
+- [Startpage 搜索](https://google.150123.xyz/aaabbbccc/https/www.startpage.com)
+
+**Google 搜索（“网页”搜索可用，“全部”搜索需要验证，目前不可用）**
+
+- [Google搜索](https://google.150123.xyz/aaabbbccc/https/www.google.com.tw/search?q=google&newwindow=1&sca_esv=46e212da3fac3ef4&hl=zh-CN&biw=1536&bih=695&udm=14)
+
+**Bing 国际版搜索**
+
+- [Bing 国际版搜索](https://google.150123.xyz/aaabbbccc/https/www.bing.com/search?go=搜索&q=bing)
+
+**谷歌学术**
+
+- [谷歌学术](https://google.150123.xyz/aaabbbccc/https/scholar.google.com)
+
+**AI 聊天（ChatGPT-4o mini、Claude 3 以及开源 Llama 3.3 和 Mistral）**
+
+- [AIChat](https://google.150123.xyz/aaabbbccc/https/duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
+
+**网站导航**
+
+- [网站导航](https://google.150123.xyz/aaabbbccc/)
 
 ## 2023 年 11 月 27 日更新
 
@@ -39,15 +68,15 @@ https://g.luciaz.me/
 验证你是否来自浙江大学，三个问题的答案分别是：心灵之约、水朝夕、csxy@123
 ```
 
-https://g.savalone.com/
+~~https://g.savalone.com/~~
 
 https://googlehnzyc.azurewebsites.net/
 
-https://gs.colnago.icu/
+~~https://gs.colnago.icu/~~
 
-https://search.ecnu.cf/
+~~https://search.ecnu.cf/~~
 
-https://search.ahau.cf/
+~~https://search.ahau.cf/~~
 
 
 
@@ -57,7 +86,7 @@ https://scholar.lanfanshu.cn/
 
 https://sc.panda321.com/
 
-http://so.hiqq.com.cn/
+~~http://so.hiqq.com.cn/~~
 
 https://gg.xueshu5.com/
 
@@ -67,11 +96,11 @@ https://scholar.niostack.com/
 
 ## 维基百科
 
-https://www.wikimirror.org/ （复制到浏览器打开，需要回答问题）
+~~https://www.wikimirror.org/ （复制到浏览器打开，需要回答问题）~~
 
 https://zh-two.iwiki.icu/
 
-https://duhoc.cn/baike/zh/ (有广告)
+~~https://duhoc.cn/baike/zh/ (有广告)~~
 
 https://www.how.com.vn/wiki/zh/ (有广告)
 
@@ -81,29 +110,29 @@ https://sci-hub.org.cn
 
 https://sci-hub.et-fine.com
 
-https://sci-hub.wf
+~~https://sci-hub.wf~~
 
-https://sci-hub.yt
+~~https://sci-hub.yt~~
 
-https://sci.hubg.org
+~~https://sci.hubg.org~~
 
 https://sci-hub.shop
 
-https://sci-hub.st
+~~https://sci-hub.st~~
 
 https://sci-hub.se
 
-https://sci-hub.tf
+~~https://sci-hub.tf~~
 
 https://sci-hub.ren
 
 ## GitHub
 
-https://hub.yzuu.cf/
+~~https://hub.yzuu.cf/~~
 
-https://hub.nuaa.cf/
+~~https://hub.nuaa.cf/~~
 
-https://gitclone.com/ （仅支持`git`）
+~~https://gitclone.com/ （仅支持`git`）~~
 
 ## Jsdelivr
 
@@ -117,34 +146,34 @@ https://cdn.bootcdn.net/ajax/libs
 
 https://lib.baomitu.com
 
-https://mirrors.cqupt.edu.cn/cdnjs/ajax/libs （重庆邮电）
+~~https://mirrors.cqupt.edu.cn/cdnjs/ajax/libs （重庆邮电）~~
 
-https://cdn.staticfile.org
+https://www.staticfile.net/
 
-https://mirrors.sustech.edu.cn/cdnjs/ajax/libs （南大）
+https://mirrors.sustech.edu.cn/ （南大）
 
-https://cdnjs.sourcegcdn.com/ajax/libs （全量同步 https://cdnjs.cloudflare.com）
+~~https://cdnjs.sourcegcdn.com/ajax/libs （全量同步 https://cdnjs.cloudflare.com）~~
 
 ---
 
 
 ## 2023年4月9日更新
 
-Google搜索：[https://google.qinai.blog/](https://google.qinai.blog/)
+~~Google搜索：[https://google.qinai.blog/](https://google.qinai.blog/)~~
 
-Google搜索：[https://g.damfu.com/](https://g.damfu.com/)
+~~Google搜索：[https://g.damfu.com/](https://g.damfu.com/)~~
 
-Google搜索：[https://xgoogle.xyz/](https://xgoogle.xyz/)
+~~Google搜索：[https://xgoogle.xyz/](https://xgoogle.xyz/)~~
 
-Google搜索：[https://goo.xbzxs.org/](https://goo.xbzxs.org/)
+~~Google搜索：[https://goo.xbzxs.org/](https://goo.xbzxs.org/)~~
 
-Google搜索：[https://google.power365.ml/](https://google.power365.ml/)
+~~Google搜索：[https://google.power365.ml/](https://google.power365.ml/)~~
 
-Google搜索：[https://jsapi.usthk.cn/](https://jsapi.usthk.cn/)
+~~Google搜索：[https://jsapi.usthk.cn/](https://jsapi.usthk.cn/)~~
 
 ## 2023年3月2日更新
 
-Google搜索：[https://note.cm](https://yimili.net/go/?url=https://note.cm)
+~~Google搜索：[https://note.cm](https://yimili.net/go/?url=https://note.cm)~~
 
 ~~Google搜索：[https://search.aust.cf/](https://yimili.net/go/?url=https://search.aust.cf/)~~
 
@@ -152,15 +181,15 @@ Google搜索：[https://note.cm](https://yimili.net/go/?url=https://note.cm)
 
 ~~Google搜索：[https://search.ecnu.cf/](https://yimili.net/go/?url=https://search.ecnu.cf/)~~
 
-Google学术：[https://so.niostack.com](https://yimili.net/go/?url=https://so.niostack.com/)
+~~Google学术：[https://so.niostack.com](https://yimili.net/go/?url=https://so.niostack.com/)~~
 
 ~~Google搜索：[https://googe.fun/](https://yimili.net/go/?url=https://googe.fun/)~~
 
-Google搜索：[https://s.iit.xyz/](https://s.iit.xyz/)
+~~Google搜索：[https://s.iit.xyz/](https://s.iit.xyz/)~~
 
-Google搜索：[https://serx.ml/](https://yimili.net/go/?url=https://serx.ml/)
+~~Google搜索：[https://serx.ml/](https://yimili.net/go/?url=https://serx.ml/)~~
 
-Google搜索：[https://ge2.azurewebsites.net/](https://yimili.net/go/?url=https://ge2.azurewebsites.net/)
+~~Google搜索：[https://ge2.azurewebsites.net/](https://yimili.net/go/?url=https://ge2.azurewebsites.net/)~~
 
 ## 香港区域：
 
@@ -170,9 +199,9 @@ Google搜索：[https://ge2.azurewebsites.net/](https://yimili.net/go/?url=https
 
 ~~https://g.qwq.fan/~~
 
-[https://shitu.paodekuaiweixinqun.com/webhp/](https://shitu.paodekuaiweixinqun.com/webhp)
+~~[https://shitu.paodekuaiweixinqun.com/webhp/](https://shitu.paodekuaiweixinqun.com/webhp)~~
 
-https://gogogle.cf/
+~~https://gogogle.cf/~~
 
 ~~https://s.isway.cn/~~
 
@@ -214,13 +243,13 @@ https://gogogle.cf/
 
 ~~https://goo.xbzxs.org/~~
 
-[https://谷歌.ml/](https://xn--flw351e.ml/)
+~~[https://谷歌.ml/](https://xn--flw351e.ml/)~~
 
 ~~https://google.icloudnative.io/ （基于Google的Startpage）~~
 
 ~~https://google.pem.app/~~
 
-https://g48.i-research.edu.eu.org/
+~~https://g48.i-research.edu.eu.org/~~
 
 ~~https://g20.i-research.edu.eu.org/~~
 
