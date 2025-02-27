@@ -12,7 +12,8 @@ layout: about
 
 2. 常用技术栈：
 
-* Java & SpringBoot & MybatisPlus  & Nginx & Mysql & InfluxDB & React & Redis & IEC61850 & Maven & Git & SSM & Docker & Shell ………….
+* Java & Python & SpringBoot & SpringCloud & Nacos & Gateway & Satoken & MybatisPlus & Nginx & Mysql & InfluxDB &
+  React & Redis & IEC61850 & Maven & Git & SSM & Docker & Shell ………….
 
 3. 常用工具集：
 
