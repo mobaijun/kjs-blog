@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="<%= config.language %>">
+<%- partial('_partial/head') %>
+<body>
+<!--CDN脚本加速-->
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.cdn) %>"></script>
+
+<!--动态背景-->
+<% if (theme.canva_moving_effect.enable) { %>
+    <div id="bg">
+        <canvas></canvas>
+        <canvas></canvas>
+        <canvas></canvas>
+    </div>
+    <script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.canva_moving_effect) %>"></script>
+<% } %>
+<%- partial('_partial/header') %>
+<%- body %>
+<%- partial('_partial/footer') %>
+<%- partial('_partial/search') %>
+<%- partial('_partial/back-top') %>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.materialize) %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.masonry) %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.aos) %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.scrollProgress) %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.lightgallery) %>"></script>
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.matery) %>"></script>
+<!--引用检测IEjs文件-->
+<script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.browser) %>"></script>
+
+<!-- 博客标签动态提示 -->
+<script async type="text/javascript">
+    var OriginTitile = document.title,
+        st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
+            "(๑•̀ㅂ•́)居然被你发现了～", st = setTimeout(function () {
+            document.title = OriginTitile
+        }, 3e3))
+    })
+</script>
+
+<!-- 添加鼠标点击烟花爆炸效果 -->
+<% if (theme.fireworks.enable) { %>
+    <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+    <script async type="text/javascript" src="/libs/others/anime.min.js"></script>
+    <script async type="text/javascript" src="/libs/others/fireworks.js"></script>
+<% } %>
+
+<!-- 添加屏蔽网页源码 -->
+<% if (theme.onload.enable) { %>
+    <script async type="text/javascript">
+        window.onload = function () {
+            // 屏蔽键盘事件
+            document.onkeydown = function () {
+                var e = window.event || arguments[0];
+                // F12
+                if (e.keyCode === 123) {
+                    return false;
+                    // Ctrl+Shift+I
+                } else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode === 73)) {
+                    return false;
+                    // Shift+F10
+                } else if ((e.shiftKey) && (e.keyCode === 121)) {
+                    return false;
+                    // Ctrl+U
+                } else if ((e.ctrlKey) && (e.keyCode === 85)) {
+                    return false;
+                }
+            };
+            // 屏蔽鼠标右键
+            document.oncontextmenu = function () {
+                return false;
+            }
+        }
+    </script>
+<% } %>
+<%- partial('_partial/baidu-analytics') %>
+<%- partial('_partial/baidu-push') %>
+<% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+    <script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.busuanzi) %>"></script>
+<% } %>
+<% if (theme.instantpage.enable) { %>
+    <script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.instantpage) %>" type="module"></script>
+<% } %>
+<!-- 白色冒泡 -->
+<% if (theme.bubble.enable) { %>
+    <script async type="text/javascript" src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.bubble) %>"></script>
+<% } %>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCW8VHDG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+</html>

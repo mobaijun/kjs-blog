@@ -1,0 +1,43 @@
+/* fonts */
+div.jqcloud {
+    font-family: "JetBrains Mono", serif;
+    font-size: 10px;
+    line-height: normal;
+}
+div.jqcloud a {
+    font-size: inherit;
+    text-decoration: none;
+}
+div.jqcloud span.w10 { font-size: 550%; }
+div.jqcloud span.w9 { font-size: 500%; }
+div.jqcloud span.w8 { font-size: 450%; }
+div.jqcloud span.w7 { font-size: 400%; }
+div.jqcloud span.w6 { font-size: 350%; }
+div.jqcloud span.w5 { font-size: 300%; }
+div.jqcloud span.w4 { font-size: 250%; }
+div.jqcloud span.w3 { font-size: 200%; }
+div.jqcloud span.w2 { font-size: 150%; }
+div.jqcloud span.w1 { font-size: 100%; }
+
+/* colors */
+div.jqcloud { color: #8989d7; }
+div.jqcloud a { color: inherit; }
+div.jqcloud a:hover { color: #91AD70; }
+div.jqcloud a:hover { color: #2EA9DF; }
+div.jqcloud span.w10 { color: #1b8f55; }
+div.jqcloud span.w9 { color: #3a6db0; }
+div.jqcloud span.w8 { color: #466b07; }
+div.jqcloud span.w7 { color: #0c4062; }
+div.jqcloud span.w6 { color: #38a578; }
+div.jqcloud span.w5 { color: #9ba6a9; }
+div.jqcloud span.w4 { color: #0f306c; }
+div.jqcloud span.w3 { color: #6b5f91; }
+div.jqcloud span.w2 { color: #a5f06900; }
+div.jqcloud span.w1 { color: #686e92; }
+/* layout */
+
+div.jqcloud {
+    overflow: hidden;
+    position: relative;
+}
+div.jqcloud span { padding: 0; }

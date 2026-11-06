@@ -1,0 +1,480 @@
+/* Here is your custom css styles. */
+/*背景调试*/
+body {
+    background: url("../img/icon/backups.png");
+    margin: 0;
+    color: #34495e;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*修改字体*/
+    font-family: "JetBrains Mono", serif;
+    /*指针开始*/
+    cursor: url("../img/icon/Arrow.cur"), auto;
+}
+
+/*指针结束*/
+a:hover {
+    cursor: url("../img/icon/Hand.cur"), auto;
+}
+
+/*导航栏颜色*/
+.bg-color {
+    /*https://www.sojson.com/web/panel.html*/
+    background-image: linear-gradient(to right, #616A6B 0%, #616A6B 100%);
+    opacity: 0.9;
+    /* 透明度*/
+}
+
+/*全局自定义字体*/
+@font-face {
+    font-family: 'JetBrains Mono';
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-Bold-Italic.ttf);*/
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-Bold.ttf.ttf);*/
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-ExtraBold-Italic.ttf);*/
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-ExtraBold.ttf);*/
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-Italic.ttf);*/
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-Medium-Italic.ttf);*/
+    src: url("../img/other/JetBrainsMono-Medium.ttf");
+    /*src: url(https://cdn.mobaijun.com/libs/font/ttf/JetBrainsMono-Regular.ttf);*/
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #395ed5;
+    background-image: -webkit-linear-gradient(45deg, rgba(145, 15, 210, 0.4) 25%, transparent 25%, transparent 50%, rgb(57, 197, 10) 50%, rgba(83, 72, 150, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #545453;
+    border-radius: 3em;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+
+/*整个网站变灰*/
+/*html {*/
+/*    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);*/
+/*    -webkit-filter: grayscale(100%);*/
+/*}*/
+
+
+/* note 公共样式 */
+.note {
+    position: relative;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #eee;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.note:not(.no-icon):before {
+    position: absolute;
+    font-family: FontAwesome, serif;
+    font-size: larger;
+    top: 11px;
+    left: 15px;
+}
+
+.note:not(.no-icon) {
+    padding-left: 45px;
+}
+
+.note.info {
+    background-color: #eef7fa;
+    border-left-color: #428bca;
+}
+
+.note.info:not(.no-icon):before {
+    content: "\f05a";
+    color: #428bca;
+}
+
+.note.warning {
+    background-color: #fdf8ea;
+    border-left-color: #f0ad4e;
+}
+
+.note.warning:not(.no-icon):before {
+    content: "\f06a";
+    color: #f0ad4e;
+}
+
+.note.primary {
+    background-color: #f5f0fa;
+    border-left-color: #6f42c1;
+}
+
+.note.primary:not(.no-icon):before {
+    content: "\f055";
+    color: #6f42c1;
+}
+
+.note.danger {
+    background-color: #fcf1f2;
+    border-left-color: #d9534f;
+}
+
+.note.danger:not(.no-icon):before {
+    content: "\f056";
+    color: #d9534f;
+}
+
+
+/* 增加每日一言模块 */
+.poem-wrap {
+    position: relative;
+    width: 730px;
+    max-width: 80%;
+    border: 2px solid #797979;
+    border-top: 0;
+    text-align: center;
+    margin: 58px auto 38px;
+}
+
+.poem-left {
+    left: 0;
+}
+
+.poem-border {
+    position: absolute;
+    height: 2px;
+    width: 27%;
+    background-color: #797979;
+}
+
+.poem-right {
+    right: 0;
+}
+
+.poem-wrap h1 {
+    position: relative;
+    margin-top: -20px;
+    display: inline-block;
+    letter-spacing: 4px;
+    color: #797979;
+}
+
+.poem-wrap p:nth-of-type(1) {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "JetBrains Mono", serif;
+}
+
+.poem-wrap p {
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    color: #797979;
+    font-family: "Linux Biolinum", "Noto Serif SC", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+}
+
+.poem-wrap p:nth-of-type(2) {
+    font-size: 18px;
+    margin: 15px auto;
+    font-family: "JetBrains Mono", serif;
+}
+
+
+/*一言end*/
+/*动态背景*/
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#bg canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*归档页自定义样式*/
+.archive-container {
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.archive:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.archive .articles {
+    border-left: 1px solid #dbdbdb;
+}
+
+.archive .article {
+    border-top: none;
+    margin-left: -1px;
+    padding: 0.4rem 1.5rem;
+    border-left: 2px solid transparent;
+}
+
+/*滑动条颜色*/
+.archive .article:hover {
+    border-left-color: #32b819;
+}
+
+/*文章上面日期颜色*/
+.archive .article time {
+    font-size: .9rem;
+    color: #137d0c; /* color: darkgray; */
+}
+
+.archive .article h6 {
+    margin: 0;
+}
+
+.archive .article h6 a {
+    line-height: 1.5;
+    color: inherit;
+    border-bottom: 1px dashed transparent;
+}
+
+.archive .article h6 a:hover {
+    border-bottom-color: #0f9d58;
+}
+
+.hbe-input-container {
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.hbe-input-container .btn-decrypt {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3f90ff;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.about-cover {
+    height: 50vh;
+}
+
+.desc-content {
+    padding: 0 50px;
+}
+
+@media only screen and (max-width: 601px) {
+    .desc-content {
+        padding: 0 15px;
+    }
+}
+
+.v .vlist .vcard {
+    padding-top: 2.5em !important;
+}
+
+/*分割线修改start*/
+hr {
+    position: relative;
+    margin: 2rem auto;
+    width: calc(100% - 4px);
+    border: 2px dashed #cde6c7;
+    background: #b7ba6b;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr:before {
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    z-index: 1;
+    color: #a1a3a6;
+    content: "💨";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+hr:hover::before {
+    left: 95%;
+}
+
+/*end*/
+/* 水平分割线和卡片图片背景 */
+.card {
+    /* 原值：border-radius: 10px;*/
+    /*background: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg) top;*/
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(42, 89, 165, .1), 0 5px 15px rgba(71, 159, 188, .07) !important;
+}
+
+.card .card-image img {
+    border-radius: 8px 8px 0 0;
+    /* 修改文章列表图片填充样式为 cover 以覆盖整个区域而不会被缩放 */
+    object-fit: cover;
+}
+
+/*end*/
+/*搜素框样式*/
+#searchModal {
+    min-height: 100px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+body.dark #searchModal {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#searchModal .search-header .title {
+    font-size: 1.1rem;
+    color: #42b983;
+}
+
+.search-result {
+    color: #fff;
+}
+
+#searchResult {
+    margin: -15px 0 10px 10px;
+}
+
+#searchResult .search-result-list {
+    margin-left: -8px;
+    padding-left: 0;
+    color: #666;
+}
+
+.search-result-list .search-result-title {
+    font-size: 1.2rem;
+    color: #42b983;
+}
+
+.search-result-list li {
+    padding: 15px 0 5px 0;
+}
+
+.search-result-list .search-keyword {
+    margin: 0 2px;
+    padding: 1px 5px 1px 4px;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    color: #e96900;
+    font-style: normal;
+    white-space: pre-wrap;
+}
+
+/*end*/
+
+/*分类书本样式微调*/
+.chip-container .chip:hover {
+    color: #2ea451;
+    opacity: .8;
+}
+
+.chip-container .chip-active {
+    color: #2ea451 !important;
+    box-shadow: 2px 5px 10px #aaa !important;
+}
+
+/*分类书本样式微调end*/
+/* 留言样式微调 */
+.contact-container {
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+/*修改推荐文章页大小*/
+.index-card .card .card-content {
+    padding: 5px 5px;
+}
+
+@media only screen and (min-width: 1418px) {
+    .recommend {
+        margin-top: 20px;
+        padding: 0 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .index-card .card .card-content {
+        padding: 10px 10px;
+    }
+}
+
+/*end*/
+
+/* 修改主页文章标签下面文字行数  */
+.block-with-text {
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative;
+    /* use this value to count block height */
+    line-height: 1.5em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: 3em;
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: justify;
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+}
+
+/* create the ... style */
+.block-with-text:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0.2em;
+    bottom: 0;
+}
+
+/* hide ... if we have text, which is less than or equal to max lines */
+.block-with-text:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    /* fix the problem of hidden failure */
+    margin-top: 0.4em;
+    /* bg color = bg color under block */
+    background: white;
+}
+
+/*end*/

@@ -1,0 +1,57 @@
+/* 滚动条 by note.cn */
+
+/* Webkit滚动条样式 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #64c4d7; /* 主要滚动条颜色，青春阳光蓝色 */
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #50a3b7; /* 鼠标悬停时的颜色 */
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    background-color: #f5f5f5; /* 滚动槽颜色，可以根据需要调整 */
+}
+
+/* 滚动条两端的空白部分 */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+/* Firefox滚动条样式 */
+/* 在 Firefox 中，滚动条样式可以通过修改系统的用户界面设置，所以下面的样式只在部分情况下生效 */
+/* 如果需要更大的兼容性，可以考虑使用 JavaScript 插件实现 */
+
+/* 选择文本时的背景颜色 */
+::-moz-selection {
+    color: #fff;
+    background-color: #64c4d7; /* 青春阳光蓝色 */
+}
+
+/* 滚动槽 */
+::-moz-scrollbar-track {
+    background-color: #f5f5f5; /* 滚动槽颜色 */
+}
+
+/* 滚动条两端的空白部分 */
+::-moz-scrollbar-corner {
+    background-color: transparent;
+}
+
+/* 滚动条按钮（上下箭头） */
+::-moz-scrollbar-button {
+    background-color: #64c4d7; /* 青春阳光蓝色 */
+}
+
+/* 滚动条滑块 */
+::-moz-scrollbar-thumb {
+    background-color: #64c4d7; /* 青春阳光蓝色 */
+    border-radius: 2em;
+}

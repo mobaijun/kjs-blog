@@ -1,0 +1,122 @@
+[
+  {
+    "title": "编程 · 开源",
+    "links": [
+      {"text": "搜索 Top", "url": "https://trends.google.com"},
+      {"text": "编程Top", "url": "https://www.tiobe.com/tiobe-index"},
+      {"text": "Start Top", "url": "https://github-trending.com"},
+      {"text": "前端 Top", "url": "https://www.awesomes.cn/rank"},
+      {"text": "Google Code", "url": "https://code.google.com"},
+      {"text": "GitHub Star", "url": "https://gitstar-ranking.com/users"},
+      {"text": "数据库", "url": "https://db-engines.com/de/ranking"},
+      {"text": "时序数据库", "url": "https://db-engines.com/en/ranking/time+series+dbms"},
+      {"text": "Server Top", "url": "https://news.netcraft.com"},
+      {"text": "apache", "url": "https://www.apache.org/"},
+      {"text": "Spring", "url": "https://spring.io/projects"},
+      {"text": "Google", "url": "https://opensource.google/"},
+      {"text": "阿里", "url": "https://opensource.alibaba.com/"},
+      {"text": "百度", "url": "https://opensource.baidu.com/"},
+      {"text": "腾讯", "url": "https://opensource.tencent.com/"}
+    ]
+  },
+  {
+    "title": "编程 · 交流",
+    "links": [
+      {"text": "GitHub", "url": "https://github.com"},
+      {"text": "StackOverflow", "url": "https://stackoverflow.com"},
+      {"text": "码云", "url": "https://gitee.com"},
+      {"text": "Coding", "url": "https://coding.net"},
+      {"text": "云+社区", "url": "https://cloud.tencent.com/developer"},
+      {"text": "博客园", "url": "https://www.cnblogs.com"},
+      {"text": "掘金", "url": "https://juejin.im"},
+      {"text": "CSDN", "url": "https://www.csdn.net"},
+      {"text": "简书", "url": "https://www.jianshu.com"},
+      {"text": "思否", "url": "https://segmentfault.com"},
+      {"text": "开源中国", "url": "https://www.oschina.net"},
+      {"text": "看雪论坛", "url": "https://bbs.pediy.com"},
+      {"text": "SourceForge", "url": "https://sourceforge.net"},
+      {"text": "美团技术团队", "url": "https://tech.meituan.com/"},
+      {"text": "书栈网", "url": "https://www.bookstack.cn"}
+    ]
+  },
+  {
+    "title": "编程 · 学习",
+    "links": [
+      {"text": "How2j", "url": "https://how2j.cn/"},
+      {"text": "慕课教程", "url": "https://www.imooc.com/wiki/"},
+      {"text": "菜鸟教程", "url": "https://www.runoob.com/"},
+      {"text": "动力节点", "url": "https://www.bjpowernode.com/tutorial/"},
+      {"text": "HihoCoder", "url": "https://hihocoder.com/"},
+      {"text": "LeetCode", "url": "https://leetcode-cn.com/"},
+      {"text": "LintCode", "url": "https://www.lintcode.com/"},
+      {"text": "牛客网", "url": "https://www.nowcoder.com/"},
+      {"text": "CodeGym", "url": "https://codegym.cc/zh/"},
+      {"text": "腾讯云大学", "url": "https://cloud.tencent.com/edu/learning"},
+      {"text": "阿里云大学", "url": "https://edu.aliyun.com/course/explore"},
+      {"text": "delftstack", "url": "https://www.delftstack.com/zh/"},
+      {"text": "JAVAschool", "url": "https://www.51gjie.com/"},
+      {"text": "设计模式", "url": "https://refactoringguru.cn/"},
+      {"text": "Baeldung", "url": "https://www.baeldung.com/"}
+    ]
+  },
+  {
+    "title": "实用 · 工具",
+    "links": [
+      {"text": "网易云课堂", "url": "https://study.163.com"},
+      {"text": "生成GUID", "url": "https://www.guidgen.com/"},
+      {"text": "抢票助手", "url": "https://www.bypass.cn/"},
+      {"text": "狗狗查询", "url": "https://www.ggcx.com/"},
+      {"text": "隐私泄露查询", "url": "https://monitor.firefox.com/"},
+      {"text": "超清壁纸", "url": "https://wallhaven.cc/"},
+      {"text": "吾爱破解", "url": "https://www.52pojie.cn/"},
+      {"text": "FontAwesome", "url": "https://fontawesome.com/"},
+      {"text": "射手网", "url": "https://assrt.net/"},
+      {"text": "processon", "url": "https://www.processon.com/"},
+      {"text": "icons8图标", "url": "https://icons8.com"},
+      {"text": "阿里图标库", "url": "https://www.iconfont.cn/"},
+      {"text": "中国色", "url": "https://zhongguose.com/"},
+      {"text": "Logo设计", "url": "https://www.uugai.com"},
+      {"text": "WikiHow", "url": "https://zh.wikihow.com"}
+    ]
+  },
+  {
+    "title": "云端 · 工具",
+    "links": [
+      {"text": "腾讯云", "url": "https://cloud.tencent.com/developer/devdocs"},
+      {"text": "阿里云", "url": "https://developer.aliyun.com/"},
+      {"text": "华为云", "url": "https://www.huaweicloud.com/"},
+      {"text": "百度云", "url": "https://abcxueyuan.baidu.com/"},
+      {"text": "Apache", "url": "https://www.apache.org/"},
+      {"text": "CdnJs", "url": "https://cdnjs.com/"},
+      {"text": "JsDelivr", "url": "https://www.jsdelivr.com/"},
+      {"text": "SSL安全评估", "url": "https://myssl.com/"},
+      {"text": "CloudFlare", "url": "https://www.cloudflare.com/"},
+      {"text": "w3school", "url": "https://www.w3school.com.cn/index.html"},
+      {"text": "蓝奏云", "url": "https://www.lanzou.com/"},
+      {"text": "腾讯源", "url": "https://mirrors.cloud.tencent.com/"},
+      {"text": "清华源", "url": "https://tuna.moe/"},
+      {"text": "推广联盟", "url": "https://union.lizhi.io/panel#/"},
+      {"text": "外国语镜像", "url": "https://mirrors.bfsu.edu.cn/"}
+    ]
+  },
+  {
+    "title": "影视 · 镜像",
+    "links": [
+      {"text": "音范丝", "url": "https://www.yinfans.me/"},
+      {"text": "YouTube", "url": "https://www.youtube.com/"},
+      {"text": "Netflix", "url": "https://www.netflix.com/"},
+      {"text": "天天看电影", "url": "https://m.tiantk.net/"},
+      {"text": "医学微视", "url": "https://www.mvyxws.com/"},
+      {"text": "学信网", "url": "https://my.chsi.com.cn/"},
+      {"text": "代码图片", "url": "https://carbon.now.sh/"},
+      {"text": "音乐磁场", "url": "https://www.hifini.com/"},
+      {"text": "极简插件", "url": "https://chrome.zzzmh.cn/"},
+      {"text": "Google指数", "url": "https://trends.google.com"},
+      {"text": "十年之约", "url": "https://www.foreverblog.cn/"},
+      {"text": "Boss直聘", "url": "https://www.zhipin.com/"},
+      {"text": "智联招聘", "url": "https://www.zhaopin.com/"},
+      {"text": "笔趣阁", "url": "https://www.biquge.com.cn"},
+      {"text": "每平每屋", "url": "https://3d.shejijia.com/"}
+    ]
+  }
+]

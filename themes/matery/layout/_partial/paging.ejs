@@ -1,0 +1,95 @@
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            <% const prevClass = page.prev ? 'left btn-floating btn-large waves-effect waves-light bg-color' : 'left btn-floating btn-large disabled'; %>
+            <a href="<%- page.prev ? url_for(page.prev_link) : '#' %>" class="<%- prevClass %>">
+                <i class="fas fa-angle-left"></i>
+            </a>
+        </div>
+        <div class="page-info col m4 l4">
+            <div class="center-align page-nav-wrapper">
+                <%
+                const showPages = 5;
+                const currentPage = parseInt(page.current);
+                const totalPages = parseInt(page.total);
+                let start = Math.max(1, currentPage - Math.floor(showPages / 2));
+                let end = Math.min(totalPages, start + showPages - 1);
+
+                if (end - start + 1 < showPages) {
+                    start = Math.max(1, end - showPages + 1);
+                }
+                %>
+
+                <% if (start > 1) { %>
+                    <a href="<%- url_for('/') %>" class="page-num waves-effect">1</a>
+                    <% if (start > 2) { %>
+                        <span class="page-dots">...</span>
+                    <% } %>
+                <% } %>
+
+                <% for(let i = start; i <= end; i++) { %>
+                    <% const isActive = i === currentPage; %>
+                    <% const pageUrl = i === 1 ? url_for(page.base) : url_for(page.base + '/page/' + i + '/'); %>
+                    <a href="<%- isActive ? '#' : pageUrl %>"
+                       class="page-num waves-effect <%- isActive ? 'active bg-color' : '' %>">
+                        <%= i %>
+                    </a>
+                <% } %>
+
+                <% if (end < totalPages - 1) { %>
+                    <span class="page-dots">...</span>
+                <% } %>
+                <% if (end < totalPages) { %>
+                    <a href="<%- url_for(page.base + '/page/' + totalPages + '/') %>" class="page-num waves-effect">
+                        <%= totalPages %>
+                    </a>
+                <% } %>
+            </div>
+        </div>
+        <div class="col s6 m4 l4">
+            <% const nextClass = page.next ? 'right btn-floating btn-large waves-effect waves-light bg-color' : 'right btn-floating btn-large disabled'; %>
+            <a href="<%- page.next ? url_for(page.next_link) : '#' %>" class="<%- nextClass %>">
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .page-nav-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .page-num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        height: 32px;
+        padding: 0 6px;
+        border-radius: 4px;
+        color: #555;
+        font-size: 14px;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    .page-num:hover {
+        background-color: #eee;
+    }
+
+    .page-dots {
+        color: #999;
+        padding: 0 3px;
+    }
+
+    @media only screen and (max-width: 601px) {
+        .page-nav-wrapper {
+            display: none;
+        }
+    }
+</style>

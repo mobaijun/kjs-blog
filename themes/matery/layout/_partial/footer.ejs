@@ -1,0 +1,150 @@
+<footer class="page-footer bg-color">
+    <div class="container row center-align" style="margin-bottom: <%- theme.time.enable ? '15' : '0' %>px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            <!-- 版权信息 -->
+            <div class="copyright-info">
+                Copyright&nbsp;&copy;
+                <span id="year">
+                    <%- theme.time.year !== new Date().getFullYear() ?
+                            `${theme.time.year}-${new Date().getFullYear()}` :
+                            theme.time.year
+                    %>
+                </span>
+                <a href="<%- url_for('/about') %>" target="_blank"><%- config.author %></a>
+                |&nbsp;Powered by&nbsp;<a href="https://wang_lianjie.gitee.io/mobai_images.gitee.io/" target="_blank">Picturebed</a>
+                |&nbsp;Theme&nbsp;<a href="https://www.mobaijun.com/" target="_blank">MoBai</a>
+            </div>
+
+            <!-- 统计信息 -->
+            <div class="statistics">
+                <% if (theme.postInfo.totalCount) { %>
+                    <span class="stat-item">
+                        <i class="fas fa-chart-area"></i>&nbsp;<%- __('siteTotalWords') %>:&nbsp;
+                        <span class="white-color"><%= totalcount(site) %></span>
+                    </span>
+                <% } %>
+
+                <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+                    <% if (theme.busuanziStatistics.totalTraffic) { %>
+                        <span class="stat-item" id="busuanzi_container_site_pv">
+                            <i class="far fa-eye"></i>&nbsp;<%- __('siteTotalVisits') %>:&nbsp;
+                            <span id="busuanzi_value_site_pv" class="white-color"></span>
+                        </span>
+                    <% } %>
+
+                    <% if (theme.busuanziStatistics.totalNumberOfvisitors) { %>
+                        <span class="stat-item" id="busuanzi_container_site_uv">
+                            |&nbsp;<i class="fas fa-users"></i>&nbsp;<%- __('siteTotalVisitors') %>:&nbsp;
+                            <span id="busuanzi_value_site_uv" class="white-color"></span>
+                        </span>
+                    <% } %>
+                <% } %>
+            </div>
+
+            <!-- 运行时间 -->
+            <% if (theme.time.enable) { %>
+                <div class="runtime">
+                    <span id="sitetime">载入运行时间...</span>
+                </div>
+            <% } %>
+
+            <!-- 备案信息和站长统计 -->
+            <div class="web-info">
+                <% if (theme.icp.enable) { %>
+                    <span class="icp-info">
+                        <img src="<%- theme.jsDelivr.url %><%- url_for('/medias/icp.png') %>"
+                             style="vertical-align: text-bottom;" alt="ICP备案图标"/>
+                        <a href="<%- url_for(theme.icp.url) %>" target="_blank"><%= theme.icp.text %></a>
+                    </span>
+                <% } %>
+
+                <% if (theme.webla.enable) { %>
+                    <span class="web-analytics">
+                        <% if (theme.icp.enable) { %>&nbsp;|&nbsp;
+                        <% } %>
+                        <a target="_blank" title="51la网站统计" href="https://v6.51.la/land/JHt11HMnC4XJ3Cdq">
+                            <img src="https://sdk.51.la/icon/1-4.png" alt="51LA统计">
+                        </a>
+                    </span>
+                <% } %>
+            </div>
+
+            <!-- 友情链接 -->
+            <% if (theme.youlian.enable) { %>
+                <div class="friend-links">
+                    <% const badges = [
+                        {url: 'https://github.com/blinkfox/hexo-theme-matery', img: 'Matery-Hexo.svg'},
+                        {url: 'https://hexo.io/', img: 'Frame-Hexo.svg'},
+                        {url: 'https://www.jsdelivr.com/', img: 'CDN-jsDelivr.svg'},
+                        {url: 'https://cloud.tencent.com/product/cdn/', img: 'CDN-Tencent.svg'},
+                        {url: 'https://coding.net', img: 'Hosted-Coding.svg'}
+                    ] %>
+                    <% badges.forEach(badge => { %>
+                        <a class="github-badge" target="_blank" href="<%= badge.url %>"
+                           rel="external nofollow noreferrer" style="margin-inline:5px">
+                            <img class="entered" src="/img/icon/<%= badge.img %>"
+                                 alt="<%= badge.img.split('.')[0] %>" loading="lazy">
+                        </a>
+                    <% }) %>
+                </div>
+            <% } %>
+        </div>
+
+        <!-- 社交链接 -->
+        <div class="col s12 m4 l4 social-link <%- theme.busuanziStatistics && theme.busuanziStatistics.enable ? 'social-statis' : '' %>">
+            <%- partial('_partial/social-link') %>
+        </div>
+    </div>
+</footer>
+
+<!-- 运行时间脚本 -->
+<% if (theme.time.enable) { %>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function formatRuntime(diff) {
+                const seconds = 1000;
+                const minutes = seconds * 60;
+                const hours = minutes * 60;
+                const days = hours * 24;
+                const years = days * 365;
+
+                const diffYears = Math.floor(diff / years);
+                const diffDays = Math.floor((diff / days) - diffYears * 365);
+                const diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                const diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+                const diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+
+                return {
+                    years: diffYears,
+                    days: diffDays,
+                    hours: diffHours,
+                    minutes: diffMinutes,
+                    seconds: diffSeconds
+                };
+            }
+
+            function updateRuntime() {
+                const startYear = "<%- theme.time.year %>";
+                const startMonth = "<%- theme.time.month %>";
+                const startDate = "<%- theme.time.date %>";
+                const startHour = "<%- theme.time.hour %>";
+                const startMinute = "<%- theme.time.minute %>";
+                const startSecond = "<%- theme.time.second %>";
+
+                const today = new Date();
+                const t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                const t2 = Date.UTC(today.getFullYear(), today.getMonth() + 1, today.getDate(),
+                    today.getHours(), today.getMinutes(), today.getSeconds());
+                const diff = t2 - t1;
+
+                const {years, days, hours, minutes, seconds} = formatRuntime(diff);
+
+                document.getElementById("sitetime").textContent =
+                    `本站已安全运行 ${years > 0 ? years + ' 年 ' : ''}${days} 天 ${hours} 小时 ${minutes} 分钟 ${seconds} 秒`;
+            }
+
+            updateRuntime();
+            setInterval(updateRuntime, 1000);
+        });
+    </script>
+<% } %>

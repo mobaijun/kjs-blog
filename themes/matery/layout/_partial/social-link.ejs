@@ -1,0 +1,83 @@
+<!--GitHub-->
+<% if (theme.socialLink.github) { %>
+    <a href="<%= theme.socialLink.github %>" class="tooltipped" target="_blank"
+       data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+<% } %>
+
+<!--CSDN-->
+<% if (theme.socialLink.csdn) { %>
+    <a href="<%= theme.socialLink.csdn %>" class="tooltipped" target="_blank"
+       data-tooltip="访问我的CSDN" data-position="top" data-delay="50">
+        <!-- 修改Blog图标-->
+        <i class="fas fa-copyright"></i>
+    </a>
+<% } %>
+
+<!--码云Gitee-->
+<% if (theme.socialLink.gitee) { %>
+    <a href="<%= theme.socialLink.gitee %>" class="tooltipped" target="_blank"
+       data-tooltip="码云" data-position="top" data-delay="50">
+        <i class="fab fa-gofore"></i>
+    </a>
+<% } %>
+
+<!--学习资料-->
+<% if (theme.socialLink.java) { %>
+    <a href="<%= theme.socialLink.java %>" class="tooltipped" target="_blank"
+       data-tooltip="学习视频" data-position="top" data-delay="50">
+        <!--修改为小飞人-->
+        <i class="fab fa-studiovinari"></i>
+    </a>
+<% } %>
+
+<!--Email邮箱-->
+<% if (theme.socialLink.email) { %>
+    <a href="mailto:<%= theme.socialLink.email %>" class="tooltipped" target="_blank"
+       data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-at"></i>
+    </a>
+<% } %>
+
+<!--微信关注-->
+<% if (theme.socialLink.wechat) { %>
+    <a href="<%= theme.socialLink.wechat %>" class="tooltipped" target="_blank"
+       data-tooltip="关注我的公众号" data-position="top" data-delay="50">
+        <i class="fab fa-weixin"></i>
+    </a>
+<% } %>
+
+<!--QQ-->
+<% if (theme.socialLink.qq) { %>
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=<%= theme.socialLink.qq %>" class="tooltipped"
+       target="_blank"
+       data-tooltip="QQ联系我: <%= theme.socialLink.qq %>" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+<% } %>
+
+<!--知乎-->
+<% if (theme.socialLink.zhihu) { %>
+    <a href="<%= theme.socialLink.zhihu %>" class="tooltipped" target="_blank"
+       data-tooltip="关注我的知乎" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+<% } %>
+
+<!--RSS订阅-->
+<% if (theme.socialLink.rss) { %>
+    <a href="<%- url_for('/atom.xml') %>" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top"
+       data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+<% } %>
+
+<!--需求提交-->
+<% if (theme.socialLink.project) { %>
+    <a href="<%= theme.socialLink.project %>" class="tooltipped" target="_blank" data-tooltip="需求提交"
+       data-position="top"
+       data-delay="50">
+        <i class="fab fa-gripfire"></i>
+    </a>
+<% } %>

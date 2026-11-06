@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="#000000" name="theme-color">
+    <link href="favicon.png" rel="icon" type="image/x-icon">
+    <link as="image" href="https://tencent.cos.mobaijun.com/img/banner/6.jpg" rel="preload">
+    <link href="https://www.microsoft.com" rel="preconnect">
+    <title>内核版本过低 - 浏览器升级提示</title>
+    <style>
+        :root {
+            --text-primary: #fff;
+            --text-secondary: #ddd;
+            --accent-color: #23b6ef;
+            --accent-hover: #d35400;
+            --overlay-bg: rgba(0 0 0 / 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background:
+                    linear-gradient(rgba(0 0 0 / 0.6), rgba(0 0 0 / 0.6)),
+                    url(https://tencent.cos.mobaijun.com/img/banner/6.jpg) center/cover fixed;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            text-shadow: 0 1px 3px rgba(0 0 0 / 0.3);
+        }
+
+        .dialog {
+            background: var(--overlay-bg);
+            backdrop-filter: blur(8px);
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px rgba(0 0 0 / 0.4);
+            max-width: min(90%, 700px);
+            width: 100%;
+            margin: 0 auto;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: underline;
+            transition: color 0.3s ease;
+        }
+
+        a:hover,
+        a:focus-visible {
+            color: var(--accent-hover);
+            outline: 2px solid currentColor;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 1rem;
+            text-align: center;
+            background: rgba(0 0 0 / 0.5);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(2rem);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .dialog {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dialog {
+                padding: 1.5rem;
+            }
+
+            footer {
+                padding: 0.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<main aria-label="浏览器升级提示" class="dialog" role="main">
+    <h1>很抱歉为您停止了服务</h1>
+    <p>您可能正在使用IE内核浏览我们的网页，当前网页已不再支持IE内核。建议使用 <a href="https://www.microsoft.com/zh-cn/edge" rel="noopener noreferrer" target="_blank">Microsoft Edge浏览器</a> 获得最佳访问体验。</p>
+</main>
+
+<footer>
+    <a aria-label="访问我们的GitHub仓库" href="https://github.com/april-projects" rel="noopener noreferrer" target="_blank">
+        GitHub
+    </a>
+</footer>
+</body>
+</html>

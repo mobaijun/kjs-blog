@@ -1,0 +1,114 @@
+[
+  {
+    "avatar": "../img/icon/avatar.jpg",
+    "name": "GitHub",
+    "introduction": "我的 GitHub 主页！",
+    "url": "https://github.com/mobaijun",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "../img/icon/avatar.jpg",
+    "name": "寻·秒",
+    "introduction": "导航",
+    "url": "https://nav.mobaijun.com",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/107024930?s=200&v=4",
+    "name": "April",
+    "introduction": "April 项目组主页",
+    "url": "https://docs.mobaijun.com",
+    "title": "访问主页"
+  },
+  {
+    "name": "Sitoi",
+    "avatar": "https://avatars.githubusercontent.com/u/32479597?v=4",
+    "introduction": "活到老，学到老",
+    "url": "https://sitoi.cn/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://cdn.jsdelivr.net/gh/small-rose/small-rose.github.io@master/medias/avatar.jpg",
+    "name": "Small-Rose",
+    "introduction": "JAVA WEB | 道虽迩，不行不至；事虽小，不为不成。",
+    "url": "https://zhangxiaocai.cn",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://cdn.jsdelivr.net/gh/jitwxs/cdn/blog/configuration/avatar.jpg",
+    "name": "Jitwxs",
+    "introduction": "Java 后端开发大佬",
+    "url": "https://www.jitwxs.cn/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://foreverblog.cn/favicon.ico",
+    "name": "十年之约",
+    "introduction": "念念不忘 必有回响",
+    "url": "https://foreverblog.cn/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://lyp123.com/favicon.ico",
+    "name": "小明难亡",
+    "introduction": "小明难亡的博客 | 做自己",
+    "url": "https://lyp123.com",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://blog.xlab.app/images/logo.png",
+    "name": "明天的乌云",
+    "introduction": "透明人博客",
+    "url": "https://blog.xlab.app/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://gravatar.loli.net/avatar/45ca137701929e92174dcc44f6bb02e0?s=256&d=robohash",
+    "name": "掘墓人小铲子",
+    "introduction": "记录生活，分享技术",
+    "url": "https://juemuren4449.com/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://gravatar.loli.net/avatar/501db21843ff7e879f1b361ed71ccdf1?d=mp&v=1.4.14",
+    "name": "Krryblog ",
+    "introduction": "你的美好，我都记得",
+    "url": "https://ainyi.com",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "../other/6359693a9babf.webp",
+    "name": "小N同学",
+    "introduction": "青石落晚巷 故人未还乡",
+    "url": "https://www.imcharon.com/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://cdn.jsdelivr.net/gh/betsyx/vlibrary/xbetsy.jpg",
+    "name": "今今今生",
+    "introduction": "医不自医，人不渡己",
+    "url": "https://noheart.cn",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/avatar.jpg",
+    "name": "雨临Lewis",
+    "introduction": "不想当写手的码农不是好咸鱼_(xз」∠)_",
+    "url": "https://lewky.cn/",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://www.yevpt.com/logo.jpg",
+    "name": "YEVPT",
+    "introduction": "我喜欢要么极度悲伤要么淡淡温暖。",
+    "url": "https://www.yevpt.com",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://www.oxoxtech.com/img/oxox_logos/oxoxtech_1-1.jpg",
+    "name": "牛牛技术客栈",
+    "introduction": "学习改变命运，分享创造价值",
+    "url": "https://www.oxoxtech.com",
+    "title": "访问主页"
+  }
+]

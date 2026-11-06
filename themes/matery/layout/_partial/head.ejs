@@ -1,0 +1,140 @@
+<%
+var title = page.title;
+
+// tags, categories, about pages title
+if (title == 'tags') {
+    title = __('tags');
+} else if (title == 'categories') {
+    title = __('categories');
+} else if (title == 'about') {
+    title = __('about');
+}
+
+// archives, category, tag pages title
+if (is_archive()) {
+    title = __('archives');
+    if (is_month()) {
+        title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()) {
+        title += ': ' + page.year;
+    }
+} else if (is_category()) {
+    title = __('category') + ': ' + page.category;
+} else if (is_tag()) {
+    title = __('tag') + ': ' + page.tag;
+}
+
+// final page title.
+var pageTitle = title ? title + ' | ' + config.title : config.title;
+
+// keywords.
+var keyWords = config.keywords ? config.keywords : config.title;
+if (page.keywords) {
+    keyWords = page.keywords;
+} else {
+    keyWords = title ? title + ', ' + keyWords : keyWords;
+}
+
+// description.
+var description = config.description ? config.description : config.title;
+if (page.summary) {
+    description = page.summary;
+} else if (page.hasOwnProperty('__post') && page.__post) {
+    description = strip_html(page.content).substring(0, 120);
+}
+
+let iconType = 'image/png'
+let faviconExt = theme.favicon.substr(theme.favicon.lastIndexOf('.') + 1, theme.favicon.length)
+if (faviconExt === 'png') {
+    iconType = 'image/png'
+} else if (faviconExt === 'svg') {
+    iconType = 'image/svg+xml'
+} else if (faviconExt === 'gif') {
+    iconType = 'image/gif'
+} else if (faviconExt === 'jpeg') {
+    iconType = 'image/jpeg'
+} else if (faviconExt === 'jpg') {
+    iconType = 'image/jpeg'
+} else if (faviconExt === 'ico') {
+    iconType = 'image/x-icon, image/vnd.microsoft.icon'
+}
+%>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="<%= keyWords %>">
+    <meta name="description" content="<%= description %>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCW8VHDG');</script>
+<!-- End Google Tag Manager -->
+    <!--搜狗验证-->
+    <meta name="sogou_site_verification" content="H55sXT8tf4"/>
+    <%- partial('_partial/google-analytics') %>
+    <!--添加百度验证head标签-->
+    <meta name="baidu-site-verification" content="TeY26dZP6B"/>
+    <!--添加51统计6.0版本代码-->
+    <script charset="UTF-8" id="LA_COLLECT"
+            src="/libs/others/js-sdk-pro.min.js"></script>
+    <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5341950590883080"
+            crossorigin="anonymous"></script>
+    <script>LA.init({id: "JHt11HMnC4XJ3Cdq", ck: "JHt11HMnC4XJ3Cdq"})</script>
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <%- partial('_partial/google-analytics') %>
+    <%- partial('_partial/background') %>
+    <title><%= pageTitle %></title>
+    <link rel="icon" type="<%= iconType %>" href="<%- theme.jsDelivr.url %><%- url_for(theme.favicon) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.fontAwesome) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.materialize) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.aos) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.animate) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.lightgallery) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.matery) %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.mycss) %>">
+    <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.jquery) %>"></script>
+    <!-- 异步加载广告禁用插件 -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js"></script>
+    <!-- Google广告拦截消息 https://adsense.google.com/adsense/u/0/pub-5341950590883080/privacymessaging/ad_blocking -->
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-5341950590883080?ers=1"></script>
+    <script>(function () {
+            function signalGooglefcPresent() {
+                if (!window.frames['googlefcPresent']) {
+                    if (document.body) {
+                        const iframe = document.createElement('iframe');
+                        iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;';
+                        iframe.style.display = 'none';
+                        iframe.name = 'googlefcPresent';
+                        document.body.appendChild(iframe);
+                    } else {
+                        setTimeout(signalGooglefcPresent, 0);
+                    }
+                }
+            }
+
+            signalGooglefcPresent();
+        })();</script>
+    <!-- -->
+    <script>
+        !(function (c, i, e, b) {
+            var h = i.createElement("script");
+            var f = i.getElementsByTagName("script")[0];
+            h.type = "text/javascript";
+            h.crossorigin = true;
+            h.onload = function () {
+                new c[b]["Monitor"]().init({id: "JV8BBJCF7jNBsvvs"});
+            };
+            f.parentNode.insertBefore(h, f);
+            h.src = e;
+        })(window, document, "https://sdk.51.la/perf/js-sdk-perf.min.js", "LingQue");
+    </script>
+</head>

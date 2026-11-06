@@ -1,0 +1,17 @@
+/*文章滑入动画_*/
+.index-card {
+  transition: all 0.5s;
+  transform: scale(calc(1.5 - 0.5 * var(--state)));
+  opacity: var(--state);
+  margin-bottom: 2rem;
+}
+
+.index-img img {
+  margin: 20px 0;
+}
+
+/* 毛玻璃效果 */
+#board {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
